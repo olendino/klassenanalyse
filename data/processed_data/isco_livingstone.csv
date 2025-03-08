@@ -1,0 +1,421 @@
+,ISCO-Code,major_group,Berufsgattung(ISCO-Stufe 4),modifiziert_livingstone
+1,110,Streitkräfte,Offiziere in regulären Streitkräften,
+2,210,Streitkräfte,Unteroffiziere in regulären Streitkräften ,
+3,310,Streitkräfte,Angehörige der regulären Streitkräfte in sonstigen Rängen,
+4,1111,Führungskräfte,Angehörige gesetzgebender Körperschaften,Top Management
+5,1112,Führungskräfte,Leitende Verwaltungsbedienstete,Top Management
+6,1114,Führungskräfte,Leitende Bedienstete von Interessenorganisationen,Top Management
+7,1120,Führungskräfte,Geschäftsführer und Vorstände,Top Management
+8,1211,Führungskräfte,Führungskräfte im Bereich Finanzen,Mittleres Management
+9,1212,Führungskräfte,Führungskräfte im Personalwesen,Mittleres Management
+10,1213,Führungskräfte,Führungskräfte in Unternehmenspolitik und -planung,Mittleres Management
+11,1219,Führungskräfte,"Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt",Mittleres Management
+12,1221,Führungskräfte,Führungskräfte in Vertrieb und Marketing,Mittleres Management
+13,1222,Führungskräfte,Führungskräfte in Werbung und Öffentlichkeitsarbeit,Mittleres Management
+14,1223,Führungskräfte,Führungskräfte in Forschung und Entwicklung,Mittleres Management
+15,1311,Führungskräfte,Führungskräfte in der Produktion in Land- und Forstwirtschaft,Mittleres Management
+16,1312,Führungskräfte,Führungskräfte in der Produktion in Aquakultur und Fischerei,Mittleres Management
+17,1321,Führungskräfte,Führungskräfte in der Produktion bei der Herstellung von Waren,Mittleres Management
+18,1322,Führungskräfte,Führungskräfte in der Produktion im Bergbau,Mittleres Management
+19,1323,Führungskräfte,Führungskräfte in der Produktion im Bau,Mittleres Management
+20,1324,Führungskräfte,"Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen",Mittleres Management
+21,1330,Führungskräfte,Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie,Mittleres Management
+22,1341,Führungskräfte,Führungskräfte in der Erbringung von Dienstleistungen der Kinderbetreuung,Mittleres Management
+23,1342,Führungskräfte,Führungskräfte in der Erbringung von Dienstleistungen im Gesundheitswesen,Mittleres Management
+24,1343,Führungskräfte,Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung,Mittleres Management
+25,1344,Führungskräfte,Führungskräfte in der Erbringung von Dienstleistungen der Sozialfürsorge,Mittleres Management
+26,1345,Führungskräfte,Führungskräfte in der Erbringung von Dienstleistungen des Bildungswesens,Mittleres Management
+27,1346,Führungskräfte,Führungskräfte auf Filialebene in der Erbringung von Finanz- und Versicherungsdienstleistungen,Mittleres Management
+28,1349,Führungskräfte,"Führungskräfte in der Erbringung von speziellen Dienstleistungen, anderweitig nicht genannt",Mittleres Management
+29,1411,Führungskräfte,Führungskräfte in Hotels,Mittleres Management
+30,1412,Führungskräfte,Führungskräfte in Restaurants,Mittleres Management
+31,1420,Führungskräfte,Führungskräfte in Groß- und Einzelhandel,Mittleres Management
+32,1431,Führungskräfte,"Führungskräfte in der Erbringung von Dienstleistungen im Bereich Sport, Erholung und Kultur",Mittleres Management
+33,1439,Führungskräfte,"Führungskräfte in der Erbringung von Dienstleistungen, anderweitig nicht genannt",Mittleres Management
+34,2111,Akademische Berufe,Physiker und Astronomen,Hochspezialisierte Beschäftigte
+35,2112,Akademische Berufe,Meteorologen,Hochspezialisierte Beschäftigte
+36,2113,Akademische Berufe,Chemiker,Hochspezialisierte Beschäftigte
+37,2114,Akademische Berufe,Geologen und Geophysiker,Hochspezialisierte Beschäftigte
+38,2120,Akademische Berufe,"Mathematiker, Versicherungsmathematiker und Statistiker",Hochspezialisierte Beschäftigte
+39,2131,Akademische Berufe,"Biologen, Botaniker, Zoologen und verwandte Berufe",Hochspezialisierte Beschäftigte
+40,2132,Akademische Berufe,"Agrar-, Forst- und Fischereiwissenschaftler und -berater",Hochspezialisierte Beschäftigte
+41,2133,Akademische Berufe,Umweltwissenschaftler,Hochspezialisierte Beschäftigte
+42,2141,Akademische Berufe,Wirtschafts- und Produktionsingenieure,Hochspezialisierte Beschäftigte
+43,2142,Akademische Berufe,Bauingenieure,Hochspezialisierte Beschäftigte
+44,2143,Akademische Berufe,Umweltschutzingenieure,Hochspezialisierte Beschäftigte
+45,2144,Akademische Berufe,Maschinenbauingenieure,Hochspezialisierte Beschäftigte
+46,2145,Akademische Berufe,Chemieingenieure,Hochspezialisierte Beschäftigte
+47,2146,Akademische Berufe,"Bergbauingenieure, Metallurgen und verwandte Berufe",Hochspezialisierte Beschäftigte
+48,2149,Akademische Berufe,"Ingenieure, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+49,2151,Akademische Berufe,Ingenieure im Bereich Elektrotechnik,Hochspezialisierte Beschäftigte
+50,2152,Akademische Berufe,Ingenieure im Bereich Elektronik,Hochspezialisierte Beschäftigte
+51,2153,Akademische Berufe,Ingenieure im Bereich Telekommunikationstechnik,Hochspezialisierte Beschäftigte
+52,2161,Akademische Berufe,Architekten,Hochspezialisierte Beschäftigte
+53,2162,Akademische Berufe,Landschaftsarchitekten,Hochspezialisierte Beschäftigte
+54,2163,Akademische Berufe,Produkt- und Textildesigner,Hochspezialisierte Beschäftigte
+55,2164,Akademische Berufe,"Raum-, Stadt- und Verkehrsplaner",Hochspezialisierte Beschäftigte
+56,2165,Akademische Berufe,Kartografen und Vermessungsingenieure,Hochspezialisierte Beschäftigte
+57,2166,Akademische Berufe,Grafik- und Multimediadesigner,Hochspezialisierte Beschäftigte
+58,2211,Akademische Berufe,Allgemeinärzte,Hochspezialisierte Beschäftigte
+59,2212,Akademische Berufe,Fachärzte,Hochspezialisierte Beschäftigte
+60,2221,Akademische Berufe,Akademische und vergleichbare Krankenpflegefachkräfte,Hochspezialisierte Beschäftigte
+61,2222,Akademische Berufe,Akademische und vergleichbare Geburtshilfefachkräfte,Hochspezialisierte Beschäftigte
+62,2230,Akademische Berufe,Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin,Hochspezialisierte Beschäftigte
+63,2240,Akademische Berufe,Feldscher und vergleichbare paramedizinische Praktiker,Hochspezialisierte Beschäftigte
+64,2250,Akademische Berufe,Tierärzte,Hochspezialisierte Beschäftigte
+65,2261,Akademische Berufe,Zahnärzte,Hochspezialisierte Beschäftigte
+66,2262,Akademische Berufe,Apotheker,Hochspezialisierte Beschäftigte
+67,2263,Akademische Berufe,Akademische und vergleichbare Fachkräfte in den Bereichen Umwelt- und Arbeitsmedizin sowie Hygiene,Hochspezialisierte Beschäftigte
+68,2264,Akademische Berufe,Physiotherapeuten,Hochspezialisierte Beschäftigte
+69,2265,Akademische Berufe,Diätologen und Ernährungsberater,Hochspezialisierte Beschäftigte
+70,2266,Akademische Berufe,Audiologen und Sprachtherapeuten,Hochspezialisierte Beschäftigte
+71,2267,Akademische Berufe,Optometristen und Orthoptisten,Hochspezialisierte Beschäftigte
+72,2269,Akademische Berufe,"Akademische und verwandte Gesundheitsberufe, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+73,2310,Akademische Berufe,Universitäts- und Hochschullehrer,Hochspezialisierte Beschäftigte
+74,2320,Akademische Berufe,Lehrkräfte im Bereich Berufsbildung,Hochspezialisierte Beschäftigte
+75,2330,Akademische Berufe,Lehrkräfte im Sekundarbereich,Hochspezialisierte Beschäftigte
+76,2341,Akademische Berufe,Lehrkräfte im Primarbereich,Hochspezialisierte Beschäftigte
+77,2342,Akademische Berufe,Lehrkräfte und Erzieher im Vorschulbereich,Hochspezialisierte Beschäftigte
+78,2351,Akademische Berufe,Pädagogik- und Didaktikspezialisten,Hochspezialisierte Beschäftigte
+79,2352,Akademische Berufe,Lehrkräfte im Bereich Sonderpädagogik,Hochspezialisierte Beschäftigte
+80,2353,Akademische Berufe,Sonstige Sprachlehrer,Hochspezialisierte Beschäftigte
+81,2354,Akademische Berufe,Sonstige Musiklehrer,Hochspezialisierte Beschäftigte
+82,2355,Akademische Berufe,Sonstige Kunstlehrer,Hochspezialisierte Beschäftigte
+83,2356,Akademische Berufe,Ausbilder im Bereich Informationstechnologie,Hochspezialisierte Beschäftigte
+84,2359,Akademische Berufe,"Lehrkräfte, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+85,2411,Akademische Berufe,"Wirtschaftsprüfer, Steuerberater und verwandte Berufe",Hochspezialisierte Beschäftigte
+86,2412,Akademische Berufe,Finanz- und Anlageberater,Hochspezialisierte Beschäftigte
+87,2413,Akademische Berufe,Finanzanalysten,Hochspezialisierte Beschäftigte
+88,2421,Akademische Berufe,Akademische und vergleichbare Fachkräfte im Bereich Management- und Organisationsanalyse,Hochspezialisierte Beschäftigte
+89,2422,Akademische Berufe,Akademische und vergleichbare Fachkräfte in der strategischen Planung in Politik und Wirtschaft,Hochspezialisierte Beschäftigte
+90,2423,Akademische Berufe,Berufsberater und -analytiker und akademische und vergleichbare Personalfachleute,Hochspezialisierte Beschäftigte
+91,2424,Akademische Berufe,Fachkräfte in Personalschulung und -entwicklung,Hochspezialisierte Beschäftigte
+92,2431,Akademische Berufe,Akademische und vergleichbare Fachkräfte in Werbung und Marketing,Hochspezialisierte Beschäftigte
+93,2432,Akademische Berufe,Akademische und vergleichbare Fachkräfte in der Öffentlichkeitsarbeit,Hochspezialisierte Beschäftigte
+94,2433,Akademische Berufe,"Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)",Hochspezialisierte Beschäftigte
+95,2434,Akademische Berufe,Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie,Hochspezialisierte Beschäftigte
+96,2511,Akademische Berufe,Systemanalytiker,Hochspezialisierte Beschäftigte
+97,2512,Akademische Berufe,Softwareentwickler,Hochspezialisierte Beschäftigte
+98,2513,Akademische Berufe,Web- und Multimediaentwickler,Hochspezialisierte Beschäftigte
+99,2514,Akademische Berufe,Anwendungsprogrammierer,Hochspezialisierte Beschäftigte
+100,2519,Akademische Berufe,"Entwickler und Analytiker von Software und Anwendungen, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+101,2521,Akademische Berufe,Datenbankentwickler und -administratoren,Hochspezialisierte Beschäftigte
+102,2522,Akademische Berufe,Systemadministratoren,Hochspezialisierte Beschäftigte
+103,2523,Akademische Berufe,Akademische und vergleichbare Fachkräfte für Computernetzwerke,Hochspezialisierte Beschäftigte
+104,2529,Akademische Berufe,"Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+105,2611,Akademische Berufe,Anwälte,Hochspezialisierte Beschäftigte
+106,2612,Akademische Berufe,Richter,Hochspezialisierte Beschäftigte
+107,2619,Akademische Berufe,"Juristen, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+108,2621,Akademische Berufe,Archiv- und Museumswissenschaftler,Hochspezialisierte Beschäftigte
+109,2622,Akademische Berufe,Bibliothekswissenschaftler und verwandte Informationswissenschaftler,Hochspezialisierte Beschäftigte
+110,2631,Akademische Berufe,Volkswirtschaftler,Hochspezialisierte Beschäftigte
+111,2632,Akademische Berufe,"Soziologen, Anthropologen und verwandte Wissenschaftler",Hochspezialisierte Beschäftigte
+112,2633,Akademische Berufe,"Philosophen, Historiker und Politologen",Hochspezialisierte Beschäftigte
+113,2634,Akademische Berufe,Psychologen,Hochspezialisierte Beschäftigte
+114,2635,Akademische Berufe,Sozialarbeiter,Hochspezialisierte Beschäftigte
+115,2636,Akademische Berufe,"Geistliche, Seelsorger",Hochspezialisierte Beschäftigte
+116,2641,Akademische Berufe,Autoren und verwandte schriftstellerische Berufe,Hochspezialisierte Beschäftigte
+117,2642,Akademische Berufe,Journalisten,Hochspezialisierte Beschäftigte
+118,2643,Akademische Berufe,"Übersetzer, Dolmetscher und andere Linguisten",Hochspezialisierte Beschäftigte
+119,2651,Akademische Berufe,Bildende Künstler,Hochspezialisierte Beschäftigte
+120,2652,Akademische Berufe,"Musiker, Sänger und Komponisten",Hochspezialisierte Beschäftigte
+121,2653,Akademische Berufe,Tänzer und Choreografen,Hochspezialisierte Beschäftigte
+122,2654,Akademische Berufe,Regisseure und Produzenten im Film- und Bühnenbereich sowie in verwandten Bereichen,Hochspezialisierte Beschäftigte
+123,2655,Akademische Berufe,Schauspieler,Hochspezialisierte Beschäftigte
+124,2656,Akademische Berufe,"Sprecher im Rundfunk, Fernsehen und sonstigen Medien",Hochspezialisierte Beschäftigte
+125,2659,Akademische Berufe,"Bildende und darstellende Künstler, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+126,3111,Techniker und gleichrangige nichttechnische Berufe,Chemo- und Physikotechniker,Hochspezialisierte Beschäftigte
+127,3112,Techniker und gleichrangige nichttechnische Berufe,Bautechniker,Hochspezialisierte Beschäftigte
+128,3113,Techniker und gleichrangige nichttechnische Berufe,Elektrotechniker,Hochspezialisierte Beschäftigte
+129,3114,Techniker und gleichrangige nichttechnische Berufe,Techniker im Bereich Elektronik,Hochspezialisierte Beschäftigte
+130,3115,Techniker und gleichrangige nichttechnische Berufe,Maschinenbautechniker,Hochspezialisierte Beschäftigte
+131,3116,Techniker und gleichrangige nichttechnische Berufe,Chemiebetriebs- und Verfahrenstechniker,Hochspezialisierte Beschäftigte
+132,3117,Techniker und gleichrangige nichttechnische Berufe,Bergbau- und Hüttentechniker,Hochspezialisierte Beschäftigte
+133,3118,Techniker und gleichrangige nichttechnische Berufe,Technische Zeichner,Hochspezialisierte Beschäftigte
+134,3119,Techniker und gleichrangige nichttechnische Berufe,"Material- und ingenieurtechnische Fachkräfte, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+135,3121,Techniker und gleichrangige nichttechnische Berufe,Produktionsleiter im Bergbau,Anleitende Beschäftigte
+136,3122,Techniker und gleichrangige nichttechnische Berufe,Produktionsleiter bei der Herstellung von Waren,Anleitende Beschäftigte
+137,3123,Techniker und gleichrangige nichttechnische Berufe,Bauleiter,Anleitende Beschäftigte
+138,3131,Techniker und gleichrangige nichttechnische Berufe,Steuerer von Energieerzeugungsanlagen,Hochspezialisierte Beschäftigte
+139,3132,Techniker und gleichrangige nichttechnische Berufe,Steuerer von Verbrennungs- und Wasserbehandlungsanlagen,Hochspezialisierte Beschäftigte
+140,3133,Techniker und gleichrangige nichttechnische Berufe,Steuerer von chemischen Verfahrensanlagen,Hochspezialisierte Beschäftigte
+141,3134,Techniker und gleichrangige nichttechnische Berufe,Steurer von Erdöl- und Erdgasraffinationsanlagen,Hochspezialisierte Beschäftigte
+142,3135,Techniker und gleichrangige nichttechnische Berufe,Steuerer von Verfahren in der Metallerzeugung,Hochspezialisierte Beschäftigte
+143,3139,Techniker und gleichrangige nichttechnische Berufe,"Techniker in der Prozesssteuerung, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+144,3141,Techniker und gleichrangige nichttechnische Berufe,Biotechniker (ohne medizinische Fachberufe),Hochspezialisierte Beschäftigte
+145,3142,Techniker und gleichrangige nichttechnische Berufe,Agrartechniker,Hochspezialisierte Beschäftigte
+146,3143,Techniker und gleichrangige nichttechnische Berufe,Forsttechniker,Hochspezialisierte Beschäftigte
+147,3151,Techniker und gleichrangige nichttechnische Berufe,Technische Schiffsoffiziere,Hochspezialisierte Beschäftigte
+148,3152,Techniker und gleichrangige nichttechnische Berufe,"Schiffsführer, nautische Schiffsoffiziere und Schiffslotsen",Anleitende Beschäftigte
+149,3153,Techniker und gleichrangige nichttechnische Berufe,Flugzeugführer und verwandte Berufe,Anleitende Beschäftigte
+150,3154,Techniker und gleichrangige nichttechnische Berufe,Flugverkehrslotsen,Hochspezialisierte Beschäftigte
+151,3155,Techniker und gleichrangige nichttechnische Berufe,Flugsicherungstechniker,Hochspezialisierte Beschäftigte
+152,3211,Techniker und gleichrangige nichttechnische Berufe,Medizintechniker im Bereich bildgebende Verfahren und Therapiegeräte,Hochspezialisierte Beschäftigte
+153,3212,Techniker und gleichrangige nichttechnische Berufe,Medizintechniker im Bereich Labor und Pathologie,Hochspezialisierte Beschäftigte
+154,3213,Techniker und gleichrangige nichttechnische Berufe,Pharmazeutisch-technische Assistenten,Hochspezialisierte Beschäftigte
+155,3214,Techniker und gleichrangige nichttechnische Berufe,Medizinische und zahnmedizinische Prothetiktechniker,Hochspezialisierte Beschäftigte
+156,3221,Techniker und gleichrangige nichttechnische Berufe,Nicht akademische Krankenpflegefachkräfte,Hochspezialisierte Beschäftigte
+157,3222,Techniker und gleichrangige nichttechnische Berufe,Nicht akademische Geburtshilfefachkräfte,Hochspezialisierte Beschäftigte
+158,3230,Techniker und gleichrangige nichttechnische Berufe,Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin,Hochspezialisierte Beschäftigte
+159,3240,Techniker und gleichrangige nichttechnische Berufe,Veterinärmedizinische Fachkräfte und Assistenten,Hochspezialisierte Beschäftigte
+160,3251,Techniker und gleichrangige nichttechnische Berufe,Zahnmedizinische Assistenten und Dentalhygieniker,Hochspezialisierte Beschäftigte
+161,3252,Techniker und gleichrangige nichttechnische Berufe,Fachkräfte im Bereich medizinische Dokumentation und Information,Hochspezialisierte Beschäftigte
+162,3253,Techniker und gleichrangige nichttechnische Berufe,Fachkräfte in der öffentlichen Gesundheitsfürsorge,Hochspezialisierte Beschäftigte
+163,3254,Techniker und gleichrangige nichttechnische Berufe,Augenoptiker,Hochspezialisierte Beschäftigte
+164,3255,Techniker und gleichrangige nichttechnische Berufe,Physiotherapeutische Techniker und Assistenten,Hochspezialisierte Beschäftigte
+165,3256,Techniker und gleichrangige nichttechnische Berufe,Medizinische Assistenten,Hochspezialisierte Beschäftigte
+166,3257,Techniker und gleichrangige nichttechnische Berufe,Nicht akademische Kontrolleure und Beauftragte in den Bereichen Umwelt- und Arbeitsmedizin sowie verwandte Berufe,Hochspezialisierte Beschäftigte
+167,3258,Techniker und gleichrangige nichttechnische Berufe,Rettungsdienstpersonal,Hochspezialisierte Beschäftigte
+168,3259,Techniker und gleichrangige nichttechnische Berufe,"Assistenzberufe im Gesundheitswesen, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+169,3311,Techniker und gleichrangige nichttechnische Berufe,"Wertpapierhändler, -makler und Finanzmakler",Hochspezialisierte Beschäftigte
+170,3312,Techniker und gleichrangige nichttechnische Berufe,Kreditsachbearbeiter,Hochspezialisierte Beschäftigte
+171,3313,Techniker und gleichrangige nichttechnische Berufe,Nicht akademische Fachkräfte im Rechnungswesen,Hochspezialisierte Beschäftigte
+172,3314,Techniker und gleichrangige nichttechnische Berufe,"Nicht akademische statistische, mathematische und verwandte Fachkräfte",Hochspezialisierte Beschäftigte
+173,3315,Techniker und gleichrangige nichttechnische Berufe,Schätzer und Schadensgutachter,Hochspezialisierte Beschäftigte
+174,3321,Techniker und gleichrangige nichttechnische Berufe,Versicherungsvertreter,Hochspezialisierte Beschäftigte
+175,3322,Techniker und gleichrangige nichttechnische Berufe,Vertriebsagenten,Hochspezialisierte Beschäftigte
+176,3323,Techniker und gleichrangige nichttechnische Berufe,Einkäufer,Hochspezialisierte Beschäftigte
+177,3324,Techniker und gleichrangige nichttechnische Berufe,Handelsmakler,Hochspezialisierte Beschäftigte
+178,3331,Techniker und gleichrangige nichttechnische Berufe,Fachkräfte für Abrechnungs- und Speditionsdienstleistungen,Hochspezialisierte Beschäftigte
+179,3332,Techniker und gleichrangige nichttechnische Berufe,Konferenz- und Veranstaltungsplaner,Hochspezialisierte Beschäftigte
+180,3333,Techniker und gleichrangige nichttechnische Berufe,Arbeits- und Personalvermittler,Hochspezialisierte Beschäftigte
+181,3334,Techniker und gleichrangige nichttechnische Berufe,Immobilienmakler und -verwalter,Hochspezialisierte Beschäftigte
+182,3339,Techniker und gleichrangige nichttechnische Berufe,"Fachkräfte für unternehmensbezogene Dienstleistungen, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+183,3341,Techniker und gleichrangige nichttechnische Berufe,Sekretariatsleiter,Anleitende Beschäftigte
+184,3342,Techniker und gleichrangige nichttechnische Berufe,Sekretariatsfachkräfte im juristischen Bereich,Hochspezialisierte Beschäftigte
+185,3343,Techniker und gleichrangige nichttechnische Berufe,Sekretariatsfachkräfte in Verwaltung und Geschäftsleitung,Hochspezialisierte Beschäftigte
+186,3344,Techniker und gleichrangige nichttechnische Berufe,Sekretariatsfachkräfte im Gesundheitswesen,Hochspezialisierte Beschäftigte
+187,3351,Techniker und gleichrangige nichttechnische Berufe,Fachkräfte im Zolldienst und Grenzschutz,Hochspezialisierte Beschäftigte
+188,3352,Techniker und gleichrangige nichttechnische Berufe,Fachkräfte in der Steuerverwaltung,Hochspezialisierte Beschäftigte
+189,3353,Techniker und gleichrangige nichttechnische Berufe,Fachkräfte in Sozialverwaltung und -versicherung,Hochspezialisierte Beschäftigte
+190,3354,Techniker und gleichrangige nichttechnische Berufe,"Fachkräfte bei staatlichen Pass-, Lizenz- und Genehmigungsstellen",Hochspezialisierte Beschäftigte
+191,3355,Techniker und gleichrangige nichttechnische Berufe,Polizeikommissare und Kriminalbeamte,Hochspezialisierte Beschäftigte
+192,3359,Techniker und gleichrangige nichttechnische Berufe,"Fachkräfte in der öffentlichen Verwaltung, anderweitig nicht genannt",Hochspezialisierte Beschäftigte
+193,3411,Techniker und gleichrangige nichttechnische Berufe,Nicht akademische Fachkräfte für Rechts- und verwandte Angelegenheiten,Hochspezialisierte Beschäftigte
+194,3412,Techniker und gleichrangige nichttechnische Berufe,Nicht akademische sozialpflegerische Fachkräfte,Hochspezialisierte Beschäftigte
+195,3413,Techniker und gleichrangige nichttechnische Berufe,Ordensbrüder/-schwestern und Seelsorgehelfer,Hochspezialisierte Beschäftigte
+196,3421,Techniker und gleichrangige nichttechnische Berufe,Athleten und Berufssportler,Hochspezialisierte Beschäftigte
+197,3422,Techniker und gleichrangige nichttechnische Berufe,"Sportlehrer, Sporttrainer und Sportfunktionäre",Hochspezialisierte Beschäftigte
+198,3423,Techniker und gleichrangige nichttechnische Berufe,Trainer und Betreuer im Bereich Fitness und Erholung,Hochspezialisierte Beschäftigte
+199,3431,Techniker und gleichrangige nichttechnische Berufe,Fotografen,Hochspezialisierte Beschäftigte
+200,3432,Techniker und gleichrangige nichttechnische Berufe,Raumgestalter und Dekorateure,Hochspezialisierte Beschäftigte
+201,3433,Techniker und gleichrangige nichttechnische Berufe,"Fachkräfte in Kunstgalerien, Museen und Bibliotheken",Hochspezialisierte Beschäftigte
+202,3434,Techniker und gleichrangige nichttechnische Berufe,Küchenchefs,Hochspezialisierte Beschäftigte
+203,3435,Techniker und gleichrangige nichttechnische Berufe,Sonstige Fachkräfte in Gestaltung und Kultur,Hochspezialisierte Beschäftigte
+204,3511,Techniker und gleichrangige nichttechnische Berufe,Techniker für den Betrieb von Informations- und Kommunikationstechnologie,Hochspezialisierte Beschäftigte
+205,3512,Techniker und gleichrangige nichttechnische Berufe,Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie,Hochspezialisierte Beschäftigte
+206,3513,Techniker und gleichrangige nichttechnische Berufe,Techniker für Computernetzwerke und -systeme,Hochspezialisierte Beschäftigte
+207,3514,Techniker und gleichrangige nichttechnische Berufe,Webmaster,Hochspezialisierte Beschäftigte
+208,3521,Techniker und gleichrangige nichttechnische Berufe,Techniker für Rundfunk und audiovisuelle Medien,Hochspezialisierte Beschäftigte
+209,3522,Techniker und gleichrangige nichttechnische Berufe,Telekommunikationstechniker,Hochspezialisierte Beschäftigte
+210,4110,Bürokräfte und verwandte Berufe,Allgemeine Bürokräfte,Dienstleistungsarbeiter*innen
+211,4120,Bürokräfte und verwandte Berufe,Sekretariatskräfte (allgemein),Dienstleistungsarbeiter*innen
+212,4131,Bürokräfte und verwandte Berufe,Schreibkräfte und Bediener von Textverarbeitungsanlagen,Dienstleistungsarbeiter*innen
+213,4132,Bürokräfte und verwandte Berufe,Datenerfasser,Dienstleistungsarbeiter*innen
+214,4211,Bürokräfte und verwandte Berufe,Bank- und andere Schalterbedienstete,Dienstleistungsarbeiter*innen
+215,4212,Bürokräfte und verwandte Berufe,"Buchmacher, Croupiers und verwandte Berufe im Bereich Glücks- und Wettspiele",Dienstleistungsarbeiter*innen
+216,4213,Bürokräfte und verwandte Berufe,Pfandleiher und Geldverleiher,Dienstleistungsarbeiter*innen
+217,4214,Bürokräfte und verwandte Berufe,Inkassobeauftragte und verwandte Berufe,Dienstleistungsarbeiter*innen
+218,4221,Bürokräfte und verwandte Berufe,Reiseverkehrsfachkräfte,Dienstleistungsarbeiter*innen
+219,4222,Bürokräfte und verwandte Berufe,Kundeninformationsfachkräfte in Call Centers,Dienstleistungsarbeiter*innen
+220,4223,Bürokräfte und verwandte Berufe,Telefonisten,Dienstleistungsarbeiter*innen
+221,4224,Bürokräfte und verwandte Berufe,Hotelrezeptionisten,Dienstleistungsarbeiter*innen
+222,4225,Bürokräfte und verwandte Berufe,Auskunftspersonal,Dienstleistungsarbeiter*innen
+223,4227,Bürokräfte und verwandte Berufe,Interviewer im Bereich Umfragen und Marktforschung,Dienstleistungsarbeiter*innen
+224,4311,Bürokräfte und verwandte Berufe,Bürokräfte im Rechnungswesen und in der Buchhaltung,Dienstleistungsarbeiter*innen
+225,4312,Bürokräfte und verwandte Berufe,"Bürokräfte in der Statistik, im Finanz- und Versicherungswesen",Dienstleistungsarbeiter*innen
+226,4313,Bürokräfte und verwandte Berufe,Bürokräfte in der Lohnbuchhaltung,Dienstleistungsarbeiter*innen
+227,4321,Bürokräfte und verwandte Berufe,Fachkräfte in der Lagerwirtschaft,Industriearbeiter*innen
+228,4322,Bürokräfte und verwandte Berufe,Bürokräfte in der Material- und Fertigungsplanung und verwandte Berufe,Dienstleistungsarbeiter*innen
+229,4323,Bürokräfte und verwandte Berufe,Bürokräfte in der Transportwirtschaft und verwandte Berufe,Dienstleistungsarbeiter*innen
+230,4411,Bürokräfte und verwandte Berufe,Bibliotheksassistenten,Dienstleistungsarbeiter*innen
+231,4412,Bürokräfte und verwandte Berufe,Postverteiler und -sortierer,Dienstleistungsarbeiter*innen
+232,4413,Bürokräfte und verwandte Berufe,"Kodierer, Korrekturleser und verwandte Bürokräfte",Dienstleistungsarbeiter*innen
+233,4415,Bürokräfte und verwandte Berufe,Bürokräfte für Registratur und Dokumentation,Dienstleistungsarbeiter*innen
+234,4416,Bürokräfte und verwandte Berufe,Bürokräfte im Personalwesen,Dienstleistungsarbeiter*innen
+235,4419,Bürokräfte und verwandte Berufe,"Bürokräfte und verwandte Berufe, anderweitig nicht genannt",Dienstleistungsarbeiter*innen
+236,5111,Dienstleistungsberufe und Verkäufer,Reisebegleiter und Stewards,Dienstleistungsarbeiter*innen
+237,5112,Dienstleistungsberufe und Verkäufer,Schaffner,Dienstleistungsarbeiter*innen
+238,5113,Dienstleistungsberufe und Verkäufer,Reiseleiter/Fremdenführer,Dienstleistungsarbeiter*innen
+239,5120,Dienstleistungsberufe und Verkäufer,Köche,Industriearbeiter*innen
+240,5131,Dienstleistungsberufe und Verkäufer,Kellner,Dienstleistungsarbeiter*innen
+241,5132,Dienstleistungsberufe und Verkäufer,Barkeeper,Dienstleistungsarbeiter*innen
+242,5141,Dienstleistungsberufe und Verkäufer,Friseure,Dienstleistungsarbeiter*innen
+243,5142,Dienstleistungsberufe und Verkäufer,Kosmetiker und verwandte Berufe,Dienstleistungsarbeiter*innen
+244,5151,Dienstleistungsberufe und Verkäufer,"Reinigungs- und Hauswirtschaftsleiter in Büros, Hotels und anderen Einrichtungen",Anleitende Beschäftigte
+245,5152,Dienstleistungsberufe und Verkäufer,Hauswirtschafter in Privathaushalten,Dienstleistungsarbeiter*innen
+246,5153,Dienstleistungsberufe und Verkäufer,Hauswarte,Dienstleistungsarbeiter*innen
+247,5161,Dienstleistungsberufe und Verkäufer,"Astrologen, Wahrsager und verwandte Berufe",Dienstleistungsarbeiter*innen
+248,5163,Dienstleistungsberufe und Verkäufer,Bestatter und Einbalsamierer,Dienstleistungsarbeiter*innen
+249,5164,Dienstleistungsberufe und Verkäufer,Tierpfleger und -betreuer,Dienstleistungsarbeiter*innen
+250,5165,Dienstleistungsberufe und Verkäufer,Fahrschullehrer,Dienstleistungsarbeiter*innen
+251,5169,Dienstleistungsberufe und Verkäufer,"Berufe im Bereich personenbezogener Dienstleistungen, anderweitig nicht genannt",Dienstleistungsarbeiter*innen
+252,5211,Dienstleistungsberufe und Verkäufer,Verkaufsstand- und Marktverkäufer,Dienstleistungsarbeiter*innen
+253,5221,Dienstleistungsberufe und Verkäufer,Leiter eines Einzelhandelsgeschäftes,Anleitende Beschäftigte
+254,5222,Dienstleistungsberufe und Verkäufer,Verkaufsaufsichtskräfte in Handelsgeschäften,Anleitende Beschäftigte
+255,5223,Dienstleistungsberufe und Verkäufer,Verkäufer und Verkaufshilfskräfte in Handelsgeschäften,Dienstleistungsarbeiter*innen
+256,5230,Dienstleistungsberufe und Verkäufer,Kassierer und Kartenverkäufer,Dienstleistungsarbeiter*innen
+257,5241,Dienstleistungsberufe und Verkäufer,Mannequins/Dressmen und sonstige Modelle,Dienstleistungsarbeiter*innen
+258,5242,Dienstleistungsberufe und Verkäufer,Produktvorführer,Dienstleistungsarbeiter*innen
+259,5244,Dienstleistungsberufe und Verkäufer,Telefonverkäufer,Dienstleistungsarbeiter*innen
+260,5245,Dienstleistungsberufe und Verkäufer,Tankwarte,Dienstleistungsarbeiter*innen
+261,5246,Dienstleistungsberufe und Verkäufer,Imbissverkäufer,Dienstleistungsarbeiter*innen
+262,5249,Dienstleistungsberufe und Verkäufer,"Verkaufskräfte, anderweitig nicht genannt",Dienstleistungsarbeiter*innen
+263,5311,Dienstleistungsberufe und Verkäufer,Kinderbetreuer,Dienstleistungsarbeiter*innen
+264,5312,Dienstleistungsberufe und Verkäufer,Lernbetreuer,Dienstleistungsarbeiter*innen
+265,5321,Dienstleistungsberufe und Verkäufer,Pflegehelfer,Dienstleistungsarbeiter*innen
+266,5322,Dienstleistungsberufe und Verkäufer,Haus- und Familienpfleger,Dienstleistungsarbeiter*innen
+267,5329,Dienstleistungsberufe und Verkäufer,"Betreuungsberufe im Gesundheitswesen, anderweitig nicht genannt",Dienstleistungsarbeiter*innen
+268,5411,Dienstleistungsberufe und Verkäufer,Feuerwehrleute,Dienstleistungsarbeiter*innen
+269,5412,Dienstleistungsberufe und Verkäufer,Polizisten (ohne Polizeikommissare),Dienstleistungsarbeiter*innen
+270,5413,Dienstleistungsberufe und Verkäufer,Gefängnisaufseher,Dienstleistungsarbeiter*innen
+271,5414,Dienstleistungsberufe und Verkäufer,Sicherheitswachpersonal,Dienstleistungsarbeiter*innen
+272,5419,Dienstleistungsberufe und Verkäufer,"Schutzkräfte und Sicherheitsbedienstete, anderweitig nicht genannt",Dienstleistungsarbeiter*innen
+273,6111,Landwirtschaftliche Berufe,Ackerbauern und Gemüseanbauer,Industriearbeiter*innen
+274,6112,Landwirtschaftliche Berufe,Baum- und Strauchfrüchteanbauer,Industriearbeiter*innen
+275,6113,Landwirtschaftliche Berufe,"Gärtner, Saat- und Pflanzenzüchter",Industriearbeiter*innen
+276,6121,Landwirtschaftliche Berufe,Nutztierhalter (ohne Geflügel) und Milchproduzenten,Industriearbeiter*innen
+277,6122,Landwirtschaftliche Berufe,Geflügelhalter,Industriearbeiter*innen
+278,6123,Landwirtschaftliche Berufe,Imker und Seidenraupenzüchter,Industriearbeiter*innen
+279,6129,Landwirtschaftliche Berufe,"Tierhalter, anderweitig nicht genannt",Industriearbeiter*innen
+280,6130,Landwirtschaftliche Berufe,Landwirte mit Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt),Industriearbeiter*innen
+281,6210,Landwirtschaftliche Berufe,Forstarbeitskräfte und verwandte Berufe,Industriearbeiter*innen
+282,6221,Landwirtschaftliche Berufe,Fachkräfte im Bereich Aquakultur,Industriearbeiter*innen
+283,6222,Landwirtschaftliche Berufe,Binnen- und Küstenfischer,Industriearbeiter*innen
+284,6223,Landwirtschaftliche Berufe,Hochseefischer,Industriearbeiter*innen
+285,7111,Handwerks- und verwandte Berufe,Rohbaufacharbeiter im Hochbau,Industriearbeiter*innen
+286,7112,Handwerks- und verwandte Berufe,Maurer und verwandte Berufe,Industriearbeiter*innen
+287,7113,Handwerks- und verwandte Berufe,"Steinmetze, Steinspalter, -bearbeiter und Steinbildhauer",Industriearbeiter*innen
+288,7114,Handwerks- und verwandte Berufe,"Betonierer, Betonoberflächenfertiger und verwandte Berufe",Industriearbeiter*innen
+289,7115,Handwerks- und verwandte Berufe,Zimmerleute und Bautischler,Industriearbeiter*innen
+290,7119,Handwerks- und verwandte Berufe,"Baukonstruktions- und verwandte Berufe, anderweitig nicht genannt",Industriearbeiter*innen
+291,7121,Handwerks- und verwandte Berufe,Dachdecker,Industriearbeiter*innen
+292,7122,Handwerks- und verwandte Berufe,Boden- und Fliesenleger,Industriearbeiter*innen
+293,7123,Handwerks- und verwandte Berufe,Stuckateure,Industriearbeiter*innen
+294,7124,Handwerks- und verwandte Berufe,Isolierer,Industriearbeiter*innen
+295,7125,Handwerks- und verwandte Berufe,Glaser,Industriearbeiter*innen
+296,7126,Handwerks- und verwandte Berufe,Bauspengler und Sanitär- und Heizungsinstallateure,Industriearbeiter*innen
+297,7127,Handwerks- und verwandte Berufe,Klima- und Kälteanlagenbauer,Industriearbeiter*innen
+298,7131,Handwerks- und verwandte Berufe,Maler und verwandte Berufe,Industriearbeiter*innen
+299,7132,Handwerks- und verwandte Berufe,Lackierer und verwandte Berufe,Industriearbeiter*innen
+300,7133,Handwerks- und verwandte Berufe,Fassadenreiniger und Schornsteinfeger/Rauchfangkehrer,Dienstleistungsarbeiter*innen
+301,7211,Handwerks- und verwandte Berufe,Former und Kernmacher (für Metallguss),Industriearbeiter*innen
+302,7212,Handwerks- und verwandte Berufe,Schweißer und Brennschneider,Industriearbeiter*innen
+303,7213,Handwerks- und verwandte Berufe,Blechkaltverformer,Industriearbeiter*innen
+304,7214,Handwerks- und verwandte Berufe,Baumetallverformer und Metallbauer,Industriearbeiter*innen
+305,7215,Handwerks- und verwandte Berufe,Verspannungsmonteure und Seilspleißer,Industriearbeiter*innen
+306,7221,Handwerks- und verwandte Berufe,"Grobschmiede, Hammerschmiede und Schmiedepresser",Industriearbeiter*innen
+307,7222,Handwerks- und verwandte Berufe,Werkzeugmechaniker und verwandte Berufe,Industriearbeiter*innen
+308,7223,Handwerks- und verwandte Berufe,Werkzeugmaschineneinrichter und -bediener,Industriearbeiter*innen
+309,7224,Handwerks- und verwandte Berufe,"Metallpolierer, Rundschleifer und Werkzeugschärfer",Industriearbeiter*innen
+310,7231,Handwerks- und verwandte Berufe,Kraftfahrzeugmechaniker und -schlosser,Industriearbeiter*innen
+311,7232,Handwerks- und verwandte Berufe,Flugmotorenmechaniker und -schlosser,Industriearbeiter*innen
+312,7233,Handwerks- und verwandte Berufe,Landmaschinen- und Industriemaschinenmechaniker und -schlosser,Industriearbeiter*innen
+313,7234,Handwerks- und verwandte Berufe,Fahrradmechaniker und verwandte Berufe,Industriearbeiter*innen
+314,7311,Handwerks- und verwandte Berufe,Präzisionsinstrumentenmacher und -instandsetzer,Industriearbeiter*innen
+315,7312,Handwerks- und verwandte Berufe,Musikinstrumentenbauer und -stimmer,Industriearbeiter*innen
+316,7313,Handwerks- und verwandte Berufe,Schmuckwarenhersteller und Edelmetallbearbeiter,Industriearbeiter*innen
+317,7314,Handwerks- und verwandte Berufe,Keramiker und verwandte Berufe,Industriearbeiter*innen
+318,7315,Handwerks- und verwandte Berufe,"Glasmacher, -schneider, -schleifer und -veredler",Industriearbeiter*innen
+319,7316,Handwerks- und verwandte Berufe,"Schildermaler, Dekormaler, Graveure und Ätzer",Industriearbeiter*innen
+320,7317,Handwerks- und verwandte Berufe,"Kunsthandwerkliche Berufe für Holz, Korbwaren und verwandte Materialien",Industriearbeiter*innen
+321,7318,Handwerks- und verwandte Berufe,"Kunsthandwerkliche Berufe für Textilien, Leder und verwandte Materialien",Industriearbeiter*innen
+322,7319,Handwerks- und verwandte Berufe,"Kunsthandwerkliche Berufe, anderweitig nicht genannt",Industriearbeiter*innen
+323,7321,Handwerks- und verwandte Berufe,Techniker in der Druckvorstufe,Industriearbeiter*innen
+324,7322,Handwerks- und verwandte Berufe,Drucker,Industriearbeiter*innen
+325,7323,Handwerks- und verwandte Berufe,Berufe in der Druckweiterverarbeitung und Buchbinder,Industriearbeiter*innen
+326,7411,Handwerks- und verwandte Berufe,Bauelektriker und verwandte Berufe,Industriearbeiter*innen
+327,7412,Handwerks- und verwandte Berufe,Elektromechaniker und verwandte Berufe,Industriearbeiter*innen
+328,7413,Handwerks- und verwandte Berufe,Elektroleitungsinstallateure und Wartungspersonal,Industriearbeiter*innen
+329,7421,Handwerks- und verwandte Berufe,Elektroniker und Elektronik-Servicetechniker,Industriearbeiter*innen
+330,7422,Handwerks- und verwandte Berufe,Installateure und Servicetechniker im Bereich Informations- und Kommunikationstechnik,Industriearbeiter*innen
+331,7511,Handwerks- und verwandte Berufe,"Fleischer, Fischhändler und -verarbeiter und verwandte Berufe",Industriearbeiter*innen
+332,7512,Handwerks- und verwandte Berufe,"Bäcker, Konditoren und Konfektmacher",Industriearbeiter*innen
+333,7513,Handwerks- und verwandte Berufe,Molkerei- und Käsereifachkräfte,Industriearbeiter*innen
+334,7514,Handwerks- und verwandte Berufe,Obst- und Gemüsekonservierer und verwandte Berufe,Industriearbeiter*innen
+335,7515,Handwerks- und verwandte Berufe,Nahrungsmittel- und Getränkekoster und -klassierer,Dienstleistungsarbeiter*innen
+336,7516,Handwerks- und verwandte Berufe,Tabakaufbereiter und Tabakwarenmacher,Industriearbeiter*innen
+337,7521,Handwerks- und verwandte Berufe,Holztrockner und -konservierer,Industriearbeiter*innen
+338,7522,Handwerks- und verwandte Berufe,Möbeltischler und verwandte Berufe,Industriearbeiter*innen
+339,7523,Handwerks- und verwandte Berufe,Einrichter und Bediener von Holzbearbeitungsmaschinen,Industriearbeiter*innen
+340,7531,Handwerks- und verwandte Berufe,"Herren- und Damenschneider, Kürschner und Hutmacher",Industriearbeiter*innen
+341,7532,Handwerks- und verwandte Berufe,Schnittmustermacher und Zuschneider,Industriearbeiter*innen
+342,7533,Handwerks- und verwandte Berufe,"Näher, Sticker und verwandte Berufe",Industriearbeiter*innen
+343,7534,Handwerks- und verwandte Berufe,Polsterer und verwandte Berufe,Industriearbeiter*innen
+344,7535,Handwerks- und verwandte Berufe,"Pelzveredler, Gerber und Fellzurichter",Industriearbeiter*innen
+345,7536,Handwerks- und verwandte Berufe,Schuhmacher und verwandte Berufe,Industriearbeiter*innen
+346,7541,Handwerks- und verwandte Berufe,Taucher,Dienstleistungsarbeiter*innen
+347,7542,Handwerks- und verwandte Berufe,Sprengmeister und Sprengbeauftragte,Industriearbeiter*innen
+348,7543,Handwerks- und verwandte Berufe,Produkttester und -klassierer (ohne Nahrungsmittel und Getränke),Dienstleistungsarbeiter*innen
+349,7544,Handwerks- und verwandte Berufe,Kammerjäger und andere Schädlingsbekämpfungsberufe,Dienstleistungsarbeiter*innen
+350,7549,Handwerks- und verwandte Berufe,"Handwerks- und verwandte Berufe, anderweitig nicht genannt",Industriearbeiter*innen
+351,8111,Bediener von Anlagen und Maschinen und Montageberufe,Bergleute und Grubenarbeiter,Industriearbeiter*innen
+352,8112,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Mineral- und Gesteinsaufbereitungsanlagen,Industriearbeiter*innen
+353,8113,Bediener von Anlagen und Maschinen und Montageberufe,Tiefbohrer und verwandte Berufe,Industriearbeiter*innen
+354,8114,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener von Maschinen zur Herstellung und Verarbeitung von Zement, Steinen und sonstigen Mineralien",Industriearbeiter*innen
+355,8121,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Anlagen in der Metallerzeugung und -umformung,Industriearbeiter*innen
+356,8122,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener von Anlagen zur Metallveredlung, Plattierung und Beschichtung von Metallen",Industriearbeiter*innen
+357,8131,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Anlagen und Maschinen für chemische Erzeugnisse,Industriearbeiter*innen
+358,8132,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Anlagen für fotografische Erzeugnisse,Industriearbeiter*innen
+359,8141,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Maschinen zur Herstellung von Gummiwaren,Industriearbeiter*innen
+360,8142,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Maschinen zur Herstellung von Kunststoffwaren,Industriearbeiter*innen
+361,8143,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Maschinen zur Herstellung von Papierwaren,Industriearbeiter*innen
+362,8151,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener von Spinnstoffaufbereitungs-, Spinn- und Spulmaschinen",Industriearbeiter*innen
+363,8152,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener von Web-, Strick- und Wirkmaschinen",Industriearbeiter*innen
+364,8153,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Nähmaschinen,Industriearbeiter*innen
+365,8154,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Bleich- und Färbemaschinen,Industriearbeiter*innen
+366,8155,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Pelz- und Lederzurichtungs- und -vorbereitungsmaschinen,Industriearbeiter*innen
+367,8156,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Maschinen zur Schuhherstellung und verwandte Berufe,Industriearbeiter*innen
+368,8157,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Wäschereimaschinen,Industriearbeiter*innen
+369,8159,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener von Maschinen zur Herstellung von Textil-, Pelz- und Lederwaren, anderweitig nicht genannt",Industriearbeiter*innen
+370,8160,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Maschinen zur Herstellung von Nahrungs- und Genussmitteln,Industriearbeiter*innen
+371,8171,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Anlagen zur Zellstoff- und Papierherstellung,Industriearbeiter*innen
+372,8172,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Anlagen zur Holzaufbereitung,Industriearbeiter*innen
+373,8181,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Anlagen zur Glas- und Keramikherstellung,Industriearbeiter*innen
+374,8182,Bediener von Anlagen und Maschinen und Montageberufe,Bediener von Dampfmaschinen und -kesseln,Industriearbeiter*innen
+375,8183,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener von Verpackungs-, Abfüll- und Etikettiermaschinen",Industriearbeiter*innen
+376,8189,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener stationärer Anlagen und Maschinen, anderweitig nicht genannt",Industriearbeiter*innen
+377,8211,Bediener von Anlagen und Maschinen und Montageberufe,Berufe der Montage von mechanischen Bauteilen,Industriearbeiter*innen
+378,8212,Bediener von Anlagen und Maschinen und Montageberufe,Berufe der Montage von elektrischen und elektronischen Geräten,Industriearbeiter*innen
+379,8219,Bediener von Anlagen und Maschinen und Montageberufe,"Montageberufe, anderweitig nicht genannt",Industriearbeiter*innen
+380,8311,Bediener von Anlagen und Maschinen und Montageberufe,Lokomotivführer,Industriearbeiter*innen
+381,8312,Bediener von Anlagen und Maschinen und Montageberufe,"Bediener von Sicherungs-, Signal- und Leittechnik im Schienennetzbetrieb",Industriearbeiter*innen
+382,8322,Bediener von Anlagen und Maschinen und Montageberufe,"Personenkraftwagen-, Taxi-, Kleintransporter- und Kleinbusfahrer",Dienstleistungsarbeiter*innen
+383,8331,Bediener von Anlagen und Maschinen und Montageberufe,Busfahrer und Straßenbahnführer,Dienstleistungsarbeiter*innen
+384,8332,Bediener von Anlagen und Maschinen und Montageberufe,Fahrer schwerer Lastkraftwagen,Industriearbeiter*innen
+385,8341,Bediener von Anlagen und Maschinen und Montageberufe,Führer von mobilen land- und forstwirtschaftlichen Maschinen,Industriearbeiter*innen
+386,8342,Bediener von Anlagen und Maschinen und Montageberufe,Führer von Erdbewegungs- und verwandten Maschinen,Industriearbeiter*innen
+387,8343,Bediener von Anlagen und Maschinen und Montageberufe,"Kranführer, Aufzugmaschinisten und Bediener verwandter Hebeeinrichtungen",Industriearbeiter*innen
+388,8344,Bediener von Anlagen und Maschinen und Montageberufe,Gabelstaplerfahrer und verwandte Berufe,Industriearbeiter*innen
+389,8350,Bediener von Anlagen und Maschinen und Montageberufe,Deckspersonal auf Schiffen und verwandte Berufe,Industriearbeiter*innen
+390,9111,Hilfsarbeitskräfte,Reinigungspersonal und Hilfskräfte in Privathaushalten,Dienstleistungsarbeiter*innen
+391,9112,Hilfsarbeitskräfte,"Reinigungspersonal und Hilfskräfte in Büros, Hotels und anderen Einrichtungen",Dienstleistungsarbeiter*innen
+392,9121,Hilfsarbeitskräfte,Handwäscher und Handbügler,Dienstleistungsarbeiter*innen
+393,9122,Hilfsarbeitskräfte,Fahrzeugreiniger,Dienstleistungsarbeiter*innen
+394,9123,Hilfsarbeitskräfte,Fensterputzer,Dienstleistungsarbeiter*innen
+395,9129,Hilfsarbeitskräfte,Sonstiges Reinigungspersonal,Dienstleistungsarbeiter*innen
+396,9211,Hilfsarbeitskräfte,Hilfsarbeiter im Ackerbau,Industriearbeiter*innen
+397,9212,Hilfsarbeitskräfte,Hilfsarbeiter in der Tierhaltung,Industriearbeiter*innen
+398,9213,Hilfsarbeitskräfte,Hilfsarbeiter in Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt),Industriearbeiter*innen
+399,9214,Hilfsarbeitskräfte,Hilfsarbeiter im Gartenbau,Industriearbeiter*innen
+400,9215,Hilfsarbeitskräfte,Hilfsarbeiter in der Forstwirtschaft,Industriearbeiter*innen
+401,9216,Hilfsarbeitskräfte,Hilfsarbeiter in der Fischerei und Aquakultur,Industriearbeiter*innen
+402,9311,Hilfsarbeitskräfte,Hilfsarbeiter im Bergbau und in der Gewinnung von Steinen und Erden,Industriearbeiter*innen
+403,9312,Hilfsarbeitskräfte,Hilfsarbeiter im Tiefbau,Industriearbeiter*innen
+404,9313,Hilfsarbeitskräfte,Hilfsarbeiter im Hochbau,Industriearbeiter*innen
+405,9321,Hilfsarbeitskräfte,Verpacker,Industriearbeiter*innen
+406,9329,Hilfsarbeitskräfte,"Hilfsarbeiter bei der Herstellung von Waren, anderweitig nicht genannt",Industriearbeiter*innen
+407,9331,Hilfsarbeitskräfte,Führer von Handwagen und pedalbetriebenen Fahrzeugen,Industriearbeiter*innen
+408,9332,Hilfsarbeitskräfte,Führer von Fahrzeugen und Maschinen mit Zugtierantrieb,Industriearbeiter*innen
+409,9333,Hilfsarbeitskräfte,Frachtarbeiter und verwandte Berufe,Industriearbeiter*innen
+410,9334,Hilfsarbeitskräfte,Regalbetreuer und -auffüller,Dienstleistungsarbeiter*innen
+411,9411,Hilfsarbeitskräfte,Zubereiter von Fast Food und anderen Imbissen,Industriearbeiter*innen
+412,9412,Hilfsarbeitskräfte,Küchenhilfen,Industriearbeiter*innen
+413,9510,Hilfsarbeitskräfte,Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe,Dienstleistungsarbeiter*innen
+414,9611,Hilfsarbeitskräfte,Arbeiter in der Abfall- und Wertstoffsammlung,Industriearbeiter*innen
+415,9612,Hilfsarbeitskräfte,Arbeiter in der Abfallsortierung,Industriearbeiter*innen
+416,9613,Hilfsarbeitskräfte,Straßenkehrer und verwandte Berufe,Dienstleistungsarbeiter*innen
+417,9621,Hilfsarbeitskräfte,"Boten, Paketauslieferer und Gepäckträger",Dienstleistungsarbeiter*innen
+418,9622,Hilfsarbeitskräfte,Gelegenheitsarbeiter,Dienstleistungsarbeiter*innen
+419,9623,Hilfsarbeitskräfte,"Zählerableser, Automatenbefüller und -kassierer",Dienstleistungsarbeiter*innen
+420,9629,Hilfsarbeitskräfte,"Hilfsarbeitskräfte, anderweitig nicht genannt",Dienstleistungsarbeiter*innen

@@ -1,0 +1,421 @@
+,ISCO-Code,Berufsgattung(ISCO-Stufe 4),Anzahl,percent,fraktion,major_group
+1,0110,Offiziere in regulären Streitkräften,22030,0.053674825093894395,,Streitkräfte
+2,0210,Unteroffiziere in regulären Streitkräften ,22020,0.053650460670338386,,Streitkräfte
+3,0310,Angehörige der regulären Streitkräfte in sonstigen Rängen,107160,0.2610891628262244,,Streitkräfte
+4,1111,Angehörige gesetzgebender Körperschaften,9740,0.02373094854355567,Top Management,Führungskräfte
+5,1112,Leitende Verwaltungsbedienstete,15660,0.03815468728871476,Top Management,Führungskräfte
+6,1114,Leitende Bedienstete von Interessenorganisationen,6280,0.015300857993175526,Top Management,Führungskräfte
+7,1120,Geschäftsführer und Vorstände,487470,1.1876925550849162,Top Management,Führungskräfte
+8,1211,Führungskräfte im Bereich Finanzen,61810,0.15059650199971006,Mittleres Management,Führungskräfte
+9,1212,Führungskräfte im Personalwesen,59510,0.14499268458182732,Mittleres Management,Führungskräfte
+10,1213,Führungskräfte in Unternehmenspolitik und -planung,12940,0.031527564081479505,Mittleres Management,Führungskräfte
+11,1219,"Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt",107630,0.26223429073335697,Mittleres Management,Führungskräfte
+12,1221,Führungskräfte in Vertrieb und Marketing,167690,0.40856701861076494,Mittleres Management,Führungskräfte
+13,1222,Führungskräfte in Werbung und Öffentlichkeitsarbeit,33210,0.0809142506295158,Mittleres Management,Führungskräfte
+14,1223,Führungskräfte in Forschung und Entwicklung,14130,0.03442693048464493,Mittleres Management,Führungskräfte
+15,1311,Führungskräfte in der Produktion in Land- und Forstwirtschaft,860,0.0020953404258170307,Mittleres Management,Führungskräfte
+16,1312,Führungskräfte in der Produktion in Aquakultur und Fischerei,0,0.0,Mittleres Management,Führungskräfte
+17,1321,Führungskräfte in der Produktion bei der Herstellung von Waren,140680,0.34275871058597657,Mittleres Management,Führungskräfte
+18,1322,Führungskräfte in der Produktion im Bergbau ,3720,0.009063565562836457,,Führungskräfte
+19,1323,Führungskräfte in der Produktion im Bau ,105750,0.25765377910482673,,Führungskräfte
+20,1324,"Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen",96300,0.2346293988443954,Mittleres Management,Führungskräfte
+21,1330,Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie,97750,0.23816224026001714,Mittleres Management,Führungskräfte
+22,1341,Führungskräfte in der Erbringung von Dienstleistungen der Kinderbetreuung,27250,0.06639305419013265,Mittleres Management,Führungskräfte
+23,1342,Führungskräfte in der Erbringung von Dienstleistungen im Gesundheitswesen,55410,0.13500327092386238,Mittleres Management,Führungskräfte
+24,1343,Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung,11460,0.02792162939518973,Mittleres Management,Führungskräfte
+25,1344,Führungskräfte in der Erbringung von Dienstleistungen der Sozialfürsorge,16860,0.04107841811543621,Mittleres Management,Führungskräfte
+26,1345,Führungskräfte in der Erbringung von Dienstleistungen des Bildungswesens,32230,0.07852653712102663,Mittleres Management,Führungskräfte
+27,1346,Führungskräfte auf Filialebene in der Erbringung von Finanz- und Versicherungsdienstleistungen,20200,0.04921613558314421,Mittleres Management,Führungskräfte
+28,1349,"Führungskräfte in der Erbringung von speziellen Dienstleistungen, anderweitig nicht genannt",45710,0.11136978007453079,Mittleres Management,Führungskräfte
+29,1411,Führungskräfte in Hotels ,19980,0.04868011826491194,,Führungskräfte
+30,1412,Führungskräfte in Restaurants,123700,0.30138791938786824,Mittleres Management,Führungskräfte
+31,1420,Führungskräfte in Groß- und Einzelhandel,78830,0.19206475089204247,Mittleres Management,Führungskräfte
+32,1431,"Führungskräfte in der Erbringung von Dienstleistungen im Bereich Sport, Erholung und Kultur",18000,0.04385596240082157,Mittleres Management,Führungskräfte
+33,1439,"Führungskräfte in der Erbringung von Dienstleistungen, anderweitig nicht genannt",6260,0.015252129146063501,Mittleres Management,Führungskräfte
+34,2111,Physiker und Astronomen,23150,0.056403640532167745,Hochspezialisierte Beschäftigte,Akademische Berufe
+35,2112,Meteorologen,1540,0.0037521212276258454,Hochspezialisierte Beschäftigte,Akademische Berufe
+36,2113,Chemiker,29400,0.07163140525467523,Hochspezialisierte Beschäftigte,Akademische Berufe
+37,2114,Geologen und Geophysiker,11060,0.026947052452949254,Hochspezialisierte Beschäftigte,Akademische Berufe
+38,2120,"Mathematiker, Versicherungsmathematiker und Statistiker",27280,0.06646614746080068,Hochspezialisierte Beschäftigte,Akademische Berufe
+39,2131,"Biologen, Botaniker, Zoologen und verwandte Berufe",41730,0.101672739499238,Hochspezialisierte Beschäftigte,Akademische Berufe
+40,2132,"Agrar-, Forst- und Fischereiwissenschaftler und -berater",55410,0.13500327092386238,Hochspezialisierte Beschäftigte,Akademische Berufe
+41,2133,Umweltwissenschaftler,22060,0.05374791836456243,Hochspezialisierte Beschäftigte,Akademische Berufe
+42,2141,Wirtschafts- und Produktionsingenieure,147960,0.3604960109347533,Hochspezialisierte Beschäftigte,Akademische Berufe
+43,2142,Bauingenieure,104850,0.25546098098478565,Hochspezialisierte Beschäftigte,Akademische Berufe
+44,2143,Umweltschutzingenieure,16750,0.04081040945632007,Hochspezialisierte Beschäftigte,Akademische Berufe
+45,2144,Maschinenbauingenieure,293490,0.7150714669453957,Hochspezialisierte Beschäftigte,Akademische Berufe
+46,2145,Chemieingenieure,43950,0.10708164152867267,Hochspezialisierte Beschäftigte,Akademische Berufe
+47,2146,"Bergbauingenieure, Metallurgen und verwandte Berufe",19660,0.04790045671111956,Hochspezialisierte Beschäftigte,Akademische Berufe
+48,2149,"Ingenieure, anderweitig nicht genannt",165580,0.40342612524044646,Hochspezialisierte Beschäftigte,Akademische Berufe
+49,2151,Ingenieure im Bereich Elektrotechnik,73570,0.17924906410158015,Hochspezialisierte Beschäftigte,Akademische Berufe
+50,2152,Ingenieure im Bereich Elektronik,68680,0.1673348609826903,Hochspezialisierte Beschäftigte,Akademische Berufe
+51,2153,Ingenieure im Bereich Telekommunikationstechnik,9000,0.021927981200410784,Hochspezialisierte Beschäftigte,Akademische Berufe
+52,2161,Architekten,138950,0.3385436653107865,Hochspezialisierte Beschäftigte,Akademische Berufe
+53,2162,Landschaftsarchitekten,17570,0.04280829218791305,Hochspezialisierte Beschäftigte,Akademische Berufe
+54,2163,Produkt- und Textildesigner,53810,0.13110496315490047,Hochspezialisierte Beschäftigte,Akademische Berufe
+55,2164,"Raum-, Stadt- und Verkehrsplaner",32450,0.07906255443925889,Hochspezialisierte Beschäftigte,Akademische Berufe
+56,2165,Kartografen und Vermessungsingenieure,15690,0.0382277805593828,Hochspezialisierte Beschäftigte,Akademische Berufe
+57,2166,Grafik- und Multimediadesigner,147230,0.35871740801516444,Hochspezialisierte Beschäftigte,Akademische Berufe
+58,2211,Allgemeinärzte,156250,0.3806941180626872,Hochspezialisierte Beschäftigte,Akademische Berufe
+59,2212,Fachärzte,255780,0.6231932257156745,Hochspezialisierte Beschäftigte,Akademische Berufe
+60,2221,Akademische und vergleichbare Krankenpflegefachkräfte,34700,0.08454454973936158,Hochspezialisierte Beschäftigte,Akademische Berufe
+61,2222,Akademische und vergleichbare Geburtshilfefachkräfte,25800,0.06286021277451091,Hochspezialisierte Beschäftigte,Akademische Berufe
+62,2230,Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin,34470,0.08398416799757331,Hochspezialisierte Beschäftigte,Akademische Berufe
+63,2240,Feldscher und vergleichbare paramedizinische Praktiker,2180,0.005311444335210612,Hochspezialisierte Beschäftigte,Akademische Berufe
+64,2250,Tierärzte,34810,0.0848125583984777,Hochspezialisierte Beschäftigte,Akademische Berufe
+65,2261,Zahnärzte,71880,0.17513147652061412,Hochspezialisierte Beschäftigte,Akademische Berufe
+66,2262,Apotheker,82100,0.20003191739485837,Hochspezialisierte Beschäftigte,Akademische Berufe
+67,2263,Akademische und vergleichbare Fachkräfte in den Bereichen Umwelt- und Arbeitsmedizin sowie Hygiene,10460,0.025485187039588537,Hochspezialisierte Beschäftigte,Akademische Berufe
+68,2264,Physiotherapeuten,198970,0.48477893549397044,Hochspezialisierte Beschäftigte,Akademische Berufe
+69,2265,Diätologen und Ernährungsberater,24430,0.05952228674733727,Hochspezialisierte Beschäftigte,Akademische Berufe
+70,2266,Audiologen und Sprachtherapeuten,38950,0.09489942975066668,Hochspezialisierte Beschäftigte,Akademische Berufe
+71,2267,Optometristen und Orthoptisten,2540,0.006188563583227044,Hochspezialisierte Beschäftigte,Akademische Berufe
+72,2269,"Akademische und verwandte Gesundheitsberufe, anderweitig nicht genannt",92120,0.2244450697979824,Hochspezialisierte Beschäftigte,Akademische Berufe
+73,2310,Universitäts- und Hochschullehrer,307650,0.7495714907007086,Hochspezialisierte Beschäftigte,Akademische Berufe
+74,2320,Lehrkräfte im Bereich Berufsbildung,254960,0.6211953429840815,Hochspezialisierte Beschäftigte,Akademische Berufe
+75,2330,Lehrkräfte im Sekundarbereich,582590,1.4194469519497022,Hochspezialisierte Beschäftigte,Akademische Berufe
+76,2341,Lehrkräfte im Primarbereich,216800,0.5282207026943397,Hochspezialisierte Beschäftigte,Akademische Berufe
+77,2342,Lehrkräfte und Erzieher im Vorschulbereich,713940,1.7394736553579193,Hochspezialisierte Beschäftigte,Akademische Berufe
+78,2351,Pädagogik- und Didaktikspezialisten,50450,0.12291851684008044,Hochspezialisierte Beschäftigte,Akademische Berufe
+79,2352,Lehrkräfte im Bereich Sonderpädagogik,124220,0.30265486941278086,Hochspezialisierte Beschäftigte,Akademische Berufe
+80,2353,Sonstige Sprachlehrer,18290,0.04456253068394592,Hochspezialisierte Beschäftigte,Akademische Berufe
+81,2354,Sonstige Musiklehrer,39810,0.0969947701764837,Hochspezialisierte Beschäftigte,Akademische Berufe
+82,2355,Sonstige Kunstlehrer,17150,0.04178498639856055,Hochspezialisierte Beschäftigte,Akademische Berufe
+83,2356,Ausbilder im Bereich Informationstechnologie,6880,0.016762723406536246,Hochspezialisierte Beschäftigte,Akademische Berufe
+84,2359,"Lehrkräfte, anderweitig nicht genannt",76660,0.18677767098038786,Hochspezialisierte Beschäftigte,Akademische Berufe
+85,2411,"Wirtschaftsprüfer, Steuerberater und verwandte Berufe",308800,0.75237339940965,Hochspezialisierte Beschäftigte,Akademische Berufe
+86,2412,Finanz- und Anlageberater,94030,0.22909867469718065,Hochspezialisierte Beschäftigte,Akademische Berufe
+87,2413,Finanzanalysten,30120,0.0733856437507081,Hochspezialisierte Beschäftigte,Akademische Berufe
+88,2421,Akademische und vergleichbare Fachkräfte im Bereich Management- und Organisationsanalyse,411520,1.002644758177005,Hochspezialisierte Beschäftigte,Akademische Berufe
+89,2422,Akademische und vergleichbare Fachkräfte in der strategischen Planung in Politik und Wirtschaft ,111030,0.270518194742401,,Akademische Berufe
+90,2423,Berufsberater und -analytiker und akademische und vergleichbare Personalfachleute,162950,0.39701828184521526,Hochspezialisierte Beschäftigte,Akademische Berufe
+91,2424,Fachkräfte in Personalschulung und -entwicklung,26880,0.06549157051856021,Hochspezialisierte Beschäftigte,Akademische Berufe
+92,2431,Akademische und vergleichbare Fachkräfte in Werbung und Marketing,257990,0.6285777633215531,Hochspezialisierte Beschäftigte,Akademische Berufe
+93,2432,Akademische und vergleichbare Fachkräfte in der Öffentlichkeitsarbeit,46680,0.11373312915946394,Hochspezialisierte Beschäftigte,Akademische Berufe
+94,2433,"Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)",234730,0.5719061141302693,Hochspezialisierte Beschäftigte,Akademische Berufe
+95,2434,Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie,44110,0.10747147230556885,Hochspezialisierte Beschäftigte,Akademische Berufe
+96,2511,Systemanalytiker,321390,0.7830482086666691,Hochspezialisierte Beschäftigte,Akademische Berufe
+97,2512,Softwareentwickler,368500,0.8978290080390414,Hochspezialisierte Beschäftigte,Akademische Berufe
+98,2513,Web- und Multimediaentwickler,25590,0.06234855987983466,Hochspezialisierte Beschäftigte,Akademische Berufe
+99,2514,Anwendungsprogrammierer,55400,0.1349789065003064,Hochspezialisierte Beschäftigte,Akademische Berufe
+100,2519,"Entwickler und Analytiker von Software und Anwendungen, anderweitig nicht genannt",54000,0.1315678872024647,Hochspezialisierte Beschäftigte,Akademische Berufe
+101,2521,Datenbankentwickler und -administratoren,11650,0.028384553442753962,Hochspezialisierte Beschäftigte,Akademische Berufe
+102,2522,Systemadministratoren,104070,0.25356055594741667,Hochspezialisierte Beschäftigte,Akademische Berufe
+103,2523,Akademische und vergleichbare Fachkräfte für Computernetzwerke,8820,0.02148942157640257,Hochspezialisierte Beschäftigte,Akademische Berufe
+104,2529,"Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke, anderweitig nicht genannt",6250,0.01522776472250749,Hochspezialisierte Beschäftigte,Akademische Berufe
+105,2611,Anwälte,149650,0.36461359851571934,Hochspezialisierte Beschäftigte,Akademische Berufe
+106,2612,Richter,26450,0.0644439003056517,Hochspezialisierte Beschäftigte,Akademische Berufe
+107,2619,"Juristen, anderweitig nicht genannt",107430,0.26174700226223674,Hochspezialisierte Beschäftigte,Akademische Berufe
+108,2621,Archiv- und Museumswissenschaftler,19280,0.0469746086159911,Hochspezialisierte Beschäftigte,Akademische Berufe
+109,2622,Bibliothekswissenschaftler und verwandte Informationswissenschaftler,16550,0.04032312098519983,Hochspezialisierte Beschäftigte,Akademische Berufe
+110,2631,Volkswirtschaftler,15530,0.03783794978248661,Hochspezialisierte Beschäftigte,Akademische Berufe
+111,2632,"Soziologen, Anthropologen und verwandte Wissenschaftler",21440,0.05223732410408969,Hochspezialisierte Beschäftigte,Akademische Berufe
+112,2633,"Philosophen, Historiker und Politologen",8330,0.020295564822157983,Hochspezialisierte Beschäftigte,Akademische Berufe
+113,2634,Psychologen,124500,0.30333707327234916,Hochspezialisierte Beschäftigte,Akademische Berufe
+114,2635,Sozialarbeiter,412680,1.0054710313095025,Hochspezialisierte Beschäftigte,Akademische Berufe
+115,2636,"Geistliche, Seelsorger",46150,0.11244181471099529,Hochspezialisierte Beschäftigte,Akademische Berufe
+116,2641,Autoren und verwandte schriftstellerische Berufe,48790,0.11887402252978246,Hochspezialisierte Beschäftigte,Akademische Berufe
+117,2642,Journalisten,123420,0.3007057155282999,Hochspezialisierte Beschäftigte,Akademische Berufe
+118,2643,"Übersetzer, Dolmetscher und andere Linguisten",40510,0.09870027982540454,Hochspezialisierte Beschäftigte,Akademische Berufe
+119,2651,Bildende Künstler,29350,0.07150958313689516,Hochspezialisierte Beschäftigte,Akademische Berufe
+120,2652,"Musiker, Sänger und Komponisten",65070,0.15853930407897,Hochspezialisierte Beschäftigte,Akademische Berufe
+121,2653,Tänzer und Choreografen,3800,0.009258480951284552,Hochspezialisierte Beschäftigte,Akademische Berufe
+122,2654,Regisseure und Produzenten im Film- und Bühnenbereich sowie in verwandten Bereichen,35390,0.0862256949647264,Hochspezialisierte Beschäftigte,Akademische Berufe
+123,2655,Schauspieler,13390,0.03262396314150005,Hochspezialisierte Beschäftigte,Akademische Berufe
+124,2656,"Sprecher im Rundfunk, Fernsehen und sonstigen Medien",3890,0.009477760763288661,Hochspezialisierte Beschäftigte,Akademische Berufe
+125,2659,"Bildende und darstellende Künstler, anderweitig nicht genannt",7950,0.019369716727029525,Hochspezialisierte Beschäftigte,Akademische Berufe
+126,3111,Chemo- und Physikotechniker,86220,0.21007005989993532,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+127,3112,Bautechniker,175530,0.42766872667867833,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+128,3113,Elektrotechniker,82210,0.20029992605397454,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+129,3114,Techniker im Bereich Elektronik,119890,0.29210507401302765,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+130,3115,Maschinenbautechniker,213710,0.5206920958155321,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+131,3116,Chemiebetriebs- und Verfahrenstechniker,32000,0.07796615537923834,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+132,3117,Bergbau- und Hüttentechniker,20290,0.049435415395148306,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+133,3118,Technische Zeichner,116180,0.2830658728737472,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+134,3119,"Material- und ingenieurtechnische Fachkräfte, anderweitig nicht genannt",336150,0.8190100978353428,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+135,3121,Produktionsleiter im Bergbau,3410,0.008308268432600085,Anleitender Beschäftigter,Techniker und gleichrangige nichttechnische Berufe
+136,3122,Produktionsleiter bei der Herstellung von Waren,391890,0.9548173947365535,Anleitender Beschäftigter,Techniker und gleichrangige nichttechnische Berufe
+137,3123,Bauleiter,204180,0.4974728001666527,Anleitender Beschäftigter,Techniker und gleichrangige nichttechnische Berufe
+138,3131,Steuerer von Energieerzeugungsanlagen,32120,0.07825852846191049,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+139,3132,Steuerer von Verbrennungs- und Wasserbehandlungsanlagen,28590,0.06965788694663826,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+140,3133,Steuerer von chemischen Verfahrensanlagen,920,0.0022415269671531026,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+141,3134,Steurer von Erdöl- und Erdgasraffinationsanlagen,750,0.0018273317667008987,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+142,3135,Steuerer von Verfahren in der Metallerzeugung,2060,0.005019071252538468,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+143,3139,"Techniker in der Prozesssteuerung, anderweitig nicht genannt",980,0.0023877135084891745,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+144,3141,Biotechniker (ohne medizinische Fachberufe),46240,0.1126610945229994,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+145,3142,Agrartechniker,22660,0.05520978377792315,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+146,3143,Forsttechniker,17080,0.04161443543366846,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+147,3151,Technische Schiffsoffiziere,3890,0.009477760763288661,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+148,3152,"Schiffsführer, nautische Schiffsoffiziere und Schiffslotsen",14100,0.03435383721397689,Anleitender Beschäftigter,Techniker und gleichrangige nichttechnische Berufe
+149,3153,Flugzeugführer und verwandte Berufe,15520,0.0378135853589306,Anleitender Beschäftigter,Techniker und gleichrangige nichttechnische Berufe
+150,3154,Flugverkehrslotsen,5110,0.012450220437122123,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+151,3155,Flugsicherungstechniker,800,0.0019491538844809587,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+152,3211,Medizintechniker im Bereich bildgebende Verfahren und Therapiegeräte,35760,0.08712717863629885,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+153,3212,Medizintechniker im Bereich Labor und Pathologie,50000,0.12182211778005991,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+154,3213,Pharmazeutisch-technische Assistenten,86530,0.2108253570301717,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+155,3214,Medizinische und zahnmedizinische Prothetiktechniker,79400,0.19345352303473515,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+156,3221,Nicht akademische Krankenpflegefachkräfte,1197330,2.9172255256319826,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+157,3222,Nicht akademische Geburtshilfefachkräfte,1590,0.003873943345405905,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+158,3230,Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin,1030,0.002509535626269234,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+159,3240,Veterinärmedizinische Fachkräfte und Assistenten,8230,0.02005192058659786,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+160,3251,Zahnmedizinische Assistenten und Dentalhygieniker,204600,0.4984961059560052,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+161,3252,Fachkräfte im Bereich medizinische Dokumentation und Information,13150,0.032039216976155756,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+162,3253,Fachkräfte in der öffentlichen Gesundheitsfürsorge,7380,0.01798094458433684,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+163,3254,Augenoptiker,54510,0.1328104728038213,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+164,3255,Physiotherapeutische Techniker und Assistenten,43930,0.10703291268156065,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+165,3256,Medizinische Assistenten,516790,1.2591290449511434,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+166,3257,Nicht akademische Kontrolleure und Beauftragte in den Bereichen Umwelt- und Arbeitsmedizin sowie verwandte Berufe,100670,0.24527665193837264,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+167,3258,Rettungsdienstpersonal,80700,0.19662089809701672,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+168,3259,"Assistenzberufe im Gesundheitswesen, anderweitig nicht genannt",14370,0.03501167664998922,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+169,3311,"Wertpapierhändler, -makler und Finanzmakler",48370,0.11785071674042995,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+170,3312,Kreditsachbearbeiter,73420,0.17888359774823998,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+171,3313,Nicht akademische Fachkräfte im Rechnungswesen,431830,1.0521289024192655,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+172,3314,"Nicht akademische statistische, mathematische und verwandte Fachkräfte",870,0.0021197048493730424,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+173,3315,Schätzer und Schadensgutachter,8240,0.020076285010153874,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+174,3321,Versicherungsvertreter,181570,0.44238483850650956,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+175,3322,Vertriebsagenten,497880,1.2130559200067246,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+176,3323,Einkäufer,127150,0.30979364551469235,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+177,3324,Handelsmakler,4020,0.009794498269516817,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+178,3331,Fachkräfte für Abrechnungs- und Speditionsdienstleistungen,52360,0.12757212173927873,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+179,3332,Konferenz- und Veranstaltungsplaner,58100,0.1415573008604296,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+180,3333,Arbeits- und Personalvermittler,59070,0.14392064994536277,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+181,3334,Immobilienmakler und -verwalter,214640,0.5229579872062412,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+182,3339,"Fachkräfte für unternehmensbezogene Dienstleistungen, anderweitig nicht genannt",21100,0.051408933703185285,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+183,3341,Sekretariatsleiter,478400,1.1655940229196133,Anleitender Beschäftigter,Techniker und gleichrangige nichttechnische Berufe
+184,3342,Sekretariatsfachkräfte im juristischen Bereich,135090,0.32913899781816586,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+185,3343,Sekretariatsfachkräfte in Verwaltung und Geschäftsleitung,362980,0.8843798462361229,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+186,3344,Sekretariatsfachkräfte im Gesundheitswesen,170640,0.4157545235597884,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+187,3351,Fachkräfte im Zolldienst und Grenzschutz,44600,0.10866532905981345,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+188,3352,Fachkräfte in der Steuerverwaltung,87810,0.2139440032453412,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+189,3353,Fachkräfte in Sozialverwaltung und -versicherung,159210,0.3879059874352668,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+190,3354,"Fachkräfte bei staatlichen Pass-, Lizenz- und Genehmigungsstellen",4890,0.01191420311888986,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+191,3355,Polizeikommissare und Kriminalbeamte,80410,0.19591432981389237,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+192,3359,"Fachkräfte in der öffentlichen Verwaltung, anderweitig nicht genannt",17710,0.04314939411769722,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+193,3411,Nicht akademische Fachkräfte für Rechts- und verwandte Angelegenheiten,68760,0.1675297763711384,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+194,3412,Nicht akademische sozialpflegerische Fachkräfte,249400,0.6076487234869388,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+195,3413,Ordensbrüder/-schwestern und Seelsorgehelfer,5740,0.013985179121150878,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+196,3421,Athleten und Berufssportler,10370,0.025265907227584424,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+197,3422,"Sportlehrer, Sporttrainer und Sportfunktionäre",65790,0.16029354257500283,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+198,3423,Trainer und Betreuer im Bereich Fitness und Erholung,92230,0.2247130784570985,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+199,3431,Fotografen,37440,0.09122040179370887,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+200,3432,Raumgestalter und Dekorateure,38500,0.09380303069064613,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+201,3433,"Fachkräfte in Kunstgalerien, Museen und Bibliotheken",12570,0.030626080409907063,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+202,3434,Küchenchefs,35060,0.08542166898737802,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+203,3435,Sonstige Fachkräfte in Gestaltung und Kultur,59060,0.14389628552180675,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+204,3511,Techniker für den Betrieb von Informations- und Kommunikationstechnologie,9920,0.02416950816756389,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+205,3512,Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie,152880,0.3724833073243112,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+206,3513,Techniker für Computernetzwerke und -systeme,94800,0.23097473531099358,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+207,3514,Webmaster,10580,0.025777560122260675,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+208,3521,Techniker für Rundfunk und audiovisuelle Medien,32890,0.0801345890757234,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+209,3522,Telekommunikationstechniker,12810,0.03121082657525135,Hochspezialisierte Beschäftigte,Techniker und gleichrangige nichttechnische Berufe
+210,4110,Allgemeine Bürokräfte,455790,1.1105060612594702,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+211,4120,Sekretariatskräfte (allgemein),1776950,4.329436243785549,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+212,4131,Schreibkräfte und Bediener von Textverarbeitungsanlagen,12340,0.030065698668118788,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+213,4132,Datenerfasser,9480,0.02309747353109936,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+214,4211,Bank- und andere Schalterbedienstete,357140,0.870151022879412,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+215,4212,"Buchmacher, Croupiers und verwandte Berufe im Bereich Glücks- und Wettspiele",9190,0.02239090524797501,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+216,4213,Pfandleiher und Geldverleiher,340,0.0008283904009044074,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+217,4214,Inkassobeauftragte und verwandte Berufe,2710,0.006602758783679248,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+218,4221,Reiseverkehrsfachkräfte,74390,0.18124694683317313,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+219,4222,Kundeninformationsfachkräfte in Call Centers,61520,0.1498899337165857,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+220,4223,Telefonisten,22240,0.054186477988570646,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+221,4224,Hotelrezeptionisten,69270,0.168772361972495,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+222,4225,Auskunftspersonal,7260,0.0176885715016647,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+223,4227,Interviewer im Bereich Umfragen und Marktforschung,4580,0.011158905988653487,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+224,4311,Bürokräfte im Rechnungswesen und in der Buchhaltung,359730,0.8764614085804191,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+225,4312,"Bürokräfte in der Statistik, im Finanz- und Versicherungswesen",39740,0.09682421921159162,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+226,4313,Bürokräfte in der Lohnbuchhaltung,4370,0.010647253093977236,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+227,4321,Fachkräfte in der Lagerwirtschaft,652740,1.5903633831951263,Industriearbeiter,Bürokräfte und verwandte Berufe
+228,4322,Bürokräfte in der Material- und Fertigungsplanung und verwandte Berufe,263140,0.6411254414528993,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+229,4323,Bürokräfte in der Transportwirtschaft und verwandte Berufe,225570,0.5495883021529623,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+230,4411,Bibliotheksassistenten,20300,0.04945977981870432,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+231,4412,Postverteiler und -sortierer,200500,0.4885066922980403,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+232,4413,"Kodierer, Korrekturleser und verwandte Bürokräfte",9310,0.022683278330647157,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+233,4415,Bürokräfte für Registratur und Dokumentation,12190,0.029700232314778606,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+234,4416,Bürokräfte im Personalwesen,136380,0.33228200845689143,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+235,4419,"Bürokräfte und verwandte Berufe, anderweitig nicht genannt",96620,0.23540906039818776,Dienstleistungsarbeiter,Bürokräfte und verwandte Berufe
+236,5111,Reisebegleiter und Stewards,25540,0.062226737762054604,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+237,5112,Schaffner,19470,0.04743753266355533,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+238,5113,Reiseleiter/Fremdenführer,12310,0.029992605397450748,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+239,5120,Köche,258670,0.6302345441233619,Industriearbeiter,Dienstleistungsberufe und Verkäufer
+240,5131,Kellner,475400,1.1582846958528097,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+241,5132,Barkeeper,46760,0.11392804454791203,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+242,5141,Friseure,208700,0.5084855196139701,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+243,5142,Kosmetiker und verwandte Berufe,96850,0.23596944213997603,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+244,5151,"Reinigungs- und Hauswirtschaftsleiter in Büros, Hotels und anderen Einrichtungen",86180,0.2099726022057113,Anleitender Beschäftigter,Dienstleistungsberufe und Verkäufer
+245,5152,Hauswirtschafter in Privathaushalten,165070,0.4021835396390898,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+246,5153,Hauswarte,359780,0.8765832306981991,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+247,5161,"Astrologen, Wahrsager und verwandte Berufe",650,0.001583687531140779,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+248,5163,Bestatter und Einbalsamierer,19760,0.04814410094667968,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+249,5164,Tierpfleger und -betreuer,65590,0.15980625410388258,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+250,5165,Fahrschullehrer,32610,0.07945238521615508,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+251,5169,"Berufe im Bereich personenbezogener Dienstleistungen, anderweitig nicht genannt",930,0.0022658913907091143,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+252,5211,Verkaufsstand- und Marktverkäufer,10710,0.026094297628488833,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+253,5221,Leiter eines Einzelhandelsgeschäftes,74610,0.1817829641514054,Anleitender Beschäftigter,Dienstleistungsberufe und Verkäufer
+254,5222,Verkaufsaufsichtskräfte in Handelsgeschäften,38320,0.09336447106663791,Anleitender Beschäftigter,Dienstleistungsberufe und Verkäufer
+255,5223,Verkäufer und Verkaufshilfskräfte in Handelsgeschäften,2096790,5.1087079668010364,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+256,5230,Kassierer und Kartenverkäufer,165160,0.4024028194510939,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+257,5241,Mannequins/Dressmen und sonstige Modelle,1200,0.002923730826721438,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+258,5242,Produktvorführer,5100,0.01242585601356611,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+259,5244,Telefonverkäufer,16720,0.04073731618565204,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+260,5245,Tankwarte,26600,0.06480936665899188,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+261,5246,Imbissverkäufer,82660,0.20139632511399505,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+262,5249,"Verkaufskräfte, anderweitig nicht genannt",9760,0.023779677390667695,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+263,5311,Kinderbetreuer,221340,0.5392821509887692,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+264,5312,Lernbetreuer,70030,0.17062405816275192,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+265,5321,Pflegehelfer,292030,0.7115142611062178,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+266,5322,Haus- und Familienpfleger,292210,0.7119528207302261,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+267,5329,"Betreuungsberufe im Gesundheitswesen, anderweitig nicht genannt",13300,0.03240468332949594,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+268,5411,Feuerwehrleute,56670,0.1380731882919199,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+269,5412,Polizisten (ohne Polizeikommissare),189860,0.4625829456344435,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+270,5413,Gefängnisaufseher,27310,0.06653924073146872,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+271,5414,Sicherheitswachpersonal,160920,0.3920723038633448,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+272,5419,"Schutzkräfte und Sicherheitsbedienstete, anderweitig nicht genannt",32860,0.08006149580505538,Dienstleistungsarbeiter,Dienstleistungsberufe und Verkäufer
+273,6111,Ackerbauern und Gemüseanbauer,12030,0.029310401537882416,Industriearbeiter,Landwirtschaftliche Berufe
+274,6112,Baum- und Strauchfrüchteanbauer,16320,0.03976273924341155,Industriearbeiter,Landwirtschaftliche Berufe
+275,6113,"Gärtner, Saat- und Pflanzenzüchter",257700,0.6278711950384288,Industriearbeiter,Landwirtschaftliche Berufe
+276,6121,Nutztierhalter (ohne Geflügel) und Milchproduzenten,28390,0.06917059847551803,Industriearbeiter,Landwirtschaftliche Berufe
+277,6122,Geflügelhalter,2810,0.006846403019239367,Industriearbeiter,Landwirtschaftliche Berufe
+278,6123,Imker und Seidenraupenzüchter,1870,0.004556147204974241,Industriearbeiter,Landwirtschaftliche Berufe
+279,6129,"Tierhalter, anderweitig nicht genannt",390,0.0009502125186844673,Industriearbeiter,Landwirtschaftliche Berufe
+280,6130,Landwirte mit Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt),211370,0.5149908207034253,Industriearbeiter,Landwirtschaftliche Berufe
+281,6210,Forstarbeitskräfte und verwandte Berufe,19650,0.047876092287563544,Industriearbeiter,Landwirtschaftliche Berufe
+282,6221,Fachkräfte im Bereich Aquakultur,1360,0.0033135616036176294,Industriearbeiter,Landwirtschaftliche Berufe
+283,6222,Binnen- und Küstenfischer,2230,0.005433266452990672,Industriearbeiter,Landwirtschaftliche Berufe
+284,6223,Hochseefischer,0,0.0,Industriearbeiter,Landwirtschaftliche Berufe
+285,7111,Rohbaufacharbeiter im Hochbau,22000,0.05360173182322636,Industriearbeiter,Handwerks- und verwandte Berufe
+286,7112,Maurer und verwandte Berufe,144180,0.35128625883058073,Industriearbeiter,Handwerks- und verwandte Berufe
+287,7113,"Steinmetze, Steinspalter, -bearbeiter und Steinbildhauer",15960,0.038885619995395124,Industriearbeiter,Handwerks- und verwandte Berufe
+288,7114,"Betonierer, Betonoberflächenfertiger und verwandte Berufe",90250,0.21988892259300813,Industriearbeiter,Handwerks- und verwandte Berufe
+289,7115,Zimmerleute und Bautischler,118280,0.28818240182050975,Industriearbeiter,Handwerks- und verwandte Berufe
+290,7119,"Baukonstruktions- und verwandte Berufe, anderweitig nicht genannt",28040,0.0683178436510576,Industriearbeiter,Handwerks- und verwandte Berufe
+291,7121,Dachdecker,69030,0.16818761580715072,Industriearbeiter,Handwerks- und verwandte Berufe
+292,7122,Boden- und Fliesenleger,87420,0.21299379072665675,Industriearbeiter,Handwerks- und verwandte Berufe
+293,7123,Stuckateure,97080,0.23652982388176433,Industriearbeiter,Handwerks- und verwandte Berufe
+294,7124,Isolierer,10690,0.026045568781376812,Industriearbeiter,Handwerks- und verwandte Berufe
+295,7125,Glaser,13300,0.03240468332949594,Industriearbeiter,Handwerks- und verwandte Berufe
+296,7126,Bauspengler und Sanitär- und Heizungsinstallateure,224340,0.5465914780555728,Industriearbeiter,Handwerks- und verwandte Berufe
+297,7127,Klima- und Kälteanlagenbauer,22620,0.055112326083699106,Industriearbeiter,Handwerks- und verwandte Berufe
+298,7131,Maler und verwandte Berufe,133750,0.3258741650616603,Industriearbeiter,Handwerks- und verwandte Berufe
+299,7132,Lackierer und verwandte Berufe,67030,0.16331473109594832,Industriearbeiter,Handwerks- und verwandte Berufe
+300,7133,Fassadenreiniger und Schornsteinfeger/Rauchfangkehrer,16550,0.04032312098519983,Dienstleistungsarbeiter,Handwerks- und verwandte Berufe
+301,7211,Former und Kernmacher (für Metallguss),6320,0.015398315687399574,Industriearbeiter,Handwerks- und verwandte Berufe
+302,7212,Schweißer und Brennschneider,109830,0.2675944639156796,Industriearbeiter,Handwerks- und verwandte Berufe
+303,7213,Blechkaltverformer,49380,0.12031152351958717,Industriearbeiter,Handwerks- und verwandte Berufe
+304,7214,Baumetallverformer und Metallbauer,119880,0.29208070958947163,Industriearbeiter,Handwerks- und verwandte Berufe
+305,7215,Verspannungsmonteure und Seilspleißer,0,0.0,Industriearbeiter,Handwerks- und verwandte Berufe
+306,7221,"Grobschmiede, Hammerschmiede und Schmiedepresser",14030,0.034183286249084816,Industriearbeiter,Handwerks- und verwandte Berufe
+307,7222,Werkzeugmechaniker und verwandte Berufe,158000,0.3849578921849893,Industriearbeiter,Handwerks- und verwandte Berufe
+308,7223,Werkzeugmaschineneinrichter und -bediener,412030,1.0038873437783618,Industriearbeiter,Handwerks- und verwandte Berufe
+309,7224,"Metallpolierer, Rundschleifer und Werkzeugschärfer",29380,0.0715826764075632,Industriearbeiter,Handwerks- und verwandte Berufe
+310,7231,Kraftfahrzeugmechaniker und -schlosser,353740,0.8618671188703679,Industriearbeiter,Handwerks- und verwandte Berufe
+311,7232,Flugmotorenmechaniker und -schlosser,19490,0.04748626151066736,Industriearbeiter,Handwerks- und verwandte Berufe
+312,7233,Landmaschinen- und Industriemaschinenmechaniker und -schlosser,618310,1.506476672891777,Industriearbeiter,Handwerks- und verwandte Berufe
+313,7234,Fahrradmechaniker und verwandte Berufe,21480,0.05233478179831373,Industriearbeiter,Handwerks- und verwandte Berufe
+314,7311,Präzisionsinstrumentenmacher und -instandsetzer,52080,0.1268899178797104,Industriearbeiter,Handwerks- und verwandte Berufe
+315,7312,Musikinstrumentenbauer und -stimmer,5220,0.012718229096238255,Industriearbeiter,Handwerks- und verwandte Berufe
+316,7313,Schmuckwarenhersteller und Edelmetallbearbeiter,10370,0.025265907227584424,Industriearbeiter,Handwerks- und verwandte Berufe
+317,7314,Keramiker und verwandte Berufe,5350,0.013034966602466412,Industriearbeiter,Handwerks- und verwandte Berufe
+318,7315,"Glasmacher, -schneider, -schleifer und -veredler",3810,0.009282845374840566,Industriearbeiter,Handwerks- und verwandte Berufe
+319,7316,"Schildermaler, Dekormaler, Graveure und Ätzer",15610,0.0380328651709347,Industriearbeiter,Handwerks- und verwandte Berufe
+320,7317,"Kunsthandwerkliche Berufe für Holz, Korbwaren und verwandte Materialien",3650,0.008893014597944374,Industriearbeiter,Handwerks- und verwandte Berufe
+321,7318,"Kunsthandwerkliche Berufe für Textilien, Leder und verwandte Materialien",2580,0.006286021277451092,Industriearbeiter,Handwerks- und verwandte Berufe
+322,7319,"Kunsthandwerkliche Berufe, anderweitig nicht genannt",3890,0.009477760763288661,Industriearbeiter,Handwerks- und verwandte Berufe
+323,7321,Techniker in der Druckvorstufe,73650,0.17944397949002824,Industriearbeiter,Handwerks- und verwandte Berufe
+324,7322,Drucker,50520,0.12308906780497254,Industriearbeiter,Handwerks- und verwandte Berufe
+325,7323,Berufe in der Druckweiterverarbeitung und Buchbinder,9480,0.02309747353109936,Industriearbeiter,Handwerks- und verwandte Berufe
+326,7411,Bauelektriker und verwandte Berufe,242230,0.5901794317972783,Industriearbeiter,Handwerks- und verwandte Berufe
+327,7412,Elektromechaniker und verwandte Berufe,183730,0.44764755399460815,Industriearbeiter,Handwerks- und verwandte Berufe
+328,7413,Elektroleitungsinstallateure und Wartungspersonal,10290,0.025070991839136327,Industriearbeiter,Handwerks- und verwandte Berufe
+329,7421,Elektroniker und Elektronik-Servicetechniker,120380,0.29329893076727226,Industriearbeiter,Handwerks- und verwandte Berufe
+330,7422,Installateure und Servicetechniker im Bereich Informations- und Kommunikationstechnik,156210,0.3805966603684632,Industriearbeiter,Handwerks- und verwandte Berufe
+331,7511,"Fleischer, Fischhändler und -verarbeiter und verwandte Berufe",71480,0.17415689957837366,Industriearbeiter,Handwerks- und verwandte Berufe
+332,7512,"Bäcker, Konditoren und Konfektmacher",72480,0.17659334193397483,Industriearbeiter,Handwerks- und verwandte Berufe
+333,7513,Molkerei- und Käsereifachkräfte,2440,0.005944919347666924,Industriearbeiter,Handwerks- und verwandte Berufe
+334,7514,Obst- und Gemüsekonservierer und verwandte Berufe,0,0.0,Industriearbeiter,Handwerks- und verwandte Berufe
+335,7515,Nahrungsmittel- und Getränkekoster und -klassierer,900,0.0021927981200410783,Dienstleistungsarbeiter,Handwerks- und verwandte Berufe
+336,7516,Tabakaufbereiter und Tabakwarenmacher,0,0.0,Industriearbeiter,Handwerks- und verwandte Berufe
+337,7521,Holztrockner und -konservierer,0,0.0,Industriearbeiter,Handwerks- und verwandte Berufe
+338,7522,Möbeltischler und verwandte Berufe,197740,0.481782111396581,Industriearbeiter,Handwerks- und verwandte Berufe
+339,7523,Einrichter und Bediener von Holzbearbeitungsmaschinen,36200,0.08819921327276338,Industriearbeiter,Handwerks- und verwandte Berufe
+340,7531,"Herren- und Damenschneider, Kürschner und Hutmacher",26540,0.0646631801176558,Industriearbeiter,Handwerks- und verwandte Berufe
+341,7532,Schnittmustermacher und Zuschneider,1280,0.003118646215169534,Industriearbeiter,Handwerks- und verwandte Berufe
+342,7533,"Näher, Sticker und verwandte Berufe",20950,0.051043467349845106,Industriearbeiter,Handwerks- und verwandte Berufe
+343,7534,Polsterer und verwandte Berufe,14510,0.03535277857977338,Industriearbeiter,Handwerks- und verwandte Berufe
+344,7535,"Pelzveredler, Gerber und Fellzurichter",960,0.00233898466137715,Industriearbeiter,Handwerks- und verwandte Berufe
+345,7536,Schuhmacher und verwandte Berufe,11670,0.028433282289865986,Industriearbeiter,Handwerks- und verwandte Berufe
+346,7541,Taucher,780,0.0019004250373689346,Dienstleistungsarbeiter,Handwerks- und verwandte Berufe
+347,7542,Sprengmeister und Sprengbeauftragte,2770,0.0067489453250153195,Industriearbeiter,Handwerks- und verwandte Berufe
+348,7543,Produkttester und -klassierer (ohne Nahrungsmittel und Getränke),155920,0.37989009208533886,Dienstleistungsarbeiter,Handwerks- und verwandte Berufe
+349,7544,Kammerjäger und andere Schädlingsbekämpfungsberufe,3600,0.008771192480164313,Dienstleistungsarbeiter,Handwerks- und verwandte Berufe
+350,7549,"Handwerks- und verwandte Berufe, anderweitig nicht genannt",65880,0.16051282238700693,Industriearbeiter,Handwerks- und verwandte Berufe
+351,8111,Bergleute und Grubenarbeiter,12340,0.030065698668118788,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+352,8112,Bediener von Mineral- und Gesteinsaufbereitungsanlagen,54670,0.13320030358071752,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+353,8113,Tiefbohrer und verwandte Berufe,4700,0.011451279071325633,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+354,8114,"Bediener von Maschinen zur Herstellung und Verarbeitung von Zement, Steinen und sonstigen Mineralien",20290,0.049435415395148306,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+355,8121,Bediener von Anlagen in der Metallerzeugung und -umformung,55800,0.13595348344254685,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+356,8122,"Bediener von Anlagen zur Metallveredlung, Plattierung und Beschichtung von Metallen",34930,0.08510493148114986,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+357,8131,Bediener von Anlagen und Maschinen für chemische Erzeugnisse,111740,0.2722480688148779,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+358,8132,Bediener von Anlagen für fotografische Erzeugnisse,5170,0.012596406978458196,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+359,8141,Bediener von Maschinen zur Herstellung von Gummiwaren,7930,0.0193209878799175,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+360,8142,Bediener von Maschinen zur Herstellung von Kunststoffwaren,58880,0.14345772589779857,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+361,8143,Bediener von Maschinen zur Herstellung von Papierwaren,45900,0.11183270412209499,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+362,8151,"Bediener von Spinnstoffaufbereitungs-, Spinn- und Spulmaschinen",2310,0.005628181841438768,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+363,8152,"Bediener von Web-, Strick- und Wirkmaschinen",13650,0.033257438153956355,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+364,8153,Bediener von Nähmaschinen,10530,0.025655738004480615,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+365,8154,Bediener von Bleich- und Färbemaschinen,6790,0.016543443594532133,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+366,8155,Bediener von Pelz- und Lederzurichtungs- und -vorbereitungsmaschinen,600,0.001461865413360719,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+367,8156,Bediener von Maschinen zur Schuhherstellung und verwandte Berufe,3800,0.009258480951284552,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+368,8157,Bediener von Wäschereimaschinen,40710,0.09918756829652478,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+369,8159,"Bediener von Maschinen zur Herstellung von Textil-, Pelz- und Lederwaren, anderweitig nicht genannt",4760,0.011597465612661704,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+370,8160,Bediener von Maschinen zur Herstellung von Nahrungs- und Genussmitteln,71110,0.1732554159068012,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+371,8171,Bediener von Anlagen zur Zellstoff- und Papierherstellung,19210,0.04680405765109902,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+372,8172,Bediener von Anlagen zur Holzaufbereitung,11380,0.027726714006741638,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+373,8181,Bediener von Anlagen zur Glas- und Keramikherstellung,26900,0.06554029936567224,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+374,8182,Bediener von Dampfmaschinen und -kesseln,7990,0.019467174421253574,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+375,8183,"Bediener von Verpackungs-, Abfüll- und Etikettiermaschinen",74890,0.18246516801097373,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+376,8189,"Bediener stationärer Anlagen und Maschinen, anderweitig nicht genannt",157360,0.38339856907740455,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+377,8211,Berufe der Montage von mechanischen Bauteilen,77630,0.18914102006532102,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+378,8212,Berufe der Montage von elektrischen und elektronischen Geräten,48360,0.11782635231687394,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+379,8219,"Montageberufe, anderweitig nicht genannt",1070,0.0026069933204932822,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+380,8311,Lokomotivführer,48390,0.11789944558754199,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+381,8312,"Bediener von Sicherungs-, Signal- und Leittechnik im Schienennetzbetrieb",15620,0.03805722959449072,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+382,8322,"Personenkraftwagen-, Taxi-, Kleintransporter- und Kleinbusfahrer ",353810,0.8620376698352599,,Bediener von Anlagen und Maschinen und Montageberufe
+383,8331,Busfahrer und Straßenbahnführer,151610,0.36938902553269765,Dienstleistungsarbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+384,8332,Fahrer schwerer Lastkraftwagen,460390,1.1217136960952356,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+385,8341,Führer von mobilen land- und forstwirtschaftlichen Maschinen,12790,0.031162097728139326,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+386,8342,Führer von Erdbewegungs- und verwandten Maschinen,115560,0.28155527861327445,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+387,8343,"Kranführer, Aufzugmaschinisten und Bediener verwandter Hebeeinrichtungen",34560,0.0842034478095774,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+388,8344,Gabelstaplerfahrer und verwandte Berufe,111000,0.270445101471733,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+389,8350,Deckspersonal auf Schiffen und verwandte Berufe,2090,0.005092164523206505,Industriearbeiter,Bediener von Anlagen und Maschinen und Montageberufe
+390,9111,Reinigungspersonal und Hilfskräfte in Privathaushalten,181790,0.44292085582474183,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+391,9112,"Reinigungspersonal und Hilfskräfte in Büros, Hotels und anderen Einrichtungen",895960,2.1829548929244496,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+392,9121,Handwäscher und Handbügler,2160,0.005262715488098588,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+393,9122,Fahrzeugreiniger,13580,0.03308688718906427,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+394,9123,Fensterputzer,6690,0.016299799358972016,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+395,9129,Sonstiges Reinigungspersonal,31520,0.07679666304854978,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+396,9211,Hilfsarbeiter im Ackerbau,15310,0.037301932464254346,Industriearbeiter,Hilfsarbeitskräfte
+397,9212,Hilfsarbeiter in der Tierhaltung,10130,0.024681161062240137,Industriearbeiter,Hilfsarbeitskräfte
+398,9213,Hilfsarbeiter in Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt),73720,0.17961453045492035,Industriearbeiter,Hilfsarbeitskräfte
+399,9214,Hilfsarbeiter im Gartenbau,76880,0.1873136882986201,Industriearbeiter,Hilfsarbeitskräfte
+400,9215,Hilfsarbeiter in der Forstwirtschaft,7830,0.01907734364435738,Industriearbeiter,Hilfsarbeitskräfte
+401,9216,Hilfsarbeiter in der Fischerei und Aquakultur,940,0.0022902558142651264,Industriearbeiter,Hilfsarbeitskräfte
+402,9311,Hilfsarbeiter im Bergbau und in der Gewinnung von Steinen und Erden,2340,0.005701275112106804,Industriearbeiter,Hilfsarbeitskräfte
+403,9312,Hilfsarbeiter im Tiefbau,95370,0.23236350745368628,Industriearbeiter,Hilfsarbeitskräfte
+404,9313,Hilfsarbeiter im Hochbau,113980,0.27770569969142456,Industriearbeiter,Hilfsarbeitskräfte
+405,9321,Verpacker,108450,0.26423217346495,Industriearbeiter,Hilfsarbeitskräfte
+406,9329,"Hilfsarbeiter bei der Herstellung von Waren, anderweitig nicht genannt",314140,0.7653840015885603,Industriearbeiter,Hilfsarbeitskräfte
+407,9331,Führer von Handwagen und pedalbetriebenen Fahrzeugen,5330,0.012986237755354386,Industriearbeiter,Hilfsarbeitskräfte
+408,9332,Führer von Fahrzeugen und Maschinen mit Zugtierantrieb,1260,0.0030699173680575095,Industriearbeiter,Hilfsarbeitskräfte
+409,9333,Frachtarbeiter und verwandte Berufe,360140,0.8774603499462155,Industriearbeiter,Hilfsarbeitskräfte
+410,9334,Regalbetreuer und -auffüller,109200,0.26605950523165084,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+411,9411,Zubereiter von Fast Food und anderen Imbissen,17130,0.041736257551448525,Industriearbeiter,Hilfsarbeitskräfte
+412,9412,Küchenhilfen,250270,0.6097684283363118,Industriearbeiter,Hilfsarbeitskräfte
+413,9510,Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe,930,0.0022658913907091143,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+414,9611,Arbeiter in der Abfall- und Wertstoffsammlung,20910,0.05094600965562105,Industriearbeiter,Hilfsarbeitskräfte
+415,9612,Arbeiter in der Abfallsortierung,32280,0.07864835923880668,Industriearbeiter,Hilfsarbeitskräfte
+416,9613,Straßenkehrer und verwandte Berufe,6760,0.0164703503238641,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+417,9621,"Boten, Paketauslieferer und Gepäckträger",157600,0.38398331524274887,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+418,9622,Gelegenheitsarbeiter,690,0.0016811452253648266,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+419,9623,"Zählerableser, Automatenbefüller und -kassierer",9010,0.021952345623966796,Dienstleistungsarbeiter,Hilfsarbeitskräfte
+420,9629,"Hilfsarbeitskräfte, anderweitig nicht genannt",74020,0.1803454631616007,Dienstleistungsarbeiter,Hilfsarbeitskräfte
