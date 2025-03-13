@@ -3,99 +3,158 @@ import pandas as pd
 from typing import List, Dict, Optional, Any
 from openpyxl import load_workbook
 import plotly.express as px
+import plotly.graph_objs as go
+import plotly.io as pio
 from pathlib import Path
 
+#how the side appears in the browser
+st.set_page_config(page_title="Klassenanalyse",layout="wide")
 
 
-def clean_group(df: pd.DataFrame,bundesländer_cols:list) -> pd.DataFrame:
-   # Replace '/' with '0' and convert 'Insgesamt' column to integer
-   df = df.replace('/', '0')
-   df['Insgesamt'] = df['Insgesamt'].astype(int)
-   
-   # Calculate the total and percentage
-   total = df['Insgesamt'].iloc[0]
-   df['percent'] = (df['Insgesamt'] / total) * 100
-   
-   # Drop unnecessary columns and the first row
-   df = df.drop(columns=bundesländer_cols)
-   df = df.drop(index=0)
-   
-   return df
-
-@st.cache_data()
-def read_data(file_path: str) -> (Dict[str, pd.DataFrame], List[str]):
-
-    def load_sheets(file_path: str, sheet_names: List[str], header: int = 3) -> Dict[str, pd.DataFrame]:
-        return {name: pd.read_excel(file_path, sheet_name=name, header=header) for name in sheet_names}
+def set_up_data():
+    path_digiclass = "/Users/leonardhaas/code/streamlit/data/processed_data/added_digiclass.csv"
+    #Path(__file__).parent / "data/processed_data/added_digiclass.csv"
+    digiclass_data = pd.read_csv(path_digiclass,index_col=0)
     
-    sheet_names = pd.ExcelFile(file_path).sheet_names
-    sheet_data = load_sheets(file_path, sheet_names[3:7])
-    return sheet_data, sheet_names
-
-def build_data_frames():
-
-    path = Path(__file__).parent / "data/raw_data/Zensus22_Sonderauswertung_Haas.xlsx"
+    path_livingstone = "/Users/leonardhaas/code/streamlit/data/processed_data/isco_livingstone.csv"
+    #Path(__file__).parent / "data/processed_data/isco_livingstone.csv"
+    livingstone_data = pd.read_csv(path_livingstone, index_col=0)  # This was loading digiclass_data again
     
-    #'data/'
+    merged_data = pd.merge(digiclass_data, livingstone_data, left_on='ISCO.Code', right_on='ISCO-Code')
+    merged_data.drop(columns=['ISCO.Code'], inplace=True)
+    return merged_data
+
+
+livingstone_data = set_up_data()
+
+# Only update the rows where Stellung.im.Beruf has specific values
+# Change 'Selbstständige ohne Beschäftigte' to 'Selbstständige'
+livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige ohne Beschäftigte', 'modifiziert_livingstone'] = 'Selbstständige'
+
+# Keep 'Selbstständige mit Beschäftigten' as is 
+# (this line isn't necessary if you don't need to change it, but included for clarity)
+livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige mit Beschäftigten', 'modifiziert_livingstone'] = 'Selbstständige mit Beschäftigten'
+
+# TODO fix nans (Offiziere)
+livingstone_data_clean = livingstone_data.dropna(subset=["modifiziert_livingstone"])
+
+# Calculate percentages for each class (aggregating by modifiziert_livingstone)
+class_totals = livingstone_data.groupby('modifiziert_livingstone')['Anzahl'].sum().reset_index()
+total_sum = class_totals['Anzahl'].sum()
+class_totals['Percent'] = (class_totals['Anzahl'] / total_sum * 100).round(1)
+
+# Merge the percentages back to the main dataframe
+livingstone_data = pd.merge(
+    livingstone_data, 
+    class_totals[['modifiziert_livingstone', 'Percent']], 
+    on='modifiziert_livingstone', 
+    how='left'
+)
+
+# Define the specific order you want
+fraktion_order = [
+    "Selbstständige", 
+    "Selbstständige mit Beschäftigten",  # Besitzer
+    "Top Management", 
+    "Mittleres Management", 
+    "Anleitende Beschäftigte",  # Manager
+    "Hochspezialisierte Beschäftigte", 
+    "Industriearbeiter*innen", 
+    "Dienstleistungsarbeiter*innen"  # Arbeiter*innenklasse
+]
+
+colors = [
+    '#1D4E1F',  # Dark green - Military (distinct from the others)
+    '#0A1F44',  # Dark navy blue - Managers (more distinct from the others)
+    '#F5B461',  # Golden yellow - Professionals (brighter)
+    '#00CED1',  # DarkTurquoise - Technicians (brighter for distinction)
+    '#9B59B6',  # Medium purple - Clerical (distinct from light purple)
+    '#FF6B6B',  # Coral red - Service workers
+    '#4A90E2',  # Sky blue - Agricultural
+    '#af005f',  # deep pink - Craft workers
+    '#4B2F2F',  # dark brown - Plant operators (more distinct from yellow)
+    '#F2C9B3'   # Soft peach - Elementary (lighter for distinction)
+]
+
+
+
+# Create the bar chart with the custom order
+fig = px.bar(
+    livingstone_data,
+    x="Anzahl",
+    y="modifiziert_livingstone",
+    color='major_group',
+    orientation='h',
+    hover_data={
+        'Berufsgattung(ISCO-Stufe 4)': True,
+        'Anzahl': True,
+        'modifiziert_livingstone': False,
+        'major_group': False
+    },
+    title='Klassenanalyse',
+    color_discrete_sequence=colors,
+    category_orders={"modifiziert_livingstone": fraktion_order}
+)
+# Style the silces of the bars with black borders and slight transparency
+fig.update_traces(
+    marker=dict(line=dict(width=0.5, color='black')),
+    opacity=0.8
+)
+
+# Add percentage annotations for each class
+for i, klasse in enumerate(fraktion_order):
+    if klasse in class_totals['modifiziert_livingstone'].values:
+        percent_value = class_totals.loc[class_totals['modifiziert_livingstone'] == klasse, 'Percent'].values[0]
+        count_value = class_totals.loc[class_totals['modifiziert_livingstone'] == klasse, 'Anzahl'].values[0]
+        
+        # Add annotation for the percentage, positioned far to the right
+        fig.add_annotation(
+            x=count_value * 1.005,  # Multiply by a factor to move further right
+            y=klasse,
+            text=f"{percent_value}%",
+            showarrow=False,
+            font=dict(size=12, color="white"),
+            align="left"
+        )
+
+# Update layout
+fig.update_layout(
+    autosize=True,
+    height=750,
+    #width=1400,
+    legend=dict(
+        title="Hauptgruppen ISCO-Stufe 1",
+        font=dict(size=12),
+        orientation="v",  # vertical orientation
+        yanchor="top",    # anchor point at the top of the legend
+        y=0.5,              # position at the top of the chart (y=0.5)
+        xanchor="right",  # anchor point at the right of the legend
+        x=1,              # position at the right of the chart (x=1)
+        
+    ),
+    yaxis={
+            'categoryorder': 'array',
+            'categoryarray': fraktion_order[::],
+            'title': 'Klassenfraktionen',  # Add a title for the y-axis
+            'title_standoff': 25,  # Distance between the axis and its title
+            'tickfont': {'size': 14,'weight':'bold'},  # Font size for the tick labels
+            'titlefont': {'size': 14, 'color': 'white'}  # Font for the axis title
+    },
+    margin=dict(l=200),  # Increased right margin for meta-category labels
     
+)
 
-    sheet_data,sheet_names = read_data(path)   
-    haupt_gruppen_1 = sheet_data[sheet_names[3]]
-    berufs_gruppen_2 = sheet_data[sheet_names[4]]
-    berufs_unter_gruppen_3 = sheet_data[sheet_names[5]]
-    berufs_gattungen_4 = sheet_data[sheet_names[6]]
+st.write("# Klassen in Deutschland eine Datenanalyse")
 
+st.write("Moin seit Jahren nervt mich die Frage Wer ist eigentlich die Arbeiter*innenklasse in einer modernen Gesellellschaft."
+"Das ist mein bescheidner Versuch dazu einen Beitrag zu leisten."
+" **Ein großteil der Kategorien und Überlegungen gehen auf den Soziologen D.W. Livingstone zurück. Die Datenbasieren auf dem Zensus 2022 und den darin enthaltenen ISCO-08 Codes**")
 
-    bundesländer_cols =['Baden-Württemberg', 'Bayern',
-        'Berlin', 'Brandenburg', 'Bremen', 'Hamburg', 'Hessen',
-        'Mecklenburg-Vorpommern', 'Niedersachsen', 'Nordrhein-Westfalen',
-        'Rheinland-Pfalz', 'Saarland', 'Sachsen', 'Sachsen-Anhalt',
-        'Schleswig-Holstein', 'Thüringen']
-
-    haupt_gruppen_1 = clean_group(haupt_gruppen_1, bundesländer_cols)
-    berufs_gruppen_2 = clean_group(berufs_gruppen_2, bundesländer_cols)
-    berufs_unter_gruppen_3 = clean_group(berufs_unter_gruppen_3, bundesländer_cols)
-    berufs_gattungen_4 = clean_group(berufs_gattungen_4, bundesländer_cols)
-
-    dataframes = {
-        'Hauptgruppe (1-Str.)': haupt_gruppen_1,
-        'Berufsgruppe (2-Str.)': berufs_gruppen_2,
-        'Berufsuntergruppen (3-St.)': berufs_unter_gruppen_3,
-        'Berufsgattung (4-St.)': berufs_gattungen_4
-    }
-    return dataframes
+st.plotly_chart(fig,use_container_width=True)
 
 
-def main():
-
-    dataframes = build_data_frames()
-    # Streamlit app
-    st.title('Berufe im Zensus 2022 nach Standardklassifikation der Berufe(ISCO-08)')
-
-    def display_markdown(file_name: str):
-        # Resolve the full path of the Markdown file relative to the script's directory
-        file_path = Path(__file__).parent / "assets/md_text" / file_name
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
-        st.markdown(content)
-
-    # Example usage
-    display_markdown("explain_isco08.md")
-
-    # Select dataframe
-    selected_df_name = st.selectbox('Wähle ein Berufsstufe nach dem ISCO-08 aus?', list(dataframes.keys()))
-    selected_df = dataframes[selected_df_name]
 
 
-    # Select number of items
-    num_items = st.slider('Select Number of Items', min_value=1, max_value=100, value=10)
 
-    # Display sorted dataframe
-    sorted_df = selected_df.sort_values(by='percent', ascending=False).head(num_items)
-    st.write(f'Top {num_items} items in percent of {selected_df_name}')
 
-    st.dataframe(sorted_df)
 
-if __name__ == "__main__":
-    dataframes = build_data_frames()
-    main()

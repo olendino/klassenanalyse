@@ -87,7 +87,7 @@ else:
 
 st.plotly_chart(fig,use_container_width=True)
 
-edited_df = st.data_editor(fraktion_daten[['ISCO-Code','Berufsgattung(ISCO-Stufe 4)','fraktion']],hide_index=True)
+#edited_df = st.data_editor(fraktion_daten[['ISCO-Code','Berufsgattung(ISCO-Stufe 4)','fraktion']],hide_index=True)
 
 
 st.text('Noch ein Plot')

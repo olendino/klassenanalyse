@@ -1,0 +1,35 @@
+name: Deploy to Uberspace
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt --user
+
+      - name: Deploy using Rsync
+        uses: burnett01/rsync-deployments@6.0.0
+        with:
+          switches: -avrh --delete
+          path: ./
+          remote_path: /home/${{ vars.SSH_USERNAME }}/klassenanalys_git
+          remote_host: ${{ vars.SSH_HOST }}
+          remote_user: ${{ vars.SSH_USERNAME }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          remote_key_pass: ${{ secrets.SSH_PRIVATE_KEY_PASS }}
+
+      - name: Restart Streamlit Service on Uberspace
+        run: |
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ vars.SSH_USERNAME }}@${{ vars.SSH_HOST }} "
+          supervisorctl reread &&
+          supervisorctl update &&
+          supervisorctl restart klassenanalys_git"
+
