@@ -21,3 +21,12 @@ jobs:
           remote_user: ${{ vars.SSH_USERNAME }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
           remote_key_pass: ${{ secrets.SSH_PRIVATE_KEY_PASS }}
+      - name: Restart daemon on Uberspace
+        uses: appleboy/ssh-action@master
+        with:
+            host: ${{ vars.SSH_HOST }}
+            username: ${{ vars.SSH_USERNAME }}
+            key: ${{ secrets.SSH_PRIVATE_KEY }}
+            passphrase: ${{ secrets.SSH_PRIVATE_KEY_PASS }} # Only needed if you added a passphrase
+            script: |
+              supervisorctl restart klassenalaylse_git

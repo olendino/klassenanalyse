@@ -150,7 +150,7 @@ fig.update_layout(
 
 st.write("# Klassen in Deutschland eine Datenanalyse")
 
-st.write("Moin seit Jahren nervt mich die Frage Wer ist eigentlich die Arbeiter*innenklasse in einer modernen Gesellellschaft."
+st.write("Moin -> deploy worked seit Jahren nervt mich die Frage Wer ist eigentlich die Arbeiter*innenklasse in einer modernen Gesellellschaft."
 "Das ist mein bescheidner Versuch dazu einen Beitrag zu leisten."
 " **Ein großteil der Kategorien und Überlegungen gehen auf den Soziologen D.W. Livingstone zurück. Die Datenbasieren auf dem Zensus 2022 und den darin enthaltenen ISCO-08 Codes**")
 
