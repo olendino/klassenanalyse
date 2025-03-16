@@ -12,16 +12,20 @@ st.set_page_config(page_title="Klassenanalyse",layout="wide")
 
 
 def set_up_data():
-    path_digiclass = "/Users/leonardhaas/code/streamlit/data/processed_data/added_digiclass.csv"
-    #Path(__file__).parent / "data/processed_data/added_digiclass.csv"
-    digiclass_data = pd.read_csv(path_digiclass,index_col=0)
+    # Get the directory where the script is located
+    base_path = Path(__file__).parent
     
-    path_livingstone = "/Users/leonardhaas/code/streamlit/data/processed_data/isco_livingstone.csv"
-    #Path(__file__).parent / "data/processed_data/isco_livingstone.csv"
-    livingstone_data = pd.read_csv(path_livingstone, index_col=0)  # This was loading digiclass_data again
+    # Define relative paths from the script location
+    path_digiclass = base_path / "data/processed_data/added_digiclass.csv"
+    digiclass_data = pd.read_csv(path_digiclass, index_col=0)
     
+    path_livingstone = base_path / "data/processed_data/isco_livingstone.csv"
+    livingstone_data = pd.read_csv(path_livingstone, index_col=0)  # Fixed: now loads livingstone data
+    
+    # Merge the datasets
     merged_data = pd.merge(digiclass_data, livingstone_data, left_on='ISCO.Code', right_on='ISCO-Code')
     merged_data.drop(columns=['ISCO.Code'], inplace=True)
+    
     return merged_data
 
 
