@@ -20,7 +20,7 @@ jobs:
         with:
           switches: -avrh --delete
           path: ./
-          remote_path: /home/${{ vars.SSH_USERNAME }}/klassenanalys_git
+          remote_path: /home/${{ vars.SSH_USERNAME }}/klassenanalyse_git
           remote_host: ${{ vars.SSH_HOST }}
           remote_user: ${{ vars.SSH_USERNAME }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
