@@ -28,7 +28,6 @@ jobs:
 
       - name: Restart Streamlit Service on Uberspace
         run: |
-          ssh -o StrictHostKeyChecking=no ${{ vars.SSH_USERNAME }}@${{ vars.SSH_HOST }} "
           supervisorctl reread &&
           supervisorctl update &&
-          supervisorctl restart klassenanalys_git"
+          supervisorctl restart klassenanalys_git
