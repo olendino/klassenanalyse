@@ -29,4 +29,4 @@ jobs:
             key: ${{ secrets.SSH_PRIVATE_KEY }}
             passphrase: ${{ secrets.SSH_PRIVATE_KEY_PASS }} # Only needed if you added a passphrase
             script: |
-              supervisorctl restart klassenalaylse_git
+              supervisorctl restart klassenanalyse_git
