@@ -25,9 +25,15 @@ jobs:
           remote_user: ${{ vars.SSH_USERNAME }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
           remote_key_pass: ${{ secrets.SSH_PRIVATE_KEY_PASS }}
+      - name: Set up SSH key for deployment
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Restart Streamlit Service on Uberspace
         run: |
-          supervisorctl reread &&
-          supervisorctl update &&
-          supervisorctl restart klassenanalys_git
+            ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} << 'EOF'
+            supervisorctl reread
+            supervisorctl update
+            supervisorctl restart klassenanalys_git
+            EOF
