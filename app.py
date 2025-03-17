@@ -150,9 +150,15 @@ fig.update_layout(
 
 st.write("# Klassen in Deutschland eine Datenanalyse")
 
-st.write("Moin -> deploy worked seit Jahren nervt mich die Frage Wer ist eigentlich die Arbeiter*innenklasse in einer modernen Gesellellschaft."
+st.write("*„Auf einmal hören wir wieder etwas über Klassen, aber jahrelang hat. man uns erzählt, dass es Klassen nicht mehr wirklich gibt. Nein, wir gehören jetzt alle zur Mittelklasse. "
+"Niemand sagt das heute mehr. Das ist wirklich interessant. Zum Teil liegt das daran, dass sie die weiße Arbeiterklasse zum Sündenbock machen wollen!(Mark Fisher)”*")
+
+st.write("Seit Jahren beschäftigt und nervt mich die Frage: Wer ist eigentlich heutzutage die Arbeiter*innenklasse in Deutschland?"
+"Was mich daran nervt hat der Soziologie, **D.W. Livingstone**  wie folgt auf den Punkt gebracht: Without solid data, discussions about class and class consciousness are often just guesswork."
 "Das ist mein bescheidner Versuch dazu einen Beitrag zu leisten."
-" **Ein großteil der Kategorien und Überlegungen gehen auf den Soziologen D.W. Livingstone zurück. Die Datenbasieren auf dem Zensus 2022 und den darin enthaltenen ISCO-08 Codes**")
+"Ein großteil der Kategorien und Überlegungen gehen dabei auf Livingstone zurück. "
+"Die Daten die ich für die Operationalisierung nutze basieren auf dem **Zensus 2022** des Statistischen Bundesamtes und den darin enthaltenen **ISCO-08 Codes**"
+"Diese Grundlage ist leider nicht geschaffen, um etwas über Klassenbewusstsein zusagen, aber sie bietet die Möglichkeit eine aktuelle Skize der deutschen Klassengesellschaft zu entwerfen.")
 
 st.plotly_chart(fig,use_container_width=True)
 

@@ -4,12 +4,24 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objs as go
 import plotly.io as pio
+from pathlib import Path
+
 
 st.set_page_config(layout="wide")
 
 
 st.text('Das ist ein erster Entwurf einer Klassen Analyse')
-fraktion_daten = pd.read_csv('../streamlit/data/processed_data/fraktion_daten.csv')
+
+def set_up_data():
+    # Get the directory where the script is located
+    base_path = Path(__file__).parent
+    
+    # Define relative paths from the script location
+    path_digiclass = base_path / "data/processed_data/fraktion_daten.csv"
+    digiclass_data = pd.read_csv(path_digiclass, index_col=0)
+    return digiclass_data
+
+fraktion_daten = set_up_data()
 
 
 # Custom colors for different categories
