@@ -41,9 +41,10 @@ livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige o
 livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige mit Beschäftigten', 'modifiziert_livingstone'] = 'Selbstständige mit Beschäftigten'
 
 # TODO fix nans (Offiziere)
-livingstone_data_clean = livingstone_data.dropna(subset=["modifiziert_livingstone"])
+livingstone_data_clean = livingstone_data.dropna(subset=["modifiziert_livingstone"]) # -> ???
 
 # Calculate percentages for each class (aggregating by modifiziert_livingstone)
+
 class_totals = livingstone_data.groupby('modifiziert_livingstone')['Anzahl'].sum().reset_index()
 total_sum = class_totals['Anzahl'].sum()
 class_totals['Percent'] = (class_totals['Anzahl'] / total_sum * 100).round(1)
@@ -161,7 +162,7 @@ fig.add_annotation(
     text="Quelle: Zensus 2022 | Statistisches Bundesamt",
     showarrow=False,
     xref="paper", yref="paper",
-    x=0.15, y=-0.09,
+    x=-0.001, y=-0.075,
     xanchor="center", yanchor="top",
     font=dict(size=12, color="gray")
 )
@@ -169,10 +170,11 @@ fig.add_annotation(
 # Add reading explanation box
 fig.add_annotation(
     text="Der Graph zeigt die Anzahl der verschieden Klassenfraktionen auf Basis der Zensus Variablen: Stellung im Beruf und ISCO-08.<br>" +
-         "Die Schartierungen des Balken geben die Bestandteile der Fraktionen in Berufsgattungen wieder.<br>",
+         "Die Schartierungen des Balken geben die Bestandteile der Fraktionen in Berufsgattungen(ISCO Stufe 4) wieder.<br>" +
+         "Die Farben geben die Hauptgruppen (ISCO Stufe 1) wieder",
     showarrow=False,
     xref="paper", yref="paper",
-    x=0.4, y=-0.14,
+    x=0.4, y=-0.112,
     xanchor="center", yanchor="top",
     bordercolor="lightgrey",
     borderwidth=1,
@@ -185,18 +187,26 @@ fig.add_annotation(
 # Add more margin space for the explainer text
 fig.update_layout(margin=dict(l=50, r=50, t=100, b=120))
 
-st.write("# Klassen in Deutschland eine Datenanalyse")
+st.write("# Klassen in Deutschland - Eine Datenanalyse")
 
 st.write("*„Auf einmal hören wir wieder etwas über Klassen, aber jahrelang hat. man uns erzählt, dass es Klassen nicht mehr wirklich gibt. Nein, wir gehören jetzt alle zur Mittelklasse. "
-"Niemand sagt das heute mehr. Das ist wirklich interessant. Zum Teil liegt das daran, dass sie die weiße Arbeiterklasse zum Sündenbock machen wollen!(Mark Fisher)”*")
+"Niemand sagt das heute mehr. Das ist wirklich interessant. Zum Teil liegt das daran, dass sie die weiße Arbeiterklasse zum Sündenbock machen wollen! (Mark Fisher)”*")
 
-st.write("Seit Jahren beschäftigt und nervt mich die Frage: **Wer ist eigentlich heutzutage die Arbeiter*innenklasse in Deutschland**?\n"
-"Was mich daran nervt hat der Soziologie, **D.W. Livingstone**  wie folgt auf den Punkt gebracht: Without solid data, discussions about class and class consciousness are often just guesswork. "
-"Das ist mein bescheidner Versuch das Raten etwas einzuschränken und einer politischen Linken eine grobe Karte zugeben. "
-"Ein großteil der Kategorien und Überlegungen gehen dabei auf Livingstone zurück. "
-"Die Daten die ich für die Operationalisierung nutze basieren auf dem **Zensus 2022** des Statistischen Bundesamtes und den darin enthaltenen **ISCO-08 Codes** "
-"Diese Grundlage ist leider nicht geschaffen, um etwas über Klassenbewusstsein zusagen, aber sie bietet die Möglichkeit eine aktuelle Skize der deutschen Klassengesellschaft zu entwerfen. ")
+#GRAPH:
+st.plotly_chart(fig,use_container_width=True)
 
+st.divider()
+
+st.markdown(
+    """
+    Seit Jahren beschäftigt mich die Frage: **Wer gehört heutzutage zur Arbeiter*innenklasse in Deutschland?** Was mich daran nervt, hat der Soziologe **D. W. Livingstone** treffend formuliert: *"Without solid data, discussions about class and class consciousness are often just guesswork."*  
+    Das ist mein bescheidener Versuch, das Rätselraten etwas zu reduzieren und der politischen Linken eine grobe Karte an die Hand zu geben.  
+    Ein Großteil der Kategorien und Überlegungen basiert auf den Arbeiten von Livingstone.  
+
+    Die Daten für die Operationalisierung stammen aus dem **Zensus 2022** des Statistischen Bundesamtes. Dabei nutze ich die Variablen **"Stellung im Beruf"** und **"ISCO-08 Codes"**.  
+    Diese Grundlage erlaubt zwar keine direkten Aussagen über Klassenbewusstsein, bietet aber die Möglichkeit, eine aktuelle Skizze der deutschen Klassengesellschaft zu entwerfen.
+    """
+)
 
 with st.expander("Lerne mehr über das Klassenmodel nach D.W Livingstone"):
     base_path = Path(__file__).parent
@@ -225,7 +235,7 @@ with st.expander("Lerne mehr über das Klassenmodel nach D.W Livingstone"):
     - **Industrial Workers**  
     """)
 
-st.plotly_chart(fig,use_container_width=True)
+#st.plotly_chart(fig,use_container_width=True)
 
 
 

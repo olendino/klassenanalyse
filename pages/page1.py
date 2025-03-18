@@ -7,7 +7,7 @@ import plotly.io as pio
 from pathlib import Path
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Klassenanalyse",layout="wide",initial_sidebar_state="collapsed")
 
 
 st.text('Das ist ein erster Entwurf einer Klassen Analyse')
@@ -20,7 +20,7 @@ def set_up_data():
     project_root = base_path.parent
     
     # Construct the path to the data file
-    path_digiclass = project_root / "data/processed_data/fraktion_daten.csv"
+    path_digiclass = project_root / "data/processed_data/added_digiclass.csv"
     
     print(f"Attempting to load data from: {path_digiclass}")  # Debug print
     
@@ -28,6 +28,11 @@ def set_up_data():
     return digiclass_data
 
 fraktion_daten = set_up_data()
+
+#TODO deal with empty fraktion row
+fraktion_daten.dropna(inplace=True)
+
+st.dataframe(fraktion_daten)
 
 # Custom colors for different categories
 colors = [
@@ -53,14 +58,12 @@ fraktion_order = [
 fig = px.bar(
     fraktion_daten,
     x="Anzahl",
-    y="fraktion",
-    color='major_group',
+    y="simple_wright",
+    #color='major_group',
     orientation='h',
     hover_data={
         'Berufsgattung(ISCO-Stufe 4)': True,
         'Anzahl': True,
-        'fraktion': False,
-        'major_group': False
     },
     title='Klassenanalyse',
     color_discrete_sequence=colors
