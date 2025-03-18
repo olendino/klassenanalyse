@@ -16,13 +16,18 @@ def set_up_data():
     # Get the directory where the script is located
     base_path = Path(__file__).parent
     
-    # Define relative paths from the script location
-    path_digiclass = base_path / "data/processed_data/fraktion_daten.csv"
+    # Go up one level from 'pages' directory to the project root
+    project_root = base_path.parent
+    
+    # Construct the path to the data file
+    path_digiclass = project_root / "data/processed_data/fraktion_daten.csv"
+    
+    print(f"Attempting to load data from: {path_digiclass}")  # Debug print
+    
     digiclass_data = pd.read_csv(path_digiclass, index_col=0)
     return digiclass_data
 
 fraktion_daten = set_up_data()
-
 
 # Custom colors for different categories
 colors = [

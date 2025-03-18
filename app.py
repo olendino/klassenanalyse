@@ -8,7 +8,8 @@ import plotly.io as pio
 from pathlib import Path
 
 #how the side appears in the browser
-st.set_page_config(page_title="Klassenanalyse",layout="wide")
+
+st.set_page_config(page_title="Klassenanalyse",layout="wide",initial_sidebar_state="collapsed")
 
 
 def set_up_data():
@@ -57,8 +58,8 @@ livingstone_data = pd.merge(
 
 # Define the specific order you want
 fraktion_order = [
-    "Selbstständige", 
     "Selbstständige mit Beschäftigten",  # Besitzer
+    "Selbstständige", 
     "Top Management", 
     "Mittleres Management", 
     "Anleitende Beschäftigte",  # Manager
@@ -121,6 +122,8 @@ for i, klasse in enumerate(fraktion_order):
             align="left"
         )
 
+
+
 # Update layout
 fig.update_layout(
     autosize=True,
@@ -144,21 +147,83 @@ fig.update_layout(
             'tickfont': {'size': 14,'weight':'bold'},  # Font size for the tick labels
             'titlefont': {'size': 14, 'color': 'white'}  # Font for the axis title
     },
-    margin=dict(l=200),  # Increased right margin for meta-category labels
+    xaxis={
+        'title': 'Anzahl der Erwerbtstätigen in Milionen',
+        'title_standoff': 10,  # Distance between the axis and its title
+        'titlefont': {'size': 14, 'color': 'white'}  # Font for the axis title
+    },
+    margin=dict(l=200, r=50),  # Increased right margin for meta-category labels
+    
     
 )
+# Add source information at the bottom
+fig.add_annotation(
+    text="Quelle: Zensus 2022 | Statistisches Bundesamt",
+    showarrow=False,
+    xref="paper", yref="paper",
+    x=0.15, y=-0.09,
+    xanchor="center", yanchor="top",
+    font=dict(size=12, color="gray")
+)
+
+# Add reading explanation box
+fig.add_annotation(
+    text="Der Graph zeigt die Anzahl der verschieden Klassenfraktionen auf Basis der Zensus Variablen: Stellung im Beruf und ISCO-08.<br>" +
+         "Die Schartierungen des Balken geben die Bestandteile der Fraktionen in Berufsgattungen wieder.<br>",
+    showarrow=False,
+    xref="paper", yref="paper",
+    x=0.4, y=-0.14,
+    xanchor="center", yanchor="top",
+    bordercolor="lightgrey",
+    borderwidth=1,
+    borderpad=4,
+    bgcolor="black",
+    opacity=0.8,
+    font=dict(size=12)
+)
+
+# Add more margin space for the explainer text
+fig.update_layout(margin=dict(l=50, r=50, t=100, b=120))
 
 st.write("# Klassen in Deutschland eine Datenanalyse")
 
 st.write("*„Auf einmal hören wir wieder etwas über Klassen, aber jahrelang hat. man uns erzählt, dass es Klassen nicht mehr wirklich gibt. Nein, wir gehören jetzt alle zur Mittelklasse. "
 "Niemand sagt das heute mehr. Das ist wirklich interessant. Zum Teil liegt das daran, dass sie die weiße Arbeiterklasse zum Sündenbock machen wollen!(Mark Fisher)”*")
 
-st.write("Seit Jahren beschäftigt und nervt mich die Frage: Wer ist eigentlich heutzutage die Arbeiter*innenklasse in Deutschland?"
-"Was mich daran nervt hat der Soziologie, **D.W. Livingstone**  wie folgt auf den Punkt gebracht: Without solid data, discussions about class and class consciousness are often just guesswork."
-"Das ist mein bescheidner Versuch dazu einen Beitrag zu leisten."
+st.write("Seit Jahren beschäftigt und nervt mich die Frage: **Wer ist eigentlich heutzutage die Arbeiter*innenklasse in Deutschland**?\n"
+"Was mich daran nervt hat der Soziologie, **D.W. Livingstone**  wie folgt auf den Punkt gebracht: Without solid data, discussions about class and class consciousness are often just guesswork. "
+"Das ist mein bescheidner Versuch das Raten etwas einzuschränken und einer politischen Linken eine grobe Karte zugeben. "
 "Ein großteil der Kategorien und Überlegungen gehen dabei auf Livingstone zurück. "
-"Die Daten die ich für die Operationalisierung nutze basieren auf dem **Zensus 2022** des Statistischen Bundesamtes und den darin enthaltenen **ISCO-08 Codes**"
-"Diese Grundlage ist leider nicht geschaffen, um etwas über Klassenbewusstsein zusagen, aber sie bietet die Möglichkeit eine aktuelle Skize der deutschen Klassengesellschaft zu entwerfen.")
+"Die Daten die ich für die Operationalisierung nutze basieren auf dem **Zensus 2022** des Statistischen Bundesamtes und den darin enthaltenen **ISCO-08 Codes** "
+"Diese Grundlage ist leider nicht geschaffen, um etwas über Klassenbewusstsein zusagen, aber sie bietet die Möglichkeit eine aktuelle Skize der deutschen Klassengesellschaft zu entwerfen. ")
+
+
+with st.expander("Lerne mehr über das Klassenmodel nach D.W Livingstone"):
+    base_path = Path(__file__).parent
+    image_path = base_path / "assets/images/class_canada_2016.png"
+    st.image(str(image_path), caption="Zahlen für Kanada - Screen shoot einer Folie von Livingstone")
+
+    st.markdown(""" 
+
+    #### 🏢 **Owners**  
+    - **Corporate Capitalists**  
+    - **Large Employers**  
+    - **Small Employers / Self-Employed**  
+
+    ---  
+
+    #### 👔 **Managerial Employees**  
+    - **Upper Managers**  
+    - **Middle Managers**  
+    - **Supervisors**  
+
+    ---  
+
+    #### 🛠 **Non-Managerial Workers**  
+    - **Professional Employees**  
+    - **Service Workers**  
+    - **Industrial Workers**  
+    """)
 
 st.plotly_chart(fig,use_container_width=True)
 
