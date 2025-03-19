@@ -24,15 +24,36 @@ def set_up_data():
     
     print(f"Attempting to load data from: {path_digiclass}")  # Debug print
     
-    digiclass_data = pd.read_csv(path_digiclass, index_col=0)
+    digiclass_data = pd.read_csv(path_digiclass)
     return digiclass_data
 
 fraktion_daten = set_up_data()
 
 #TODO deal with empty fraktion row
-fraktion_daten.dropna(inplace=True)
+#fraktion_daten.dropna(inplace=True)
 
-st.dataframe(fraktion_daten)
+st.dataframe(fraktion_daten['oesch'].value_counts())
+
+def map_major_groups(df):
+    # Define the mapping schema
+    major_group_mapping = {
+        '1': 'Managers',
+        '2': 'Professionals',
+        '3': 'Technicians and Associate Professionals',
+        '4': 'Clerical Support Workers',
+        '5': 'Service and Sales Workers',
+        '6': 'Skilled Agricultural, Forestry and Fishery Workers',
+        '7': 'Craft and Related Trades Workers',
+        '8': 'Plant and Machine Operators, and Assemblers',
+        '9': 'Elementary Occupations'
+    }
+    
+    # Create the new column 'major_groups' based on the first letter of 'ISCO.Code'
+    df['major_groups'] = df['ISCO.Code'].astype(str).str[0].map(major_group_mapping)
+    return df
+
+# Apply the function to the dataframe
+fraktion_daten = map_major_groups(fraktion_daten)
 
 # Custom colors for different categories
 colors = [
@@ -48,21 +69,20 @@ colors = [
     '#F2C9B3'   # Soft peach - Elementary (lighter for distinction)
 ]
 
-fraktion_order = [
-   "Top Management", "Mittleres Management", "Anleitender Beschäftigter",
-   "Klassisch selbständige Tätigkeit", "Staatsangestellte",
-   "Hochspezialisierte Beschäftigte", "Industriearbeiter", "Dienstleistungsarbeiter"
-]
+
+
+# Dropdown to select which column to use for y-axis
+y_axis_options = ['oesch', 'simple_wright','egp']  # Add all potential y-axis columns
+selected_y_axis = st.selectbox("Select Y-Axis Column:", y_axis_options)
 
 # Create horizontal bar chart
 fig = px.bar(
     fraktion_daten,
     x="Anzahl",
-    y="simple_wright",
-    #color='major_group',
+    y=selected_y_axis,
+    color='major_groups',
     orientation='h',
     hover_data={
-        'Berufsgattung(ISCO-Stufe 4)': True,
         'Anzahl': True,
     },
     title='Klassenanalyse',
@@ -84,26 +104,9 @@ fig.update_layout(
         title="Hauptgruppen ISCO-Stufe 1",
         font=dict(size=12)
     ),
-    yaxis=dict(
-        title=None,
-       categoryorder='array',
-       categoryarray=fraktion_order,
-    ),
     margin=dict(l=200), #preventing yaxis label cut off
     xaxis=dict(title="Anzahl der Erwerbstätigen in Millionen")  # changes x-axis label
 )
-
-# Button to toggle the legend visibility
-toggle_button = st.button("Click here to hide legend")
-
-# Update the layout based on button click
-if toggle_button:
-    # If the button is clicked, hide the legend
-    fig.update_layout(showlegend=False)
-else:
-    # Otherwise, show the legend
-    fig.update_layout(showlegend=True)
-#fig.show()
 
 st.plotly_chart(fig,use_container_width=True)
 

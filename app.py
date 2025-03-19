@@ -97,7 +97,8 @@ fig = px.bar(
         'modifiziert_livingstone': False,
         'major_group': False
     },
-    title='Klassenanalyse',
+    
+    title='Klassenanalyse in Anlehnung and Livingstone für Deutschland',
     color_discrete_sequence=colors,
     category_orders={"modifiziert_livingstone": fraktion_order}
 )
@@ -189,26 +190,26 @@ fig.update_layout(margin=dict(l=50, r=50, t=100, b=120))
 
 st.write("# Klassen in Deutschland - Eine Datenanalyse")
 
-st.write("*„Auf einmal hören wir wieder etwas über Klassen, aber jahrelang hat. man uns erzählt, dass es Klassen nicht mehr wirklich gibt. Nein, wir gehören jetzt alle zur Mittelklasse. "
+st.write("*Kein support für Mobil Ansicht -> Nutz einen Laptop/Desktop*")
+
+st.write("> *„Auf einmal hören wir wieder etwas über Klassen, aber jahrelang hat man uns erzählt, dass es Klassen nicht mehr wirklich gibt. Nein, wir gehören jetzt alle zur 'Mittelklasse.' "
 "Niemand sagt das heute mehr. Das ist wirklich interessant. Zum Teil liegt das daran, dass sie die weiße Arbeiterklasse zum Sündenbock machen wollen! (Mark Fisher)”*")
 
-#GRAPH:
-st.plotly_chart(fig,use_container_width=True)
-
-st.divider()
 
 st.markdown(
     """
     Seit Jahren beschäftigt mich die Frage: **Wer gehört heutzutage zur Arbeiter*innenklasse in Deutschland?** Was mich daran nervt, hat der Soziologe **D. W. Livingstone** treffend formuliert: *"Without solid data, discussions about class and class consciousness are often just guesswork."*  
     Das ist mein bescheidener Versuch, das Rätselraten etwas zu reduzieren und der politischen Linken eine grobe Karte an die Hand zu geben.  
-    Ein Großteil der Kategorien und Überlegungen basiert auf den Arbeiten von Livingstone.  
+    Ein Großteil der Kategorien und Überlegungen basiert auf den Arbeiten von [D.W Livingstone](https://discover.research.utoronto.ca/27054-dw-livingstone).  
 
-    Die Daten für die Operationalisierung stammen aus dem **Zensus 2022** des Statistischen Bundesamtes. Dabei nutze ich die Variablen **"Stellung im Beruf"** und **"ISCO-08 Codes"**.  
+    Die Daten für die Operationalisierung stammen aus dem [**Zensus 2022**](https://ergebnisse.zensus2022.de/datenbank/online/) des Statistischen Bundesamtes. Dabei nutze ich die Variablen **"[Stellung im Beruf](https://ergebnisse.zensus2022.de/datenbank/online/variable/ERWBV1/details/tables)"** und **"[ISCO-08 Codes Level 4](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/#elementor-toc__heading-anchor-4)"**.  
     Diese Grundlage erlaubt zwar keine direkten Aussagen über Klassenbewusstsein, bietet aber die Möglichkeit, eine aktuelle Skizze der deutschen Klassengesellschaft zu entwerfen.
     """
 )
+#GRAPH:
+st.plotly_chart(fig,use_container_width=True)
 
-with st.expander("Lerne mehr über das Klassenmodel nach D.W Livingstone"):
+with st.expander("Mehr über das Klassenmodel nach D.W Livingstone"):
     base_path = Path(__file__).parent
     image_path = base_path / "assets/images/class_canada_2016.png"
     st.image(str(image_path), caption="Zahlen für Kanada - Screen shoot einer Folie von Livingstone")
