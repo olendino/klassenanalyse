@@ -10,7 +10,19 @@ from pathlib import Path
 st.set_page_config(page_title="Klassenanalyse",layout="wide",initial_sidebar_state="collapsed")
 
 
-st.text('Das ist ein erster Entwurf einer Klassen Analyse')
+st.markdown(
+    """
+    ## Auf dieser Seite sollen verschiedene Klassenmodell verglichen werden können
+    
+    Die Klassifizierungen wurden mit Hilfe des Package [DIGCLASS](https://code.europa.eu/digclass/digclass) durchgeführt.
+
+    Als Einführung können die folgenden Links dienen:
+    - [Klassenmodell nach Oesch](https://sozialstrukturanalysen.de/klassenmodell-nach-oesch/)
+    - [Klassenmodell nach Wirght](https://sozialstrukturanalysen.de/klassenmodell-nach-wright/)
+    - [Klassenmodel nach Erikson/ Goldthorpe](https://sozialstrukturanalysen.de/klassenmodell-nach-erikson-goldthorpe/)
+
+    """
+)
 
 def set_up_data():
     # Get the directory where the script is located
@@ -23,31 +35,33 @@ def set_up_data():
     path_digiclass = project_root / "data/processed_data/added_digiclass.csv"
     
     print(f"Attempting to load data from: {path_digiclass}")  # Debug print
-    
+    # Read the CSV file and drop the 'Unnamed: 0' column if it exists
+    digiclass_data = pd.read_csv(path_digiclass).drop(columns=['Unnamed: 0'])
     digiclass_data = pd.read_csv(path_digiclass)
     return digiclass_data
 
 fraktion_daten = set_up_data()
 
-#TODO deal with empty fraktion row
-#fraktion_daten.dropna(inplace=True)
+#drop nasn
+columns_to_check = ['oesch8', 'simple_wright']
+fraktion_daten.dropna(subset=columns_to_check, inplace=True)
 
-st.dataframe(fraktion_daten['oesch'].value_counts())
+
 
 def map_major_groups(df):
     # Define the mapping schema
     major_group_mapping = {
-        '1': 'Managers',
-        '2': 'Professionals',
-        '3': 'Technicians and Associate Professionals',
-        '4': 'Clerical Support Workers',
-        '5': 'Service and Sales Workers',
-        '6': 'Skilled Agricultural, Forestry and Fishery Workers',
-        '7': 'Craft and Related Trades Workers',
-        '8': 'Plant and Machine Operators, and Assemblers',
-        '9': 'Elementary Occupations'
+    '1': 'Führungskräfte',
+    '2': 'Akademische Berufe',
+    '3': 'Techniker und gleichrangige nichttechnische Berufe',
+    '4': 'Bürokräfte und verwandte Berufe',
+    '5': 'Dienstleistungsberufe und Verkäufer',
+    '6': 'Fachkräfte in Land- und Forstwirtschaft und Fischerei',
+    '7': 'Handwerks- und verwandte Berufe',
+    '8': 'Bediener von Anlagen und Maschinen und Montageberufe',
+    '9': 'Hilfsarbeitskräfte'
     }
-    
+
     # Create the new column 'major_groups' based on the first letter of 'ISCO.Code'
     df['major_groups'] = df['ISCO.Code'].astype(str).str[0].map(major_group_mapping)
     return df
@@ -69,12 +83,21 @@ colors = [
     '#F2C9B3'   # Soft peach - Elementary (lighter for distinction)
 ]
 
+# Define a dictionary with display names (with context) as keys and column names as values
+class_model_dict = {
+    "8-Klassen-Modell nach Oesch (Soziale Klassen nach Arbeitslogik)": "oesch8",
+    "Klassenmodell nach Erik Olin Wright (Fokus auf Ausbeutungsverhältnisse)": "simple_wright",
+    "Erikson-Goldthorpe-Portocarero 7-Klassen-Schema (Beschäftigungsverhältnisse)": "egp7"
+}
+
+# Use the descriptive text as options for the selectbox
+class_model_options = list(class_model_dict.keys())
 
 
-# Dropdown to select which column to use for y-axis
-y_axis_options = ['oesch', 'simple_wright','egp']  # Add all potential y-axis columns
-selected_y_axis = st.selectbox("Select Y-Axis Column:", y_axis_options)
+selected_class_model_display = st.selectbox("Wähle ein Klassenmodell aus", class_model_options)
 
+# Map the selection back to the column name
+selected_y_axis = class_model_dict[selected_class_model_display]
 # Create horizontal bar chart
 fig = px.bar(
     fraktion_daten,
@@ -84,6 +107,8 @@ fig = px.bar(
     orientation='h',
     hover_data={
         'Anzahl': True,
+        'major_groups':False,
+        'Bezeichnung':True
     },
     title='Klassenanalyse',
     color_discrete_sequence=colors
@@ -102,10 +127,22 @@ fig.update_layout(
     width=1400,
     legend=dict(
         title="Hauptgruppen ISCO-Stufe 1",
-        font=dict(size=12)
+        font=dict(size=12),
+        orientation="v",  # vertical orientation
+        yanchor="top",    # anchor point at the top of the legend
+        y=0.5,              # position at the top of the chart (y=0.5)
+        xanchor="right",  # anchor point at the right of the legend
+        x=1,              # position at the right of the chart (x=1)
+        
     ),
     margin=dict(l=200), #preventing yaxis label cut off
-    xaxis=dict(title="Anzahl der Erwerbstätigen in Millionen")  # changes x-axis label
+    xaxis=dict(title="Anzahl der Erwerbstätigen in Millionen"),
+    yaxis={
+            'title': 'Klassenfraktionen',  # Add a title for the y-axis
+            'title_standoff': 25,  # Distance between the axis and its title
+            'tickfont': {'size': 14,'weight':'bold'},  # Font size for the tick labels
+            'titlefont': {'size': 14, 'color': 'white'}  # Font for the axis title
+    },
 )
 
 st.plotly_chart(fig,use_container_width=True)

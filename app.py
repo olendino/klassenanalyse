@@ -43,8 +43,16 @@ livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige m
 # TODO fix nans (Offiziere)
 livingstone_data_clean = livingstone_data.dropna(subset=["modifiziert_livingstone"]) # -> ???
 
-# Calculate percentages for each class (aggregating by modifiziert_livingstone)
+#TODO include meta categories
+meta_categories = ["Besitzer", "Management", "Angestellte/Arbeiter*innen"]
+subcategories = {
+    "Besitzer": ["Selbstständige", "Selbststänige mit Beschäftigten"],
+    "Management": ["Anleitende Beschäftigte", "Mittleres Management", "Top Management"],
+    "Angestellte/Arbeiter*innen": ["Dienstleistungsarbeiter*innen", "Industriearbeiter*innen","Hochqualifizierte Beschäftigte"]
+}
 
+
+# Calculate percentages for each class (aggregating by modifiziert_livingstone)
 class_totals = livingstone_data.groupby('modifiziert_livingstone')['Anzahl'].sum().reset_index()
 total_sum = class_totals['Anzahl'].sum()
 class_totals['Percent'] = (class_totals['Anzahl'] / total_sum * 100).round(1)
