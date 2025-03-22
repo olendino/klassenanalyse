@@ -343,7 +343,7 @@ def create_sankey_diagram(df, source_col, target_col, value_col=None, title="San
     # Add custom hover text
     fig.update_traces(
         hoverlabel=dict(
-            bgcolor="white",
+            bgcolor="black",
             font_size=12,
             font_family="Arial"
         ),
