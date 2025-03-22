@@ -204,16 +204,25 @@ st.write("> *„Auf einmal hören wir wieder etwas über Klassen, aber jahrelang
 "Niemand sagt das heute mehr. Das ist wirklich interessant. Zum Teil liegt das daran, dass sie die weiße Arbeiterklasse zum Sündenbock machen wollen! (Mark Fisher)”*")
 
 
+
 st.markdown(
     """
-    Seit Jahren beschäftigt mich die Frage: **Wer gehört heutzutage zur Arbeiter*innenklasse in Deutschland?** Was mich daran nervt, hat der Soziologe **D. W. Livingstone** treffend formuliert: *"Without solid data, discussions about class and class consciousness are often just guesswork."*  
+    Seit Jahren beschäftigt mich die Frage: **Wer gehört heutzutage zur Arbeiter*innenklasse in Deutschland?**  
+    Was mich daran nervt, hat der Soziologe **D. W. Livingstone** treffend formuliert:  
+    *"Without solid data, discussions about class and class consciousness are often just guesswork."*  
+
     Das ist mein bescheidener Versuch, das Rätselraten etwas zu reduzieren und der politischen Linken eine grobe Karte an die Hand zu geben.  
     Ein Großteil der Kategorien und Überlegungen basiert auf den Arbeiten von [D.W Livingstone](https://discover.research.utoronto.ca/27054-dw-livingstone).  
 
-    Die Daten für die Operationalisierung stammen aus dem [**Zensus 2022**](https://ergebnisse.zensus2022.de/datenbank/online/) des Statistischen Bundesamtes. Dabei nutze ich die Variablen **"[Stellung im Beruf](https://ergebnisse.zensus2022.de/datenbank/online/variable/ERWBV1/details/tables)"** und **"[ISCO-08 Codes Level 4](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/#elementor-toc__heading-anchor-4)"**.  
-    Diese Grundlage erlaubt zwar keine direkten Aussagen über Klassenbewusstsein, bietet aber die Möglichkeit, eine aktuelle Skizze der deutschen Klassengesellschaft zu entwerfen.
+    Die Daten für die Operationalisierung stammen aus dem [**Zensus 2022**](https://ergebnisse.zensus2022.de/datenbank/online/) des Statistischen Bundesamtes.  
+    Dabei nutze ich die Variablen **"[Stellung im Beruf](https://ergebnisse.zensus2022.de/datenbank/online/variable/ERWBV1/details/tables)"** und  
+    **"[ISCO-08 Codes Level 4](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/#elementor-toc__heading-anchor-4)"**.  
+
+    Diese Grundlage erlaubt zwar keine direkten Aussagen über Klassenbewusstsein, bietet aber die Möglichkeit,  
+    eine aktuelle Skizze der deutschen Klassengesellschaft zu entwerfen.
     """
 )
+
 #GRAPH:
 st.plotly_chart(fig,use_container_width=True)
 
@@ -247,8 +256,119 @@ with st.expander("Mehr über das Klassenmodel nach D.W Livingstone"):
 #st.plotly_chart(fig,use_container_width=True)
 
 
+def create_sankey_diagram(df, source_col, target_col, value_col=None, title="Sankey Diagram"):
+    """
+    Create a Sankey diagram from a dataframe with source and target columns.
+    The number of categories is determined dynamically from the data.
+    
+    Parameters:
+    -----------
+    df : pandas.DataFrame
+        The input dataframe containing source and target data
+    source_col : str
+        The name of the source column
+    target_col : str
+        The name of the target column
+    value_col : str, optional
+        The name of the value column. If None, all flows will have equal value of 1
+    title : str, optional
+        The title for the Sankey diagram
+        
+    Returns:
+    --------
+    plotly.graph_objects.Figure
+        The Sankey diagram figure that can be displayed with fig.show()
+    """
+    color_high_contrast= ['#004488FF', '#DDAA33FF', '#BB5566FF']
+
+    # Ensure the columns exist in the dataframe
+    if source_col not in df.columns:
+        raise ValueError(f"Source column '{source_col}' not found in dataframe")
+    if target_col not in df.columns:
+        raise ValueError(f"Target column '{target_col}' not found in dataframe")
+    if value_col and value_col not in df.columns:
+        raise ValueError(f"Value column '{value_col}' not found in dataframe")
+    
+    # Extract unique node labels from both source and target columns
+    all_nodes = pd.unique(df[[source_col, target_col]].values.ravel('K'))
+    all_nodes = [node for node in all_nodes if node is not None and not pd.isna(node)]
+    
+    # Create a mapping from node names to indices
+    node_indices = {node: i for i, node in enumerate(all_nodes)}
+    
+    # Convert source and target names to their respective indices
+    sources = [node_indices[node] for node in df[source_col]]
+    targets = [node_indices[node] for node in df[target_col]]
+    
+    # Get values for the links
+    if value_col:
+        values = df[value_col].tolist()
+    else:
+        values = [1] * len(sources)  # Default to 1 if no value column provided
+    
+    # Calculate appropriate height based on number of nodes
+    # More nodes need more vertical space
+    base_height = 600
+    height_per_node = 20
+    num_nodes = len(all_nodes)
+    height = max(base_height, min(3000, base_height + (num_nodes * height_per_node)))
+    
+    # Create the Sankey diagram
+    fig = go.Figure(data=[go.Sankey(
+        node=dict(
+            pad=20,
+            thickness=20,
+            line=dict(color="black", width=0.5),
+            label=all_nodes,
+            color='blue'
+        ),
+        link=dict(
+            source=sources,
+            target=targets,
+            value=values,
+            color="rgba(100, 100, 200, 0.2)"
+        ),
+        arrangement="snap"  # This helps with layout
+    )])
+    
+    # Update layout - dynamically adjust size based on node count
+    fig.update_layout(
+        title_text=title,
+        font_size=14,  # Smaller font size
+        width=600,
+        height=height,  # Dynamic height based on node count
+        margin=dict(l=25, r=25, t=50, b=25)
+    )
+    
+    # Add custom hover text
+    fig.update_traces(
+        hoverlabel=dict(
+            bgcolor="white",
+            font_size=12,
+            font_family="Arial"
+        ),
+        node=dict(
+            hovertemplate='%{label}<extra></extra>'
+        ),
+        link=dict(
+            hovertemplate='%{source.label} → %{target.label}<br>Value: %{value}<extra></extra>'
+        )
+    )
+    
+    return fig
 
 
+st.markdown(
+    """
+    ## Betrachte die einzelnen Fraktionen genauer:
+    """
+)
+selected_class_fraction = st.selectbox("Wähle ein Klassen-Fraktion aus", fraktion_order,index=7)
+
+class_data = livingstone_data.query(f'modifiziert_livingstone == "{selected_class_fraction}"')
+class_data['meta_category']= selected_class_fraction
 
 
+sankey_fig =create_sankey_diagram(class_data,'Bezeichnung','meta_category','Anzahl',selected_class_fraction)
 
+st.plotly_chart(sankey_fig,use_container_width=True)
