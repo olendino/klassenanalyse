@@ -21,6 +21,7 @@ jobs:
           remote_user: ${{ vars.SSH_USERNAME }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
           remote_key_pass: ${{ secrets.SSH_PRIVATE_KEY_PASS }}
+          
       - name: Restart daemon on Uberspace
         uses: appleboy/ssh-action@master
         with:

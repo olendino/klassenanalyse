@@ -1,0 +1,1309 @@
+,ISCO-Code,Stellung im Beruf,is_supervisor,self_employed,n_employees,Anzahl,control_work,control_daily,Bezeichnung
+0,1111,Arbeiter*innen & Angestellte,1,0,0.0,8800,4,2,Angehörige gesetzgebender Körperschaften
+5,1112,Arbeiter*innen & Angestellte,1,0,0.0,15410,4,2,Leitende Verwaltungsbedienstete
+10,1113,Arbeiter*innen & Angestellte,1,0,0.0,0,4,2,Traditionelle Dorf- und Stammeshäuptlinge
+15,1114,Arbeiter*innen & Angestellte,1,0,0.0,6100,4,2,Leitende Bedienstete von Interessenorganisationen
+20,1120,Arbeiter*innen & Angestellte,1,0,0.0,244550,4,2,Geschäftsführer und Vorstände
+25,1211,Arbeiter*innen & Angestellte,1,0,0.0,60350,4,2,Führungskräfte im Bereich Finanzen
+30,1212,Arbeiter*innen & Angestellte,1,0,0.0,58530,4,2,Führungskräfte im Personalwesen
+35,1213,Arbeiter*innen & Angestellte,1,0,0.0,12900,4,2,Führungskräfte in Unternehmenspolitik und -planung
+40,1219,Arbeiter*innen & Angestellte,1,0,0.0,97710,4,2,"Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt"
+45,1221,Arbeiter*innen & Angestellte,1,0,0.0,162370,4,2,Führungskräfte in Vertrieb und Marketing
+50,1222,Arbeiter*innen & Angestellte,1,0,0.0,29830,4,2,Führungskräfte in Werbung und Öffentlichkeitsarbeit
+55,1223,Arbeiter*innen & Angestellte,1,0,0.0,13740,4,2,Führungskräfte in Forschung und Entwicklung
+60,1311,Arbeiter*innen & Angestellte,1,0,0.0,570,4,2,Führungskräfte in der Produktion in Land- und Forstwirtschaft
+65,1312,Arbeiter*innen & Angestellte,1,0,0.0,0,4,2,Führungskräfte in der Produktion in Aquakultur und Fischerei
+70,1321,Arbeiter*innen & Angestellte,1,0,0.0,137890,4,2,Führungskräfte in der Produktion bei der Herstellung von Waren
+75,1322,Arbeiter*innen & Angestellte,1,0,0.0,3540,4,2,Führungskräfte in der Produktion im Bergbau
+80,1323,Arbeiter*innen & Angestellte,1,0,0.0,93430,4,2,Führungskräfte in der Produktion im Bau
+85,1324,Arbeiter*innen & Angestellte,1,0,0.0,81530,4,2,"Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen"
+90,1330,Arbeiter*innen & Angestellte,1,0,0.0,94870,4,2,Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie
+95,1341,Arbeiter*innen & Angestellte,1,0,0.0,26490,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Kinderbetreuung
+100,1342,Arbeiter*innen & Angestellte,1,0,0.0,51350,4,2,Führungskräfte in der Erbringung von Dienstleistungen im Gesundheitswesen
+105,1343,Arbeiter*innen & Angestellte,1,0,0.0,10570,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung
+110,1344,Arbeiter*innen & Angestellte,1,0,0.0,16290,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Sozialfürsorge
+115,1345,Arbeiter*innen & Angestellte,1,0,0.0,30480,4,2,Führungskräfte in der Erbringung von Dienstleistungen des Bildungswesens
+120,1346,Arbeiter*innen & Angestellte,1,0,0.0,15410,4,2,Führungskräfte auf Filialebene in der Erbringung von Finanz- und Versicherungsdienstleistungen
+125,1349,Arbeiter*innen & Angestellte,1,0,0.0,41790,4,2,"Führungskräfte in der Erbringung von speziellen Dienstleistungen, anderweitig nicht genannt"
+130,1411,Arbeiter*innen & Angestellte,1,0,0.0,11820,4,2,Führungskräfte in Hotels
+135,1412,Arbeiter*innen & Angestellte,1,0,0.0,49290,4,2,Führungskräfte in Restaurants
+140,1420,Arbeiter*innen & Angestellte,1,0,0.0,74390,4,2,Führungskräfte in Groß- und Einzelhandel
+145,1431,Arbeiter*innen & Angestellte,1,0,0.0,14400,4,2,"Führungskräfte in der Erbringung von Dienstleistungen im Bereich Sport, Erholung und Kultur"
+150,1439,Arbeiter*innen & Angestellte,1,0,0.0,3440,4,2,"Führungskräfte in der Erbringung von Dienstleistungen, anderweitig nicht genannt"
+155,2111,Arbeiter*innen & Angestellte,0,0,0.0,22120,4,2,Physiker und Astronomen
+160,2112,Arbeiter*innen & Angestellte,0,0,0.0,1540,4,2,Meteorologen
+165,2113,Arbeiter*innen & Angestellte,0,0,0.0,28320,4,2,Chemiker
+170,2114,Arbeiter*innen & Angestellte,0,0,0.0,9920,4,2,Geologen und Geophysiker
+175,2120,Arbeiter*innen & Angestellte,0,0,0.0,26250,4,2,"Mathematiker, Versicherungsmathematiker und Statistiker"
+180,2131,Arbeiter*innen & Angestellte,0,0,0.0,39220,4,2,"Biologen, Botaniker, Zoologen und verwandte Berufe"
+185,2132,Arbeiter*innen & Angestellte,0,0,0.0,38910,4,2,"Agrar-, Forst- und Fischereiwissenschaftler und -berater"
+190,2133,Arbeiter*innen & Angestellte,0,0,0.0,20470,4,2,Umweltwissenschaftler
+195,2141,Arbeiter*innen & Angestellte,0,0,0.0,144300,4,2,Wirtschafts- und Produktionsingenieure
+200,2142,Arbeiter*innen & Angestellte,0,0,0.0,84560,4,2,Bauingenieure
+205,2143,Arbeiter*innen & Angestellte,0,0,0.0,15080,4,2,Umweltschutzingenieure
+210,2144,Arbeiter*innen & Angestellte,0,0,0.0,275990,4,2,Maschinenbauingenieure
+215,2145,Arbeiter*innen & Angestellte,0,0,0.0,42190,4,2,Chemieingenieure
+220,2146,Arbeiter*innen & Angestellte,0,0,0.0,18050,4,2,"Bergbauingenieure, Metallurgen und verwandte Berufe"
+225,2149,Arbeiter*innen & Angestellte,0,0,0.0,159560,4,2,"Ingenieure, anderweitig nicht genannt"
+230,2151,Arbeiter*innen & Angestellte,0,0,0.0,70350,4,2,Ingenieure im Bereich Elektrotechnik
+235,2152,Arbeiter*innen & Angestellte,0,0,0.0,65320,4,2,Ingenieure im Bereich Elektronik
+240,2153,Arbeiter*innen & Angestellte,0,0,0.0,8340,4,2,Ingenieure im Bereich Telekommunikationstechnik
+245,2161,Arbeiter*innen & Angestellte,0,0,0.0,99020,4,2,Architekten
+250,2162,Arbeiter*innen & Angestellte,0,0,0.0,13250,4,2,Landschaftsarchitekten
+255,2163,Arbeiter*innen & Angestellte,0,0,0.0,40710,4,2,Produkt- und Textildesigner
+260,2164,Arbeiter*innen & Angestellte,0,0,0.0,29990,4,2,"Raum-, Stadt- und Verkehrsplaner"
+265,2165,Arbeiter*innen & Angestellte,0,0,0.0,13200,4,2,Kartografen und Vermessungsingenieure
+270,2166,Arbeiter*innen & Angestellte,0,0,0.0,93880,4,2,Grafik- und Multimediadesigner
+275,2211,Arbeiter*innen & Angestellte,0,0,0.0,104450,4,2,Allgemeinärzte
+280,2212,Arbeiter*innen & Angestellte,0,0,0.0,191520,4,2,Fachärzte
+285,2221,Arbeiter*innen & Angestellte,0,0,0.0,33160,4,2,Akademische und vergleichbare Krankenpflegefachkräfte
+290,2222,Arbeiter*innen & Angestellte,0,0,0.0,14170,4,2,Akademische und vergleichbare Geburtshilfefachkräfte
+295,2230,Arbeiter*innen & Angestellte,0,0,0.0,3560,4,2,Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin
+300,2240,Arbeiter*innen & Angestellte,0,0,0.0,2150,4,2,Feldscher und vergleichbare paramedizinische Praktiker
+305,2250,Arbeiter*innen & Angestellte,0,0,0.0,20780,4,2,Tierärzte
+310,2261,Arbeiter*innen & Angestellte,0,0,0.0,28510,4,2,Zahnärzte
+315,2262,Arbeiter*innen & Angestellte,0,0,0.0,67710,4,2,Apotheker
+320,2263,Arbeiter*innen & Angestellte,0,0,0.0,9890,4,2,Akademische und vergleichbare Fachkräfte in den Bereichen Umwelt- und Arbeitsmedizin sowie Hygiene
+325,2264,Arbeiter*innen & Angestellte,0,0,0.0,153160,4,2,Physiotherapeuten
+330,2265,Arbeiter*innen & Angestellte,0,0,0.0,20050,4,2,Diätologen und Ernährungsberater
+335,2266,Arbeiter*innen & Angestellte,0,0,0.0,27070,4,2,Audiologen und Sprachtherapeuten
+340,2267,Arbeiter*innen & Angestellte,0,0,0.0,2140,4,2,Optometristen und Orthoptisten
+345,2269,Arbeiter*innen & Angestellte,0,0,0.0,78270,4,2,"Akademische und verwandte Gesundheitsberufe, anderweitig nicht genannt"
+350,2310,Arbeiter*innen & Angestellte,0,0,0.0,292330,4,2,Universitäts- und Hochschullehrer
+355,2320,Arbeiter*innen & Angestellte,0,0,0.0,222610,4,2,Lehrkräfte im Bereich Berufsbildung
+360,2330,Arbeiter*innen & Angestellte,0,0,0.0,565340,4,2,Lehrkräfte im Sekundarbereich
+365,2341,Arbeiter*innen & Angestellte,0,0,0.0,214830,4,2,Lehrkräfte im Primarbereich
+370,2342,Arbeiter*innen & Angestellte,0,0,0.0,706050,4,2,Lehrkräfte und Erzieher im Vorschulbereich
+375,2351,Arbeiter*innen & Angestellte,0,0,0.0,45180,4,2,Pädagogik- und Didaktikspezialisten
+380,2352,Arbeiter*innen & Angestellte,0,0,0.0,120660,4,2,Lehrkräfte im Bereich Sonderpädagogik
+385,2353,Arbeiter*innen & Angestellte,0,0,0.0,7810,4,2,Sonstige Sprachlehrer
+390,2354,Arbeiter*innen & Angestellte,0,0,0.0,15950,4,2,Sonstige Musiklehrer
+395,2355,Arbeiter*innen & Angestellte,0,0,0.0,7610,4,2,Sonstige Kunstlehrer
+400,2356,Arbeiter*innen & Angestellte,0,0,0.0,5440,4,2,Ausbilder im Bereich Informationstechnologie
+405,2359,Arbeiter*innen & Angestellte,0,0,0.0,58290,4,2,"Lehrkräfte, anderweitig nicht genannt"
+410,2411,Arbeiter*innen & Angestellte,0,0,0.0,261600,4,2,"Wirtschaftsprüfer, Steuerberater und verwandte Berufe"
+415,2412,Arbeiter*innen & Angestellte,0,0,0.0,61360,4,2,Finanz- und Anlageberater
+420,2413,Arbeiter*innen & Angestellte,0,0,0.0,29520,4,2,Finanzanalysten
+425,2421,Arbeiter*innen & Angestellte,0,0,0.0,338970,4,2,Akademische und vergleichbare Fachkräfte im Bereich Management- und Organisationsanalyse
+430,2422,Arbeiter*innen & Angestellte,0,0,0.0,109860,4,2,Akademische und vergleichbare Fachkräfte in der strategischen Planung in Politik und Wirtschaft
+435,2423,Arbeiter*innen & Angestellte,0,0,0.0,157260,4,2,Berufsberater und -analytiker und akademische und vergleichbare Personalfachleute
+440,2424,Arbeiter*innen & Angestellte,0,0,0.0,23120,4,2,Fachkräfte in Personalschulung und -entwicklung
+445,2431,Arbeiter*innen & Angestellte,0,0,0.0,235660,4,2,Akademische und vergleichbare Fachkräfte in Werbung und Marketing
+450,2432,Arbeiter*innen & Angestellte,0,0,0.0,44060,4,2,Akademische und vergleichbare Fachkräfte in der Öffentlichkeitsarbeit
+455,2433,Arbeiter*innen & Angestellte,0,0,0.0,229560,4,2,"Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)"
+460,2434,Arbeiter*innen & Angestellte,0,0,0.0,41210,4,2,Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie
+465,2511,Arbeiter*innen & Angestellte,0,0,0.0,292220,4,2,Systemanalytiker
+470,2512,Arbeiter*innen & Angestellte,0,0,0.0,347470,4,2,Softwareentwickler
+475,2513,Arbeiter*innen & Angestellte,0,0,0.0,21050,4,2,Web- und Multimediaentwickler
+480,2514,Arbeiter*innen & Angestellte,0,0,0.0,49980,4,2,Anwendungsprogrammierer
+485,2519,Arbeiter*innen & Angestellte,0,0,0.0,52420,4,2,"Entwickler und Analytiker von Software und Anwendungen, anderweitig nicht genannt"
+490,2521,Arbeiter*innen & Angestellte,0,0,0.0,11110,4,2,Datenbankentwickler und -administratoren
+495,2522,Arbeiter*innen & Angestellte,0,0,0.0,101440,4,2,Systemadministratoren
+500,2523,Arbeiter*innen & Angestellte,0,0,0.0,8310,4,2,Akademische und vergleichbare Fachkräfte für Computernetzwerke
+505,2529,Arbeiter*innen & Angestellte,0,0,0.0,5930,4,2,"Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke, anderweitig nicht genannt"
+510,2611,Arbeiter*innen & Angestellte,0,0,0.0,76490,4,2,Anwälte
+515,2612,Arbeiter*innen & Angestellte,0,0,0.0,26430,4,2,Richter
+520,2619,Arbeiter*innen & Angestellte,0,0,0.0,97090,4,2,"Juristen, anderweitig nicht genannt"
+525,2621,Arbeiter*innen & Angestellte,0,0,0.0,16690,4,2,Archiv- und Museumswissenschaftler
+530,2622,Arbeiter*innen & Angestellte,0,0,0.0,16170,4,2,Bibliothekswissenschaftler und verwandte Informationswissenschaftler
+535,2631,Arbeiter*innen & Angestellte,0,0,0.0,13980,4,2,Volkswirtschaftler
+540,2632,Arbeiter*innen & Angestellte,0,0,0.0,18410,4,2,"Soziologen, Anthropologen und verwandte Wissenschaftler"
+545,2633,Arbeiter*innen & Angestellte,0,0,0.0,6790,4,2,"Philosophen, Historiker und Politologen"
+550,2634,Arbeiter*innen & Angestellte,0,0,0.0,75750,4,2,Psychologen
+555,2635,Arbeiter*innen & Angestellte,0,0,0.0,391680,4,2,Sozialarbeiter
+560,2636,Arbeiter*innen & Angestellte,0,0,0.0,45290,4,2,"Geistliche, Seelsorger"
+565,2641,Arbeiter*innen & Angestellte,0,0,0.0,27630,4,2,Autoren und verwandte schriftstellerische Berufe
+570,2642,Arbeiter*innen & Angestellte,0,0,0.0,93360,4,2,Journalisten
+575,2643,Arbeiter*innen & Angestellte,0,0,0.0,18840,4,2,"Übersetzer, Dolmetscher und andere Linguisten"
+580,2651,Arbeiter*innen & Angestellte,0,0,0.0,4430,4,2,Bildende Künstler
+585,2652,Arbeiter*innen & Angestellte,0,0,0.0,31350,4,2,"Musiker, Sänger und Komponisten"
+590,2653,Arbeiter*innen & Angestellte,0,0,0.0,1980,4,2,Tänzer und Choreografen
+595,2654,Arbeiter*innen & Angestellte,0,0,0.0,20650,4,2,Regisseure und Produzenten im Film- und Bühnenbereich sowie in verwandten Bereichen
+600,2655,Arbeiter*innen & Angestellte,0,0,0.0,6630,4,2,Schauspieler
+605,2656,Arbeiter*innen & Angestellte,0,0,0.0,1830,4,2,"Sprecher im Rundfunk, Fernsehen und sonstigen Medien"
+610,2659,Arbeiter*innen & Angestellte,0,0,0.0,2110,4,2,"Bildende und darstellende Künstler, anderweitig nicht genannt"
+615,3111,Arbeiter*innen & Angestellte,0,0,0.0,85760,4,2,Chemo- und Physikotechniker
+620,3112,Arbeiter*innen & Angestellte,0,0,0.0,155820,4,2,Bautechniker
+625,3113,Arbeiter*innen & Angestellte,0,0,0.0,77250,4,2,Elektrotechniker
+630,3114,Arbeiter*innen & Angestellte,0,0,0.0,115670,4,2,Techniker im Bereich Elektronik
+635,3115,Arbeiter*innen & Angestellte,0,0,0.0,202200,4,2,Maschinenbautechniker
+640,3116,Arbeiter*innen & Angestellte,0,0,0.0,30300,4,2,Chemiebetriebs- und Verfahrenstechniker
+645,3117,Arbeiter*innen & Angestellte,0,0,0.0,19880,4,2,Bergbau- und Hüttentechniker
+650,3118,Arbeiter*innen & Angestellte,0,0,0.0,112290,4,2,Technische Zeichner
+655,3119,Arbeiter*innen & Angestellte,0,0,0.0,324080,4,2,"Material- und ingenieurtechnische Fachkräfte, anderweitig nicht genannt"
+660,3121,Arbeiter*innen & Angestellte,0,0,0.0,3340,4,2,Produktionsleiter im Bergbau
+665,3122,Arbeiter*innen & Angestellte,0,0,0.0,314540,4,2,Produktionsleiter bei der Herstellung von Waren
+670,3123,Arbeiter*innen & Angestellte,0,0,0.0,135780,4,2,Bauleiter
+675,3131,Arbeiter*innen & Angestellte,0,0,0.0,26510,4,2,Steuerer von Energieerzeugungsanlagen
+680,3132,Arbeiter*innen & Angestellte,0,0,0.0,27780,4,2,Steuerer von Verbrennungs- und Wasserbehandlungsanlagen
+685,3133,Arbeiter*innen & Angestellte,0,0,0.0,920,4,2,Steuerer von chemischen Verfahrensanlagen
+690,3134,Arbeiter*innen & Angestellte,0,0,0.0,720,4,2,Steurer von Erdöl- und Erdgasraffinationsanlagen
+695,3135,Arbeiter*innen & Angestellte,0,0,0.0,1980,4,2,Steuerer von Verfahren in der Metallerzeugung
+700,3139,Arbeiter*innen & Angestellte,0,0,0.0,960,4,2,"Techniker in der Prozesssteuerung, anderweitig nicht genannt"
+705,3141,Arbeiter*innen & Angestellte,0,0,0.0,45700,4,2,Biotechniker (ohne medizinische Fachberufe)
+710,3142,Arbeiter*innen & Angestellte,0,0,0.0,19360,4,2,Agrartechniker
+715,3143,Arbeiter*innen & Angestellte,0,0,0.0,15680,4,2,Forsttechniker
+720,3151,Arbeiter*innen & Angestellte,0,0,0.0,3860,4,2,Technische Schiffsoffiziere
+725,3152,Arbeiter*innen & Angestellte,0,0,0.0,12340,4,2,"Schiffsführer, nautische Schiffsoffiziere und Schiffslotsen"
+730,3153,Arbeiter*innen & Angestellte,0,0,0.0,14600,4,2,Flugzeugführer und verwandte Berufe
+735,3154,Arbeiter*innen & Angestellte,0,0,0.0,5100,4,2,Flugverkehrslotsen
+740,3155,Arbeiter*innen & Angestellte,0,0,0.0,710,4,2,Flugsicherungstechniker
+745,3211,Arbeiter*innen & Angestellte,0,0,0.0,35620,4,2,Medizintechniker im Bereich bildgebende Verfahren und Therapiegeräte
+750,3212,Arbeiter*innen & Angestellte,0,0,0.0,49610,4,2,Medizintechniker im Bereich Labor und Pathologie
+755,3213,Arbeiter*innen & Angestellte,0,0,0.0,86270,4,2,Pharmazeutisch-technische Assistenten
+760,3214,Arbeiter*innen & Angestellte,0,0,0.0,74810,4,2,Medizinische und zahnmedizinische Prothetiktechniker
+765,3221,Arbeiter*innen & Angestellte,0,0,0.0,1187820,4,2,Nicht akademische Krankenpflegefachkräfte
+770,3222,Arbeiter*innen & Angestellte,0,0,0.0,1120,4,2,Nicht akademische Geburtshilfefachkräfte
+775,3230,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin
+780,3240,Arbeiter*innen & Angestellte,0,0,0.0,7910,4,2,Veterinärmedizinische Fachkräfte und Assistenten
+785,3251,Arbeiter*innen & Angestellte,0,0,0.0,203640,4,2,Zahnmedizinische Assistenten und Dentalhygieniker
+790,3252,Arbeiter*innen & Angestellte,0,0,0.0,13040,4,2,Fachkräfte im Bereich medizinische Dokumentation und Information
+795,3253,Arbeiter*innen & Angestellte,0,0,0.0,6780,4,2,Fachkräfte in der öffentlichen Gesundheitsfürsorge
+800,3254,Arbeiter*innen & Angestellte,0,0,0.0,48480,4,2,Augenoptiker
+805,3255,Arbeiter*innen & Angestellte,0,0,0.0,23120,4,2,Physiotherapeutische Techniker und Assistenten
+810,3256,Arbeiter*innen & Angestellte,0,0,0.0,514680,4,2,Medizinische Assistenten
+815,3257,Arbeiter*innen & Angestellte,0,0,0.0,96850,4,2,Nicht akademische Kontrolleure und Beauftragte in den Bereichen Umwelt- und Arbeitsmedizin sowie verwandte Berufe
+820,3258,Arbeiter*innen & Angestellte,0,0,0.0,80000,4,2,Rettungsdienstpersonal
+825,3259,Arbeiter*innen & Angestellte,0,0,0.0,7190,4,2,"Assistenzberufe im Gesundheitswesen, anderweitig nicht genannt"
+830,3311,Arbeiter*innen & Angestellte,0,0,0.0,38150,4,2,"Wertpapierhändler, -makler und Finanzmakler"
+835,3312,Arbeiter*innen & Angestellte,0,0,0.0,69170,4,2,Kreditsachbearbeiter
+840,3313,Arbeiter*innen & Angestellte,0,0,0.0,416590,4,2,Nicht akademische Fachkräfte im Rechnungswesen
+845,3314,Arbeiter*innen & Angestellte,0,0,0.0,710,4,2,"Nicht akademische statistische, mathematische und verwandte Fachkräfte"
+850,3315,Arbeiter*innen & Angestellte,0,0,0.0,4920,4,2,Schätzer und Schadensgutachter
+855,3321,Arbeiter*innen & Angestellte,0,0,0.0,130690,4,2,Versicherungsvertreter
+860,3322,Arbeiter*innen & Angestellte,0,0,0.0,443600,4,2,Vertriebsagenten
+865,3323,Arbeiter*innen & Angestellte,0,0,0.0,125930,4,2,Einkäufer
+870,3324,Arbeiter*innen & Angestellte,0,0,0.0,2580,4,2,Handelsmakler
+875,3331,Arbeiter*innen & Angestellte,0,0,0.0,47290,4,2,Fachkräfte für Abrechnungs- und Speditionsdienstleistungen
+880,3332,Arbeiter*innen & Angestellte,0,0,0.0,47090,4,2,Konferenz- und Veranstaltungsplaner
+885,3333,Arbeiter*innen & Angestellte,0,0,0.0,51590,4,2,Arbeits- und Personalvermittler
+890,3334,Arbeiter*innen & Angestellte,0,0,0.0,153540,4,2,Immobilienmakler und -verwalter
+895,3339,Arbeiter*innen & Angestellte,0,0,0.0,16950,4,2,"Fachkräfte für unternehmensbezogene Dienstleistungen, anderweitig nicht genannt"
+900,3341,Arbeiter*innen & Angestellte,0,0,0.0,461490,4,2,Sekretariatsleiter
+905,3342,Arbeiter*innen & Angestellte,0,0,0.0,133990,4,2,Sekretariatsfachkräfte im juristischen Bereich
+910,3343,Arbeiter*innen & Angestellte,0,0,0.0,357970,4,2,Sekretariatsfachkräfte in Verwaltung und Geschäftsleitung
+915,3344,Arbeiter*innen & Angestellte,0,0,0.0,169230,4,2,Sekretariatsfachkräfte im Gesundheitswesen
+920,3351,Arbeiter*innen & Angestellte,0,0,0.0,44420,4,2,Fachkräfte im Zolldienst und Grenzschutz
+925,3352,Arbeiter*innen & Angestellte,0,0,0.0,87520,4,2,Fachkräfte in der Steuerverwaltung
+930,3353,Arbeiter*innen & Angestellte,0,0,0.0,158450,4,2,Fachkräfte in Sozialverwaltung und -versicherung
+935,3354,Arbeiter*innen & Angestellte,0,0,0.0,4890,4,2,"Fachkräfte bei staatlichen Pass-, Lizenz- und Genehmigungsstellen"
+940,3355,Arbeiter*innen & Angestellte,0,0,0.0,80350,4,2,Polizeikommissare und Kriminalbeamte
+945,3359,Arbeiter*innen & Angestellte,0,0,0.0,17660,4,2,"Fachkräfte in der öffentlichen Verwaltung, anderweitig nicht genannt"
+950,3411,Arbeiter*innen & Angestellte,0,0,0.0,68170,4,2,Nicht akademische Fachkräfte für Rechts- und verwandte Angelegenheiten
+955,3412,Arbeiter*innen & Angestellte,0,0,0.0,245610,4,2,Nicht akademische sozialpflegerische Fachkräfte
+960,3413,Arbeiter*innen & Angestellte,0,0,0.0,5610,4,2,Ordensbrüder/-schwestern und Seelsorgehelfer
+965,3421,Arbeiter*innen & Angestellte,0,0,0.0,9430,4,2,Athleten und Berufssportler
+970,3422,Arbeiter*innen & Angestellte,0,0,0.0,53680,4,2,"Sportlehrer, Sporttrainer und Sportfunktionäre"
+975,3423,Arbeiter*innen & Angestellte,0,0,0.0,59630,4,2,Trainer und Betreuer im Bereich Fitness und Erholung
+980,3431,Arbeiter*innen & Angestellte,0,0,0.0,12870,4,2,Fotografen
+985,3432,Arbeiter*innen & Angestellte,0,0,0.0,26120,4,2,Raumgestalter und Dekorateure
+990,3433,Arbeiter*innen & Angestellte,0,0,0.0,11370,4,2,"Fachkräfte in Kunstgalerien, Museen und Bibliotheken"
+995,3434,Arbeiter*innen & Angestellte,0,0,0.0,31630,4,2,Küchenchefs
+1000,3435,Arbeiter*innen & Angestellte,0,0,0.0,41790,4,2,Sonstige Fachkräfte in Gestaltung und Kultur
+1005,3511,Arbeiter*innen & Angestellte,0,0,0.0,9640,4,2,Techniker für den Betrieb von Informations- und Kommunikationstechnologie
+1010,3512,Arbeiter*innen & Angestellte,0,0,0.0,146590,4,2,Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie
+1015,3513,Arbeiter*innen & Angestellte,0,0,0.0,91610,4,2,Techniker für Computernetzwerke und -systeme
+1020,3514,Arbeiter*innen & Angestellte,0,0,0.0,9690,4,2,Webmaster
+1025,3521,Arbeiter*innen & Angestellte,0,0,0.0,20950,4,2,Techniker für Rundfunk und audiovisuelle Medien
+1030,3522,Arbeiter*innen & Angestellte,0,0,0.0,12010,4,2,Telekommunikationstechniker
+1035,4110,Arbeiter*innen & Angestellte,0,0,0.0,454860,4,2,Allgemeine Bürokräfte
+1040,4120,Arbeiter*innen & Angestellte,0,0,0.0,1753560,4,2,Sekretariatskräfte (allgemein)
+1045,4131,Arbeiter*innen & Angestellte,0,0,0.0,11590,4,2,Schreibkräfte und Bediener von Textverarbeitungsanlagen
+1050,4132,Arbeiter*innen & Angestellte,0,0,0.0,9210,4,2,Datenerfasser
+1055,4211,Arbeiter*innen & Angestellte,0,0,0.0,353240,4,2,Bank- und andere Schalterbedienstete
+1060,4212,Arbeiter*innen & Angestellte,0,0,0.0,4750,4,2,"Buchmacher, Croupiers und verwandte Berufe im Bereich Glücks- und Wettspiele"
+1065,4213,Arbeiter*innen & Angestellte,0,0,0.0,270,4,2,Pfandleiher und Geldverleiher
+1070,4214,Arbeiter*innen & Angestellte,0,0,0.0,2600,4,2,Inkassobeauftragte und verwandte Berufe
+1075,4221,Arbeiter*innen & Angestellte,0,0,0.0,66330,4,2,Reiseverkehrsfachkräfte
+1080,4222,Arbeiter*innen & Angestellte,0,0,0.0,61040,4,2,Kundeninformationsfachkräfte in Call Centers
+1085,4223,Arbeiter*innen & Angestellte,0,0,0.0,21880,4,2,Telefonisten
+1090,4224,Arbeiter*innen & Angestellte,0,0,0.0,68690,4,2,Hotelrezeptionisten
+1095,4225,Arbeiter*innen & Angestellte,0,0,0.0,7100,4,2,Auskunftspersonal
+1100,4226,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Empfangskräfte (allgemein)
+1105,4227,Arbeiter*innen & Angestellte,0,0,0.0,3210,4,2,Interviewer im Bereich Umfragen und Marktforschung
+1110,4229,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,"Berufe im Bereich Kundeninformation, anderweitig nicht genannt"
+1115,4311,Arbeiter*innen & Angestellte,0,0,0.0,352180,4,2,Bürokräfte im Rechnungswesen und in der Buchhaltung
+1120,4312,Arbeiter*innen & Angestellte,0,0,0.0,37760,4,2,"Bürokräfte in der Statistik, im Finanz- und Versicherungswesen"
+1125,4313,Arbeiter*innen & Angestellte,0,0,0.0,4240,4,2,Bürokräfte in der Lohnbuchhaltung
+1130,4321,Arbeiter*innen & Angestellte,0,0,0.0,649900,4,2,Fachkräfte in der Lagerwirtschaft
+1135,4322,Arbeiter*innen & Angestellte,0,0,0.0,259590,4,2,Bürokräfte in der Material- und Fertigungsplanung und verwandte Berufe
+1140,4323,Arbeiter*innen & Angestellte,0,0,0.0,217890,4,2,Bürokräfte in der Transportwirtschaft und verwandte Berufe
+1145,4411,Arbeiter*innen & Angestellte,0,0,0.0,20080,4,2,Bibliotheksassistenten
+1150,4412,Arbeiter*innen & Angestellte,0,0,0.0,197990,4,2,Postverteiler und -sortierer
+1155,4413,Arbeiter*innen & Angestellte,0,0,0.0,8470,4,2,"Kodierer, Korrekturleser und verwandte Bürokräfte"
+1160,4414,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Schreiber und verwandte Arbeitskräfte
+1165,4415,Arbeiter*innen & Angestellte,0,0,0.0,12040,4,2,Bürokräfte für Registratur und Dokumentation
+1170,4416,Arbeiter*innen & Angestellte,0,0,0.0,134810,4,2,Bürokräfte im Personalwesen
+1175,4419,Arbeiter*innen & Angestellte,0,0,0.0,90290,4,2,"Bürokräfte und verwandte Berufe, anderweitig nicht genannt"
+1180,5111,Arbeiter*innen & Angestellte,0,0,0.0,25420,4,2,Reisebegleiter und Stewards
+1185,5112,Arbeiter*innen & Angestellte,0,0,0.0,19280,4,2,Schaffner
+1190,5113,Arbeiter*innen & Angestellte,0,0,0.0,8230,4,2,Reiseleiter/Fremdenführer
+1195,5120,Arbeiter*innen & Angestellte,0,0,0.0,238300,4,2,Köche
+1200,5131,Arbeiter*innen & Angestellte,0,0,0.0,462340,4,2,Kellner
+1205,5132,Arbeiter*innen & Angestellte,0,0,0.0,44790,4,2,Barkeeper
+1210,5141,Arbeiter*innen & Angestellte,0,0,0.0,144310,4,2,Friseure
+1215,5142,Arbeiter*innen & Angestellte,0,0,0.0,40300,4,2,Kosmetiker und verwandte Berufe
+1220,5151,Arbeiter*innen & Angestellte,0,0,0.0,82330,4,2,"Reinigungs- und Hauswirtschaftsleiter in Büros, Hotels und anderen Einrichtungen"
+1225,5152,Arbeiter*innen & Angestellte,0,0,0.0,159660,4,2,Hauswirtschafter in Privathaushalten
+1230,5153,Arbeiter*innen & Angestellte,0,0,0.0,332020,4,2,Hauswarte
+1235,5161,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,"Astrologen, Wahrsager und verwandte Berufe"
+1240,5162,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Gesellschafter und Zofen/Kammerdiener
+1245,5163,Arbeiter*innen & Angestellte,0,0,0.0,16340,4,2,Bestatter und Einbalsamierer
+1250,5164,Arbeiter*innen & Angestellte,0,0,0.0,52850,4,2,Tierpfleger und -betreuer
+1255,5165,Arbeiter*innen & Angestellte,0,0,0.0,23270,4,2,Fahrschullehrer
+1260,5169,Arbeiter*innen & Angestellte,0,0,0.0,250,4,2,"Berufe im Bereich personenbezogener Dienstleistungen, anderweitig nicht genannt"
+1265,5211,Arbeiter*innen & Angestellte,0,0,0.0,9120,4,2,Verkaufsstand- und Marktverkäufer
+1270,5212,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Straßenverkäufer von Lebensmitteln
+1275,5221,Arbeiter*innen & Angestellte,0,0,0.0,41240,4,2,Leiter eines Einzelhandelsgeschäftes
+1280,5222,Arbeiter*innen & Angestellte,0,0,0.0,35390,4,2,Verkaufsaufsichtskräfte in Handelsgeschäften
+1285,5223,Arbeiter*innen & Angestellte,0,0,0.0,1957260,4,2,Verkäufer und Verkaufshilfskräfte in Handelsgeschäften
+1290,5230,Arbeiter*innen & Angestellte,0,0,0.0,163940,4,2,Kassierer und Kartenverkäufer
+1295,5241,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Mannequins/Dressmen und sonstige Modelle
+1300,5242,Arbeiter*innen & Angestellte,0,0,0.0,3610,4,2,Produktvorführer
+1305,5243,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Haustürverkäufer
+1310,5244,Arbeiter*innen & Angestellte,0,0,0.0,10160,4,2,Telefonverkäufer
+1315,5245,Arbeiter*innen & Angestellte,0,0,0.0,25550,4,2,Tankwarte
+1320,5246,Arbeiter*innen & Angestellte,0,0,0.0,69400,4,2,Imbissverkäufer
+1325,5249,Arbeiter*innen & Angestellte,0,0,0.0,7540,4,2,"Verkaufskräfte, anderweitig nicht genannt"
+1330,5311,Arbeiter*innen & Angestellte,0,0,0.0,190770,4,2,Kinderbetreuer
+1335,5312,Arbeiter*innen & Angestellte,0,0,0.0,68070,4,2,Lernbetreuer
+1340,5321,Arbeiter*innen & Angestellte,0,0,0.0,288450,4,2,Pflegehelfer
+1345,5322,Arbeiter*innen & Angestellte,0,0,0.0,287550,4,2,Haus- und Familienpfleger
+1350,5329,Arbeiter*innen & Angestellte,0,0,0.0,13160,4,2,"Betreuungsberufe im Gesundheitswesen, anderweitig nicht genannt"
+1355,5411,Arbeiter*innen & Angestellte,0,0,0.0,56550,4,2,Feuerwehrleute
+1360,5412,Arbeiter*innen & Angestellte,0,0,0.0,189650,4,2,Polizisten (ohne Polizeikommissare)
+1365,5413,Arbeiter*innen & Angestellte,0,0,0.0,27300,4,2,Gefängnisaufseher
+1370,5414,Arbeiter*innen & Angestellte,0,0,0.0,158100,4,2,Sicherheitswachpersonal
+1375,5419,Arbeiter*innen & Angestellte,0,0,0.0,32260,4,2,"Schutzkräfte und Sicherheitsbedienstete, anderweitig nicht genannt"
+1380,6111,Arbeiter*innen & Angestellte,0,0,0.0,10390,4,2,Ackerbauern und Gemüseanbauer
+1385,6112,Arbeiter*innen & Angestellte,0,0,0.0,8730,4,2,Baum- und Strauchfrüchteanbauer
+1390,6113,Arbeiter*innen & Angestellte,0,0,0.0,213620,4,2,"Gärtner, Saat- und Pflanzenzüchter"
+1395,6114,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Fachkräfte in der Mischkulturlandwirtschaft
+1400,6121,Arbeiter*innen & Angestellte,0,0,0.0,22150,4,2,Nutztierhalter (ohne Geflügel) und Milchproduzenten
+1405,6122,Arbeiter*innen & Angestellte,0,0,0.0,2440,4,2,Geflügelhalter
+1410,6123,Arbeiter*innen & Angestellte,0,0,0.0,690,4,2,Imker und Seidenraupenzüchter
+1415,6129,Arbeiter*innen & Angestellte,0,0,0.0,350,4,2,"Tierhalter, anderweitig nicht genannt"
+1420,6130,Arbeiter*innen & Angestellte,0,0,0.0,109920,4,2,Landwirte mit Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+1425,6210,Arbeiter*innen & Angestellte,0,0,0.0,16410,4,2,Forstarbeitskräfte und verwandte Berufe
+1430,6221,Arbeiter*innen & Angestellte,0,0,0.0,860,4,2,Fachkräfte im Bereich Aquakultur
+1435,6222,Arbeiter*innen & Angestellte,0,0,0.0,1390,4,2,Binnen- und Küstenfischer
+1440,6223,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Hochseefischer
+1445,6224,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Jäger und Fallensteller
+1450,6310,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Ackerbauern für den Eigenbedarf
+1455,6320,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Nutztierhalter für den Eigenbedarf
+1460,6330,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Ackerbauern und Nutztierhalter (ohne ausgeprägten Schwerpunkt) für den Eigenbedarf
+1465,6340,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,"Fischer, Jäger, Fallensteller und Sammler für den Eigenbedarf"
+1470,7111,Arbeiter*innen & Angestellte,0,0,0.0,18130,4,2,Rohbaufacharbeiter im Hochbau
+1475,7112,Arbeiter*innen & Angestellte,0,0,0.0,128640,4,2,Maurer und verwandte Berufe
+1480,7113,Arbeiter*innen & Angestellte,0,0,0.0,12460,4,2,"Steinmetze, Steinspalter, -bearbeiter und Steinbildhauer"
+1485,7114,Arbeiter*innen & Angestellte,0,0,0.0,82590,4,2,"Betonierer, Betonoberflächenfertiger und verwandte Berufe"
+1490,7115,Arbeiter*innen & Angestellte,0,0,0.0,98790,4,2,Zimmerleute und Bautischler
+1495,7119,Arbeiter*innen & Angestellte,0,0,0.0,23820,4,2,"Baukonstruktions- und verwandte Berufe, anderweitig nicht genannt"
+1500,7121,Arbeiter*innen & Angestellte,0,0,0.0,59600,4,2,Dachdecker
+1505,7122,Arbeiter*innen & Angestellte,0,0,0.0,56860,4,2,Boden- und Fliesenleger
+1510,7123,Arbeiter*innen & Angestellte,0,0,0.0,63050,4,2,Stuckateure
+1515,7124,Arbeiter*innen & Angestellte,0,0,0.0,9950,4,2,Isolierer
+1520,7125,Arbeiter*innen & Angestellte,0,0,0.0,11360,4,2,Glaser
+1525,7126,Arbeiter*innen & Angestellte,0,0,0.0,203820,4,2,Bauspengler und Sanitär- und Heizungsinstallateure
+1530,7127,Arbeiter*innen & Angestellte,0,0,0.0,21410,4,2,Klima- und Kälteanlagenbauer
+1535,7131,Arbeiter*innen & Angestellte,0,0,0.0,114050,4,2,Maler und verwandte Berufe
+1540,7132,Arbeiter*innen & Angestellte,0,0,0.0,60000,4,2,Lackierer und verwandte Berufe
+1545,7133,Arbeiter*innen & Angestellte,0,0,0.0,11280,4,2,Fassadenreiniger und Schornsteinfeger/Rauchfangkehrer
+1550,7211,Arbeiter*innen & Angestellte,0,0,0.0,6160,4,2,Former und Kernmacher (für Metallguss)
+1555,7212,Arbeiter*innen & Angestellte,0,0,0.0,107290,4,2,Schweißer und Brennschneider
+1560,7213,Arbeiter*innen & Angestellte,0,0,0.0,45710,4,2,Blechkaltverformer
+1565,7214,Arbeiter*innen & Angestellte,0,0,0.0,112820,4,2,Baumetallverformer und Metallbauer
+1570,7215,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Verspannungsmonteure und Seilspleißer
+1575,7221,Arbeiter*innen & Angestellte,0,0,0.0,10700,4,2,"Grobschmiede, Hammerschmiede und Schmiedepresser"
+1580,7222,Arbeiter*innen & Angestellte,0,0,0.0,152960,4,2,Werkzeugmechaniker und verwandte Berufe
+1585,7223,Arbeiter*innen & Angestellte,0,0,0.0,408450,4,2,Werkzeugmaschineneinrichter und -bediener
+1590,7224,Arbeiter*innen & Angestellte,0,0,0.0,28280,4,2,"Metallpolierer, Rundschleifer und Werkzeugschärfer"
+1595,7231,Arbeiter*innen & Angestellte,0,0,0.0,333830,4,2,Kraftfahrzeugmechaniker und -schlosser
+1600,7232,Arbeiter*innen & Angestellte,0,0,0.0,19390,4,2,Flugmotorenmechaniker und -schlosser
+1605,7233,Arbeiter*innen & Angestellte,0,0,0.0,602370,4,2,Landmaschinen- und Industriemaschinenmechaniker und -schlosser
+1610,7234,Arbeiter*innen & Angestellte,0,0,0.0,19220,4,2,Fahrradmechaniker und verwandte Berufe
+1615,7311,Arbeiter*innen & Angestellte,0,0,0.0,49470,4,2,Präzisionsinstrumentenmacher und -instandsetzer
+1620,7312,Arbeiter*innen & Angestellte,0,0,0.0,3410,4,2,Musikinstrumentenbauer und -stimmer
+1625,7313,Arbeiter*innen & Angestellte,0,0,0.0,5810,4,2,Schmuckwarenhersteller und Edelmetallbearbeiter
+1630,7314,Arbeiter*innen & Angestellte,0,0,0.0,3850,4,2,Keramiker und verwandte Berufe
+1635,7315,Arbeiter*innen & Angestellte,0,0,0.0,3360,4,2,"Glasmacher, -schneider, -schleifer und -veredler"
+1640,7316,Arbeiter*innen & Angestellte,0,0,0.0,11010,4,2,"Schildermaler, Dekormaler, Graveure und Ätzer"
+1645,7317,Arbeiter*innen & Angestellte,0,0,0.0,3040,4,2,"Kunsthandwerkliche Berufe für Holz, Korbwaren und verwandte Materialien"
+1650,7318,Arbeiter*innen & Angestellte,0,0,0.0,1700,4,2,"Kunsthandwerkliche Berufe für Textilien, Leder und verwandte Materialien"
+1655,7319,Arbeiter*innen & Angestellte,0,0,0.0,1780,4,2,"Kunsthandwerkliche Berufe, anderweitig nicht genannt"
+1660,7321,Arbeiter*innen & Angestellte,0,0,0.0,63430,4,2,Techniker in der Druckvorstufe
+1665,7322,Arbeiter*innen & Angestellte,0,0,0.0,47990,4,2,Drucker
+1670,7323,Arbeiter*innen & Angestellte,0,0,0.0,8800,4,2,Berufe in der Druckweiterverarbeitung und Buchbinder
+1675,7411,Arbeiter*innen & Angestellte,0,0,0.0,229780,4,2,Bauelektriker und verwandte Berufe
+1680,7412,Arbeiter*innen & Angestellte,0,0,0.0,178040,4,2,Elektromechaniker und verwandte Berufe
+1685,7413,Arbeiter*innen & Angestellte,0,0,0.0,9840,4,2,Elektroleitungsinstallateure und Wartungspersonal
+1690,7421,Arbeiter*innen & Angestellte,0,0,0.0,117730,4,2,Elektroniker und Elektronik-Servicetechniker
+1695,7422,Arbeiter*innen & Angestellte,0,0,0.0,144740,4,2,Installateure und Servicetechniker im Bereich Informations- und Kommunikationstechnik
+1700,7511,Arbeiter*innen & Angestellte,0,0,0.0,68370,4,2,"Fleischer, Fischhändler und -verarbeiter und verwandte Berufe"
+1705,7512,Arbeiter*innen & Angestellte,0,0,0.0,67030,4,2,"Bäcker, Konditoren und Konfektmacher"
+1710,7513,Arbeiter*innen & Angestellte,0,0,0.0,1880,4,2,Molkerei- und Käsereifachkräfte
+1715,7514,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Obst- und Gemüsekonservierer und verwandte Berufe
+1720,7515,Arbeiter*innen & Angestellte,0,0,0.0,800,4,2,Nahrungsmittel- und Getränkekoster und -klassierer
+1725,7516,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Tabakaufbereiter und Tabakwarenmacher
+1730,7521,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Holztrockner und -konservierer
+1735,7522,Arbeiter*innen & Angestellte,0,0,0.0,170830,4,2,Möbeltischler und verwandte Berufe
+1740,7523,Arbeiter*innen & Angestellte,0,0,0.0,32920,4,2,Einrichter und Bediener von Holzbearbeitungsmaschinen
+1745,7531,Arbeiter*innen & Angestellte,0,0,0.0,18020,4,2,"Herren- und Damenschneider, Kürschner und Hutmacher"
+1750,7532,Arbeiter*innen & Angestellte,0,0,0.0,1150,4,2,Schnittmustermacher und Zuschneider
+1755,7533,Arbeiter*innen & Angestellte,0,0,0.0,18840,4,2,"Näher, Sticker und verwandte Berufe"
+1760,7534,Arbeiter*innen & Angestellte,0,0,0.0,12590,4,2,Polsterer und verwandte Berufe
+1765,7535,Arbeiter*innen & Angestellte,0,0,0.0,920,4,2,"Pelzveredler, Gerber und Fellzurichter"
+1770,7536,Arbeiter*innen & Angestellte,0,0,0.0,8650,4,2,Schuhmacher und verwandte Berufe
+1775,7541,Arbeiter*innen & Angestellte,0,0,0.0,510,4,2,Taucher
+1780,7542,Arbeiter*innen & Angestellte,0,0,0.0,2570,4,2,Sprengmeister und Sprengbeauftragte
+1785,7543,Arbeiter*innen & Angestellte,0,0,0.0,154240,4,2,Produkttester und -klassierer (ohne Nahrungsmittel und Getränke)
+1790,7544,Arbeiter*innen & Angestellte,0,0,0.0,2940,4,2,Kammerjäger und andere Schädlingsbekämpfungsberufe
+1795,7549,Arbeiter*innen & Angestellte,0,0,0.0,55010,4,2,"Handwerks- und verwandte Berufe, anderweitig nicht genannt"
+1800,8111,Arbeiter*innen & Angestellte,0,0,0.0,12060,4,2,Bergleute und Grubenarbeiter
+1805,8112,Arbeiter*innen & Angestellte,0,0,0.0,51960,4,2,Bediener von Mineral- und Gesteinsaufbereitungsanlagen
+1810,8113,Arbeiter*innen & Angestellte,0,0,0.0,4390,4,2,Tiefbohrer und verwandte Berufe
+1815,8114,Arbeiter*innen & Angestellte,0,0,0.0,19790,4,2,"Bediener von Maschinen zur Herstellung und Verarbeitung von Zement, Steinen und sonstigen Mineralien"
+1820,8121,Arbeiter*innen & Angestellte,0,0,0.0,55290,4,2,Bediener von Anlagen in der Metallerzeugung und -umformung
+1825,8122,Arbeiter*innen & Angestellte,0,0,0.0,34310,4,2,"Bediener von Anlagen zur Metallveredlung, Plattierung und Beschichtung von Metallen"
+1830,8131,Arbeiter*innen & Angestellte,0,0,0.0,111320,4,2,Bediener von Anlagen und Maschinen für chemische Erzeugnisse
+1835,8132,Arbeiter*innen & Angestellte,0,0,0.0,4820,4,2,Bediener von Anlagen für fotografische Erzeugnisse
+1840,8141,Arbeiter*innen & Angestellte,0,0,0.0,7620,4,2,Bediener von Maschinen zur Herstellung von Gummiwaren
+1845,8142,Arbeiter*innen & Angestellte,0,0,0.0,58290,4,2,Bediener von Maschinen zur Herstellung von Kunststoffwaren
+1850,8143,Arbeiter*innen & Angestellte,0,0,0.0,45650,4,2,Bediener von Maschinen zur Herstellung von Papierwaren
+1855,8151,Arbeiter*innen & Angestellte,0,0,0.0,2220,4,2,"Bediener von Spinnstoffaufbereitungs-, Spinn- und Spulmaschinen"
+1860,8152,Arbeiter*innen & Angestellte,0,0,0.0,13370,4,2,"Bediener von Web-, Strick- und Wirkmaschinen"
+1865,8153,Arbeiter*innen & Angestellte,0,0,0.0,9300,4,2,Bediener von Nähmaschinen
+1870,8154,Arbeiter*innen & Angestellte,0,0,0.0,6210,4,2,Bediener von Bleich- und Färbemaschinen
+1875,8155,Arbeiter*innen & Angestellte,0,0,0.0,580,4,2,Bediener von Pelz- und Lederzurichtungs- und -vorbereitungsmaschinen
+1880,8156,Arbeiter*innen & Angestellte,0,0,0.0,3720,4,2,Bediener von Maschinen zur Schuhherstellung und verwandte Berufe
+1885,8157,Arbeiter*innen & Angestellte,0,0,0.0,38430,4,2,Bediener von Wäschereimaschinen
+1890,8159,Arbeiter*innen & Angestellte,0,0,0.0,4360,4,2,"Bediener von Maschinen zur Herstellung von Textil-, Pelz- und Lederwaren, anderweitig nicht genannt"
+1895,8160,Arbeiter*innen & Angestellte,0,0,0.0,67190,4,2,Bediener von Maschinen zur Herstellung von Nahrungs- und Genussmitteln
+1900,8171,Arbeiter*innen & Angestellte,0,0,0.0,19100,4,2,Bediener von Anlagen zur Zellstoff- und Papierherstellung
+1905,8172,Arbeiter*innen & Angestellte,0,0,0.0,10580,4,2,Bediener von Anlagen zur Holzaufbereitung
+1910,8181,Arbeiter*innen & Angestellte,0,0,0.0,26400,4,2,Bediener von Anlagen zur Glas- und Keramikherstellung
+1915,8182,Arbeiter*innen & Angestellte,0,0,0.0,7810,4,2,Bediener von Dampfmaschinen und -kesseln
+1920,8183,Arbeiter*innen & Angestellte,0,0,0.0,74360,4,2,"Bediener von Verpackungs-, Abfüll- und Etikettiermaschinen"
+1925,8189,Arbeiter*innen & Angestellte,0,0,0.0,156360,4,2,"Bediener stationärer Anlagen und Maschinen, anderweitig nicht genannt"
+1930,8211,Arbeiter*innen & Angestellte,0,0,0.0,75890,4,2,Berufe der Montage von mechanischen Bauteilen
+1935,8212,Arbeiter*innen & Angestellte,0,0,0.0,47900,4,2,Berufe der Montage von elektrischen und elektronischen Geräten
+1940,8219,Arbeiter*innen & Angestellte,0,0,0.0,1050,4,2,"Montageberufe, anderweitig nicht genannt"
+1945,8311,Arbeiter*innen & Angestellte,0,0,0.0,48240,4,2,Lokomotivführer
+1950,8312,Arbeiter*innen & Angestellte,0,0,0.0,15580,4,2,"Bediener von Sicherungs-, Signal- und Leittechnik im Schienennetzbetrieb"
+1955,8321,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Kraftradfahrer
+1960,8322,Arbeiter*innen & Angestellte,0,0,0.0,334960,4,2,"Personenkraftwagen-, Taxi-, Kleintransporter- und Kleinbusfahrer"
+1965,8331,Arbeiter*innen & Angestellte,0,0,0.0,149540,4,2,Busfahrer und Straßenbahnführer
+1970,8332,Arbeiter*innen & Angestellte,0,0,0.0,448700,4,2,Fahrer schwerer Lastkraftwagen
+1975,8341,Arbeiter*innen & Angestellte,0,0,0.0,12010,4,2,Führer von mobilen land- und forstwirtschaftlichen Maschinen
+1980,8342,Arbeiter*innen & Angestellte,0,0,0.0,111340,4,2,Führer von Erdbewegungs- und verwandten Maschinen
+1985,8343,Arbeiter*innen & Angestellte,0,0,0.0,33830,4,2,"Kranführer, Aufzugmaschinisten und Bediener verwandter Hebeeinrichtungen"
+1990,8344,Arbeiter*innen & Angestellte,0,0,0.0,110440,4,2,Gabelstaplerfahrer und verwandte Berufe
+1995,8350,Arbeiter*innen & Angestellte,0,0,0.0,1910,4,2,Deckspersonal auf Schiffen und verwandte Berufe
+2000,9111,Arbeiter*innen & Angestellte,0,0,0.0,176220,4,2,Reinigungspersonal und Hilfskräfte in Privathaushalten
+2005,9112,Arbeiter*innen & Angestellte,0,0,0.0,875250,4,2,"Reinigungspersonal und Hilfskräfte in Büros, Hotels und anderen Einrichtungen"
+2010,9121,Arbeiter*innen & Angestellte,0,0,0.0,1860,4,2,Handwäscher und Handbügler
+2015,9122,Arbeiter*innen & Angestellte,0,0,0.0,11860,4,2,Fahrzeugreiniger
+2020,9123,Arbeiter*innen & Angestellte,0,0,0.0,5400,4,2,Fensterputzer
+2025,9129,Arbeiter*innen & Angestellte,0,0,0.0,27760,4,2,Sonstiges Reinigungspersonal
+2030,9211,Arbeiter*innen & Angestellte,0,0,0.0,14540,4,2,Hilfsarbeiter im Ackerbau
+2035,9212,Arbeiter*innen & Angestellte,0,0,0.0,9610,4,2,Hilfsarbeiter in der Tierhaltung
+2040,9213,Arbeiter*innen & Angestellte,0,0,0.0,70540,4,2,Hilfsarbeiter in Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+2045,9214,Arbeiter*innen & Angestellte,0,0,0.0,74000,4,2,Hilfsarbeiter im Gartenbau
+2050,9215,Arbeiter*innen & Angestellte,0,0,0.0,6070,4,2,Hilfsarbeiter in der Forstwirtschaft
+2055,9216,Arbeiter*innen & Angestellte,0,0,0.0,850,4,2,Hilfsarbeiter in der Fischerei und Aquakultur
+2060,9311,Arbeiter*innen & Angestellte,0,0,0.0,2210,4,2,Hilfsarbeiter im Bergbau und in der Gewinnung von Steinen und Erden
+2065,9312,Arbeiter*innen & Angestellte,0,0,0.0,93980,4,2,Hilfsarbeiter im Tiefbau
+2070,9313,Arbeiter*innen & Angestellte,0,0,0.0,105880,4,2,Hilfsarbeiter im Hochbau
+2075,9321,Arbeiter*innen & Angestellte,0,0,0.0,107760,4,2,Verpacker
+2080,9329,Arbeiter*innen & Angestellte,0,0,0.0,309720,4,2,"Hilfsarbeiter bei der Herstellung von Waren, anderweitig nicht genannt"
+2085,9331,Arbeiter*innen & Angestellte,0,0,0.0,5030,4,2,Führer von Handwagen und pedalbetriebenen Fahrzeugen
+2090,9332,Arbeiter*innen & Angestellte,0,0,0.0,950,4,2,Führer von Fahrzeugen und Maschinen mit Zugtierantrieb
+2095,9333,Arbeiter*innen & Angestellte,0,0,0.0,355380,4,2,Frachtarbeiter und verwandte Berufe
+2100,9334,Arbeiter*innen & Angestellte,0,0,0.0,108000,4,2,Regalbetreuer und -auffüller
+2105,9411,Arbeiter*innen & Angestellte,0,0,0.0,13790,4,2,Zubereiter von Fast Food und anderen Imbissen
+2110,9412,Arbeiter*innen & Angestellte,0,0,0.0,248930,4,2,Küchenhilfen
+2115,9510,Arbeiter*innen & Angestellte,0,0,0.0,660,4,2,Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe
+2120,9520,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Straßenverkäufer (ohne Lebensmittel)
+2125,9611,Arbeiter*innen & Angestellte,0,0,0.0,20730,4,2,Arbeiter in der Abfall- und Wertstoffsammlung
+2130,9612,Arbeiter*innen & Angestellte,0,0,0.0,30340,4,2,Arbeiter in der Abfallsortierung
+2135,9613,Arbeiter*innen & Angestellte,0,0,0.0,6610,4,2,Straßenkehrer und verwandte Berufe
+2140,9621,Arbeiter*innen & Angestellte,0,0,0.0,156050,4,2,"Boten, Paketauslieferer und Gepäckträger"
+2145,9622,Arbeiter*innen & Angestellte,0,0,0.0,450,4,2,Gelegenheitsarbeiter
+2150,9623,Arbeiter*innen & Angestellte,0,0,0.0,6980,4,2,"Zählerableser, Automatenbefüller und -kassierer"
+2155,9624,Arbeiter*innen & Angestellte,0,0,0.0,0,4,2,Wasserträger und Brennholzsammler
+2160,9629,Arbeiter*innen & Angestellte,0,0,0.0,72550,4,2,"Hilfsarbeitskräfte, anderweitig nicht genannt"
+2165,0110,Arbeiter*innen & Angestellte,0,0,0.0,21970,4,2,Offiziere in regulären Streitkräften
+2170,0210,Arbeiter*innen & Angestellte,0,0,0.0,22020,4,2,Unteroffiziere in regulären Streitkräften
+2175,0310,Arbeiter*innen & Angestellte,0,0,0.0,107060,4,2,Angehörige der regulären Streitkräfte in sonstigen Rängen
+2180,0110,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Offiziere in regulären Streitkräften
+2185,0110,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Offiziere in regulären Streitkräften
+2190,0210,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Unteroffiziere in regulären Streitkräften
+2195,0210,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Unteroffiziere in regulären Streitkräften
+2200,0310,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Angehörige der regulären Streitkräfte in sonstigen Rängen
+2205,0310,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Angehörige der regulären Streitkräfte in sonstigen Rängen
+2210,1111,Selbstständige mit Beschäftigten,1,1,5.0,610,4,2,Angehörige gesetzgebender Körperschaften
+2215,1111,Selbstständige ohne Beschäftigte,1,1,0.0,310,4,2,Angehörige gesetzgebender Körperschaften
+2220,1112,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Leitende Verwaltungsbedienstete
+2225,1112,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Leitende Verwaltungsbedienstete
+2230,1113,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Traditionelle Dorf- und Stammeshäuptlinge
+2235,1113,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Traditionelle Dorf- und Stammeshäuptlinge
+2240,1114,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Leitende Bedienstete von Interessenorganisationen
+2245,1114,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Leitende Bedienstete von Interessenorganisationen
+2250,1120,Selbstständige mit Beschäftigten,1,1,5.0,211570,4,2,Geschäftsführer und Vorstände
+2255,1120,Selbstständige ohne Beschäftigte,1,1,0.0,31350,4,2,Geschäftsführer und Vorstände
+2260,1211,Selbstständige mit Beschäftigten,1,1,5.0,790,4,2,Führungskräfte im Bereich Finanzen
+2265,1211,Selbstständige ohne Beschäftigte,1,1,0.0,670,4,2,Führungskräfte im Bereich Finanzen
+2270,1212,Selbstständige mit Beschäftigten,1,1,5.0,570,4,2,Führungskräfte im Personalwesen
+2275,1212,Selbstständige ohne Beschäftigte,1,1,0.0,410,4,2,Führungskräfte im Personalwesen
+2280,1213,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Führungskräfte in Unternehmenspolitik und -planung
+2285,1213,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in Unternehmenspolitik und -planung
+2290,1219,Selbstständige mit Beschäftigten,1,1,5.0,7670,4,2,"Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt"
+2295,1219,Selbstständige ohne Beschäftigte,1,1,0.0,2240,4,2,"Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt"
+2300,1221,Selbstständige mit Beschäftigten,1,1,5.0,2960,4,2,Führungskräfte in Vertrieb und Marketing
+2305,1221,Selbstständige ohne Beschäftigte,1,1,0.0,2180,4,2,Führungskräfte in Vertrieb und Marketing
+2310,1222,Selbstständige mit Beschäftigten,1,1,5.0,990,4,2,Führungskräfte in Werbung und Öffentlichkeitsarbeit
+2315,1222,Selbstständige ohne Beschäftigte,1,1,0.0,2340,4,2,Führungskräfte in Werbung und Öffentlichkeitsarbeit
+2320,1223,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Führungskräfte in Forschung und Entwicklung
+2325,1223,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in Forschung und Entwicklung
+2330,1311,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Führungskräfte in der Produktion in Land- und Forstwirtschaft
+2335,1311,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in der Produktion in Land- und Forstwirtschaft
+2340,1312,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Führungskräfte in der Produktion in Aquakultur und Fischerei
+2345,1312,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in der Produktion in Aquakultur und Fischerei
+2350,1321,Selbstständige mit Beschäftigten,1,1,5.0,1820,4,2,Führungskräfte in der Produktion bei der Herstellung von Waren
+2355,1321,Selbstständige ohne Beschäftigte,1,1,0.0,780,4,2,Führungskräfte in der Produktion bei der Herstellung von Waren
+2360,1322,Selbstständige mit Beschäftigten,1,1,5.0,0,4,2,Führungskräfte in der Produktion im Bergbau
+2365,1322,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in der Produktion im Bergbau
+2370,1323,Selbstständige mit Beschäftigten,1,1,5.0,7640,4,2,Führungskräfte in der Produktion im Bau
+2375,1323,Selbstständige ohne Beschäftigte,1,1,0.0,4490,4,2,Führungskräfte in der Produktion im Bau
+2380,1324,Selbstständige mit Beschäftigten,1,1,5.0,10750,4,2,"Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen"
+2385,1324,Selbstständige ohne Beschäftigte,1,1,0.0,3920,4,2,"Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen"
+2390,1330,Selbstständige mit Beschäftigten,1,1,5.0,1560,4,2,Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie
+2395,1330,Selbstständige ohne Beschäftigte,1,1,0.0,1270,4,2,Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie
+2400,1341,Selbstständige mit Beschäftigten,1,1,5.0,470,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Kinderbetreuung
+2405,1341,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Kinderbetreuung
+2410,1342,Selbstständige mit Beschäftigten,1,1,5.0,3380,4,2,Führungskräfte in der Erbringung von Dienstleistungen im Gesundheitswesen
+2415,1342,Selbstständige ohne Beschäftigte,1,1,0.0,620,4,2,Führungskräfte in der Erbringung von Dienstleistungen im Gesundheitswesen
+2420,1343,Selbstständige mit Beschäftigten,1,1,5.0,820,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung
+2425,1343,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung
+2430,1344,Selbstständige mit Beschäftigten,1,1,5.0,510,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Sozialfürsorge
+2435,1344,Selbstständige ohne Beschäftigte,1,1,0.0,0,4,2,Führungskräfte in der Erbringung von Dienstleistungen der Sozialfürsorge
+2440,1345,Selbstständige mit Beschäftigten,1,1,5.0,910,4,2,Führungskräfte in der Erbringung von Dienstleistungen des Bildungswesens
+2445,1345,Selbstständige ohne Beschäftigte,1,1,0.0,780,4,2,Führungskräfte in der Erbringung von Dienstleistungen des Bildungswesens
+2450,1346,Selbstständige mit Beschäftigten,1,1,5.0,3460,4,2,Führungskräfte auf Filialebene in der Erbringung von Finanz- und Versicherungsdienstleistungen
+2455,1346,Selbstständige ohne Beschäftigte,1,1,0.0,1120,4,2,Führungskräfte auf Filialebene in der Erbringung von Finanz- und Versicherungsdienstleistungen
+2460,1349,Selbstständige mit Beschäftigten,1,1,5.0,1870,4,2,"Führungskräfte in der Erbringung von speziellen Dienstleistungen, anderweitig nicht genannt"
+2465,1349,Selbstständige ohne Beschäftigte,1,1,0.0,2000,4,2,"Führungskräfte in der Erbringung von speziellen Dienstleistungen, anderweitig nicht genannt"
+2470,1411,Selbstständige mit Beschäftigten,1,1,5.0,6580,4,2,Führungskräfte in Hotels
+2475,1411,Selbstständige ohne Beschäftigte,1,1,0.0,1560,4,2,Führungskräfte in Hotels
+2480,1412,Selbstständige mit Beschäftigten,1,1,5.0,62120,4,2,Führungskräfte in Restaurants
+2485,1412,Selbstständige ohne Beschäftigte,1,1,0.0,12220,4,2,Führungskräfte in Restaurants
+2490,1420,Selbstständige mit Beschäftigten,1,1,5.0,3510,4,2,Führungskräfte in Groß- und Einzelhandel
+2495,1420,Selbstständige ohne Beschäftigte,1,1,0.0,810,4,2,Führungskräfte in Groß- und Einzelhandel
+2500,1431,Selbstständige mit Beschäftigten,1,1,5.0,1860,4,2,"Führungskräfte in der Erbringung von Dienstleistungen im Bereich Sport, Erholung und Kultur"
+2505,1431,Selbstständige ohne Beschäftigte,1,1,0.0,1740,4,2,"Führungskräfte in der Erbringung von Dienstleistungen im Bereich Sport, Erholung und Kultur"
+2510,1439,Selbstständige mit Beschäftigten,1,1,5.0,2020,4,2,"Führungskräfte in der Erbringung von Dienstleistungen, anderweitig nicht genannt"
+2515,1439,Selbstständige ohne Beschäftigte,1,1,0.0,730,4,2,"Führungskräfte in der Erbringung von Dienstleistungen, anderweitig nicht genannt"
+2520,2111,Selbstständige mit Beschäftigten,0,1,5.0,400,4,2,Physiker und Astronomen
+2525,2111,Selbstständige ohne Beschäftigte,0,1,0.0,620,4,2,Physiker und Astronomen
+2530,2112,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Meteorologen
+2535,2112,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Meteorologen
+2540,2113,Selbstständige mit Beschäftigten,0,1,5.0,620,4,2,Chemiker
+2545,2113,Selbstständige ohne Beschäftigte,0,1,0.0,440,4,2,Chemiker
+2550,2114,Selbstständige mit Beschäftigten,0,1,5.0,500,4,2,Geologen und Geophysiker
+2555,2114,Selbstständige ohne Beschäftigte,0,1,0.0,650,4,2,Geologen und Geophysiker
+2560,2120,Selbstständige mit Beschäftigten,0,1,5.0,260,4,2,"Mathematiker, Versicherungsmathematiker und Statistiker"
+2565,2120,Selbstständige ohne Beschäftigte,0,1,0.0,690,4,2,"Mathematiker, Versicherungsmathematiker und Statistiker"
+2570,2131,Selbstständige mit Beschäftigten,0,1,5.0,790,4,2,"Biologen, Botaniker, Zoologen und verwandte Berufe"
+2575,2131,Selbstständige ohne Beschäftigte,0,1,0.0,1700,4,2,"Biologen, Botaniker, Zoologen und verwandte Berufe"
+2580,2132,Selbstständige mit Beschäftigten,0,1,5.0,11650,4,2,"Agrar-, Forst- und Fischereiwissenschaftler und -berater"
+2585,2132,Selbstständige ohne Beschäftigte,0,1,0.0,4860,4,2,"Agrar-, Forst- und Fischereiwissenschaftler und -berater"
+2590,2133,Selbstständige mit Beschäftigten,0,1,5.0,620,4,2,Umweltwissenschaftler
+2595,2133,Selbstständige ohne Beschäftigte,0,1,0.0,940,4,2,Umweltwissenschaftler
+2600,2141,Selbstständige mit Beschäftigten,0,1,5.0,1730,4,2,Wirtschafts- und Produktionsingenieure
+2605,2141,Selbstständige ohne Beschäftigte,0,1,0.0,1800,4,2,Wirtschafts- und Produktionsingenieure
+2610,2142,Selbstständige mit Beschäftigten,0,1,5.0,11040,4,2,Bauingenieure
+2615,2142,Selbstständige ohne Beschäftigte,0,1,0.0,9060,4,2,Bauingenieure
+2620,2143,Selbstständige mit Beschäftigten,0,1,5.0,740,4,2,Umweltschutzingenieure
+2625,2143,Selbstständige ohne Beschäftigte,0,1,0.0,890,4,2,Umweltschutzingenieure
+2630,2144,Selbstständige mit Beschäftigten,0,1,5.0,9460,4,2,Maschinenbauingenieure
+2635,2144,Selbstständige ohne Beschäftigte,0,1,0.0,8030,4,2,Maschinenbauingenieure
+2640,2145,Selbstständige mit Beschäftigten,0,1,5.0,890,4,2,Chemieingenieure
+2645,2145,Selbstständige ohne Beschäftigte,0,1,0.0,850,4,2,Chemieingenieure
+2650,2146,Selbstständige mit Beschäftigten,0,1,5.0,930,4,2,"Bergbauingenieure, Metallurgen und verwandte Berufe"
+2655,2146,Selbstständige ohne Beschäftigte,0,1,0.0,670,4,2,"Bergbauingenieure, Metallurgen und verwandte Berufe"
+2660,2149,Selbstständige mit Beschäftigten,0,1,5.0,3020,4,2,"Ingenieure, anderweitig nicht genannt"
+2665,2149,Selbstständige ohne Beschäftigte,0,1,0.0,2870,4,2,"Ingenieure, anderweitig nicht genannt"
+2670,2151,Selbstständige mit Beschäftigten,0,1,5.0,1290,4,2,Ingenieure im Bereich Elektrotechnik
+2675,2151,Selbstständige ohne Beschäftigte,0,1,0.0,1880,4,2,Ingenieure im Bereich Elektrotechnik
+2680,2152,Selbstständige mit Beschäftigten,0,1,5.0,1650,4,2,Ingenieure im Bereich Elektronik
+2685,2152,Selbstständige ohne Beschäftigte,0,1,0.0,1670,4,2,Ingenieure im Bereich Elektronik
+2690,2153,Selbstständige mit Beschäftigten,0,1,5.0,230,4,2,Ingenieure im Bereich Telekommunikationstechnik
+2695,2153,Selbstständige ohne Beschäftigte,0,1,0.0,430,4,2,Ingenieure im Bereich Telekommunikationstechnik
+2700,2161,Selbstständige mit Beschäftigten,0,1,5.0,22010,4,2,Architekten
+2705,2161,Selbstständige ohne Beschäftigte,0,1,0.0,17910,4,2,Architekten
+2710,2162,Selbstständige mit Beschäftigten,0,1,5.0,2490,4,2,Landschaftsarchitekten
+2715,2162,Selbstständige ohne Beschäftigte,0,1,0.0,1790,4,2,Landschaftsarchitekten
+2720,2163,Selbstständige mit Beschäftigten,0,1,5.0,3820,4,2,Produkt- und Textildesigner
+2725,2163,Selbstständige ohne Beschäftigte,0,1,0.0,9180,4,2,Produkt- und Textildesigner
+2730,2164,Selbstständige mit Beschäftigten,0,1,5.0,1390,4,2,"Raum-, Stadt- und Verkehrsplaner"
+2735,2164,Selbstständige ohne Beschäftigte,0,1,0.0,1030,4,2,"Raum-, Stadt- und Verkehrsplaner"
+2740,2165,Selbstständige mit Beschäftigten,0,1,5.0,2050,4,2,Kartografen und Vermessungsingenieure
+2745,2165,Selbstständige ohne Beschäftigte,0,1,0.0,420,4,2,Kartografen und Vermessungsingenieure
+2750,2166,Selbstständige mit Beschäftigten,0,1,5.0,14270,4,2,Grafik- und Multimediadesigner
+2755,2166,Selbstständige ohne Beschäftigte,0,1,0.0,38960,4,2,Grafik- und Multimediadesigner
+2760,2211,Selbstständige mit Beschäftigten,0,1,5.0,41730,4,2,Allgemeinärzte
+2765,2211,Selbstständige ohne Beschäftigte,0,1,0.0,9880,4,2,Allgemeinärzte
+2770,2212,Selbstständige mit Beschäftigten,0,1,5.0,51030,4,2,Fachärzte
+2775,2212,Selbstständige ohne Beschäftigte,0,1,0.0,13080,4,2,Fachärzte
+2780,2221,Selbstständige mit Beschäftigten,0,1,5.0,780,4,2,Akademische und vergleichbare Krankenpflegefachkräfte
+2785,2221,Selbstständige ohne Beschäftigte,0,1,0.0,550,4,2,Akademische und vergleichbare Krankenpflegefachkräfte
+2790,2222,Selbstständige mit Beschäftigten,0,1,5.0,3140,4,2,Akademische und vergleichbare Geburtshilfefachkräfte
+2795,2222,Selbstständige ohne Beschäftigte,0,1,0.0,8420,4,2,Akademische und vergleichbare Geburtshilfefachkräfte
+2800,2230,Selbstständige mit Beschäftigten,0,1,5.0,9720,4,2,Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin
+2805,2230,Selbstständige ohne Beschäftigte,0,1,0.0,21060,4,2,Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin
+2810,2240,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Feldscher und vergleichbare paramedizinische Praktiker
+2815,2240,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Feldscher und vergleichbare paramedizinische Praktiker
+2820,2250,Selbstständige mit Beschäftigten,0,1,5.0,9510,4,2,Tierärzte
+2825,2250,Selbstständige ohne Beschäftigte,0,1,0.0,4360,4,2,Tierärzte
+2830,2261,Selbstständige mit Beschäftigten,0,1,5.0,40420,4,2,Zahnärzte
+2835,2261,Selbstständige ohne Beschäftigte,0,1,0.0,2810,4,2,Zahnärzte
+2840,2262,Selbstständige mit Beschäftigten,0,1,5.0,12650,4,2,Apotheker
+2845,2262,Selbstständige ohne Beschäftigte,0,1,0.0,1590,4,2,Apotheker
+2850,2263,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Akademische und vergleichbare Fachkräfte in den Bereichen Umwelt- und Arbeitsmedizin sowie Hygiene
+2855,2263,Selbstständige ohne Beschäftigte,0,1,0.0,400,4,2,Akademische und vergleichbare Fachkräfte in den Bereichen Umwelt- und Arbeitsmedizin sowie Hygiene
+2860,2264,Selbstständige mit Beschäftigten,0,1,5.0,31960,4,2,Physiotherapeuten
+2865,2264,Selbstständige ohne Beschäftigte,0,1,0.0,13770,4,2,Physiotherapeuten
+2870,2265,Selbstständige mit Beschäftigten,0,1,5.0,1060,4,2,Diätologen und Ernährungsberater
+2875,2265,Selbstständige ohne Beschäftigte,0,1,0.0,3060,4,2,Diätologen und Ernährungsberater
+2880,2266,Selbstständige mit Beschäftigten,0,1,5.0,4800,4,2,Audiologen und Sprachtherapeuten
+2885,2266,Selbstständige ohne Beschäftigte,0,1,0.0,7050,4,2,Audiologen und Sprachtherapeuten
+2890,2267,Selbstständige mit Beschäftigten,0,1,5.0,310,4,2,Optometristen und Orthoptisten
+2895,2267,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Optometristen und Orthoptisten
+2900,2269,Selbstständige mit Beschäftigten,0,1,5.0,7110,4,2,"Akademische und verwandte Gesundheitsberufe, anderweitig nicht genannt"
+2905,2269,Selbstständige ohne Beschäftigte,0,1,0.0,6580,4,2,"Akademische und verwandte Gesundheitsberufe, anderweitig nicht genannt"
+2910,2310,Selbstständige mit Beschäftigten,0,1,5.0,2080,4,2,Universitäts- und Hochschullehrer
+2915,2310,Selbstständige ohne Beschäftigte,0,1,0.0,13240,4,2,Universitäts- und Hochschullehrer
+2920,2320,Selbstständige mit Beschäftigten,0,1,5.0,5460,4,2,Lehrkräfte im Bereich Berufsbildung
+2925,2320,Selbstständige ohne Beschäftigte,0,1,0.0,26900,4,2,Lehrkräfte im Bereich Berufsbildung
+2930,2330,Selbstständige mit Beschäftigten,0,1,5.0,3960,4,2,Lehrkräfte im Sekundarbereich
+2935,2330,Selbstständige ohne Beschäftigte,0,1,0.0,13280,4,2,Lehrkräfte im Sekundarbereich
+2940,2341,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Lehrkräfte im Primarbereich
+2945,2341,Selbstständige ohne Beschäftigte,0,1,0.0,1600,4,2,Lehrkräfte im Primarbereich
+2950,2342,Selbstständige mit Beschäftigten,0,1,5.0,2610,4,2,Lehrkräfte und Erzieher im Vorschulbereich
+2955,2342,Selbstständige ohne Beschäftigte,0,1,0.0,5280,4,2,Lehrkräfte und Erzieher im Vorschulbereich
+2960,2351,Selbstständige mit Beschäftigten,0,1,5.0,580,4,2,Pädagogik- und Didaktikspezialisten
+2965,2351,Selbstständige ohne Beschäftigte,0,1,0.0,4550,4,2,Pädagogik- und Didaktikspezialisten
+2970,2352,Selbstständige mit Beschäftigten,0,1,5.0,820,4,2,Lehrkräfte im Bereich Sonderpädagogik
+2975,2352,Selbstständige ohne Beschäftigte,0,1,0.0,2570,4,2,Lehrkräfte im Bereich Sonderpädagogik
+2980,2353,Selbstständige mit Beschäftigten,0,1,5.0,1260,4,2,Sonstige Sprachlehrer
+2985,2353,Selbstständige ohne Beschäftigte,0,1,0.0,9140,4,2,Sonstige Sprachlehrer
+2990,2354,Selbstständige mit Beschäftigten,0,1,5.0,3080,4,2,Sonstige Musiklehrer
+2995,2354,Selbstständige ohne Beschäftigte,0,1,0.0,20690,4,2,Sonstige Musiklehrer
+3000,2355,Selbstständige mit Beschäftigten,0,1,5.0,3160,4,2,Sonstige Kunstlehrer
+3005,2355,Selbstständige ohne Beschäftigte,0,1,0.0,6270,4,2,Sonstige Kunstlehrer
+3010,2356,Selbstständige mit Beschäftigten,0,1,5.0,270,4,2,Ausbilder im Bereich Informationstechnologie
+3015,2356,Selbstständige ohne Beschäftigte,0,1,0.0,1180,4,2,Ausbilder im Bereich Informationstechnologie
+3020,2359,Selbstständige mit Beschäftigten,0,1,5.0,2170,4,2,"Lehrkräfte, anderweitig nicht genannt"
+3025,2359,Selbstständige ohne Beschäftigte,0,1,0.0,16190,4,2,"Lehrkräfte, anderweitig nicht genannt"
+3030,2411,Selbstständige mit Beschäftigten,0,1,5.0,35340,4,2,"Wirtschaftsprüfer, Steuerberater und verwandte Berufe"
+3035,2411,Selbstständige ohne Beschäftigte,0,1,0.0,11860,4,2,"Wirtschaftsprüfer, Steuerberater und verwandte Berufe"
+3040,2412,Selbstständige mit Beschäftigten,0,1,5.0,15170,4,2,Finanz- und Anlageberater
+3045,2412,Selbstständige ohne Beschäftigte,0,1,0.0,17500,4,2,Finanz- und Anlageberater
+3050,2413,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Finanzanalysten
+3055,2413,Selbstständige ohne Beschäftigte,0,1,0.0,390,4,2,Finanzanalysten
+3060,2421,Selbstständige mit Beschäftigten,0,1,5.0,25370,4,2,Akademische und vergleichbare Fachkräfte im Bereich Management- und Organisationsanalyse
+3065,2421,Selbstständige ohne Beschäftigte,0,1,0.0,47170,4,2,Akademische und vergleichbare Fachkräfte im Bereich Management- und Organisationsanalyse
+3070,2422,Selbstständige mit Beschäftigten,0,1,5.0,320,4,2,Akademische und vergleichbare Fachkräfte in der strategischen Planung in Politik und Wirtschaft
+3075,2422,Selbstständige ohne Beschäftigte,0,1,0.0,830,4,2,Akademische und vergleichbare Fachkräfte in der strategischen Planung in Politik und Wirtschaft
+3080,2423,Selbstständige mit Beschäftigten,0,1,5.0,2460,4,2,Berufsberater und -analytiker und akademische und vergleichbare Personalfachleute
+3085,2423,Selbstständige ohne Beschäftigte,0,1,0.0,3220,4,2,Berufsberater und -analytiker und akademische und vergleichbare Personalfachleute
+3090,2424,Selbstständige mit Beschäftigten,0,1,5.0,1360,4,2,Fachkräfte in Personalschulung und -entwicklung
+3095,2424,Selbstständige ohne Beschäftigte,0,1,0.0,2400,4,2,Fachkräfte in Personalschulung und -entwicklung
+3100,2431,Selbstständige mit Beschäftigten,0,1,5.0,6750,4,2,Akademische und vergleichbare Fachkräfte in Werbung und Marketing
+3105,2431,Selbstständige ohne Beschäftigte,0,1,0.0,15580,4,2,Akademische und vergleichbare Fachkräfte in Werbung und Marketing
+3110,2432,Selbstständige mit Beschäftigten,0,1,5.0,560,4,2,Akademische und vergleichbare Fachkräfte in der Öffentlichkeitsarbeit
+3115,2432,Selbstständige ohne Beschäftigte,0,1,0.0,1980,4,2,Akademische und vergleichbare Fachkräfte in der Öffentlichkeitsarbeit
+3120,2433,Selbstständige mit Beschäftigten,0,1,5.0,2000,4,2,"Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)"
+3125,2433,Selbstständige ohne Beschäftigte,0,1,0.0,2960,4,2,"Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)"
+3130,2434,Selbstständige mit Beschäftigten,0,1,5.0,1270,4,2,Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie
+3135,2434,Selbstständige ohne Beschäftigte,0,1,0.0,1350,4,2,Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie
+3140,2511,Selbstständige mit Beschäftigten,0,1,5.0,11030,4,2,Systemanalytiker
+3145,2511,Selbstständige ohne Beschäftigte,0,1,0.0,18140,4,2,Systemanalytiker
+3150,2512,Selbstständige mit Beschäftigten,0,1,5.0,8290,4,2,Softwareentwickler
+3155,2512,Selbstständige ohne Beschäftigte,0,1,0.0,12740,4,2,Softwareentwickler
+3160,2513,Selbstständige mit Beschäftigten,0,1,5.0,1600,4,2,Web- und Multimediaentwickler
+3165,2513,Selbstständige ohne Beschäftigte,0,1,0.0,2840,4,2,Web- und Multimediaentwickler
+3170,2514,Selbstständige mit Beschäftigten,0,1,5.0,1950,4,2,Anwendungsprogrammierer
+3175,2514,Selbstständige ohne Beschäftigte,0,1,0.0,3430,4,2,Anwendungsprogrammierer
+3180,2519,Selbstständige mit Beschäftigten,0,1,5.0,520,4,2,"Entwickler und Analytiker von Software und Anwendungen, anderweitig nicht genannt"
+3185,2519,Selbstständige ohne Beschäftigte,0,1,0.0,1050,4,2,"Entwickler und Analytiker von Software und Anwendungen, anderweitig nicht genannt"
+3190,2521,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Datenbankentwickler und -administratoren
+3195,2521,Selbstständige ohne Beschäftigte,0,1,0.0,300,4,2,Datenbankentwickler und -administratoren
+3200,2522,Selbstständige mit Beschäftigten,0,1,5.0,960,4,2,Systemadministratoren
+3205,2522,Selbstständige ohne Beschäftigte,0,1,0.0,1530,4,2,Systemadministratoren
+3210,2523,Selbstständige mit Beschäftigten,0,1,5.0,280,4,2,Akademische und vergleichbare Fachkräfte für Computernetzwerke
+3215,2523,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Akademische und vergleichbare Fachkräfte für Computernetzwerke
+3220,2529,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke, anderweitig nicht genannt"
+3225,2529,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke, anderweitig nicht genannt"
+3230,2611,Selbstständige mit Beschäftigten,0,1,5.0,48950,4,2,Anwälte
+3235,2611,Selbstständige ohne Beschäftigte,0,1,0.0,24100,4,2,Anwälte
+3240,2612,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Richter
+3245,2612,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Richter
+3250,2619,Selbstständige mit Beschäftigten,0,1,5.0,6330,4,2,"Juristen, anderweitig nicht genannt"
+3255,2619,Selbstständige ohne Beschäftigte,0,1,0.0,3880,4,2,"Juristen, anderweitig nicht genannt"
+3260,2621,Selbstständige mit Beschäftigten,0,1,5.0,430,4,2,Archiv- und Museumswissenschaftler
+3265,2621,Selbstständige ohne Beschäftigte,0,1,0.0,2140,4,2,Archiv- und Museumswissenschaftler
+3270,2622,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bibliothekswissenschaftler und verwandte Informationswissenschaftler
+3275,2622,Selbstständige ohne Beschäftigte,0,1,0.0,330,4,2,Bibliothekswissenschaftler und verwandte Informationswissenschaftler
+3280,2631,Selbstständige mit Beschäftigten,0,1,5.0,610,4,2,Volkswirtschaftler
+3285,2631,Selbstständige ohne Beschäftigte,0,1,0.0,900,4,2,Volkswirtschaftler
+3290,2632,Selbstständige mit Beschäftigten,0,1,5.0,790,4,2,"Soziologen, Anthropologen und verwandte Wissenschaftler"
+3295,2632,Selbstständige ohne Beschäftigte,0,1,0.0,2210,4,2,"Soziologen, Anthropologen und verwandte Wissenschaftler"
+3300,2633,Selbstständige mit Beschäftigten,0,1,5.0,300,4,2,"Philosophen, Historiker und Politologen"
+3305,2633,Selbstständige ohne Beschäftigte,0,1,0.0,1190,4,2,"Philosophen, Historiker und Politologen"
+3310,2634,Selbstständige mit Beschäftigten,0,1,5.0,12720,4,2,Psychologen
+3315,2634,Selbstständige ohne Beschäftigte,0,1,0.0,35840,4,2,Psychologen
+3320,2635,Selbstständige mit Beschäftigten,0,1,5.0,7210,4,2,Sozialarbeiter
+3325,2635,Selbstständige ohne Beschäftigte,0,1,0.0,13790,4,2,Sozialarbeiter
+3330,2636,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Geistliche, Seelsorger"
+3335,2636,Selbstständige ohne Beschäftigte,0,1,0.0,580,4,2,"Geistliche, Seelsorger"
+3340,2641,Selbstständige mit Beschäftigten,0,1,5.0,2810,4,2,Autoren und verwandte schriftstellerische Berufe
+3345,2641,Selbstständige ohne Beschäftigte,0,1,0.0,18190,4,2,Autoren und verwandte schriftstellerische Berufe
+3350,2642,Selbstständige mit Beschäftigten,0,1,5.0,4690,4,2,Journalisten
+3355,2642,Selbstständige ohne Beschäftigte,0,1,0.0,25360,4,2,Journalisten
+3360,2643,Selbstständige mit Beschäftigten,0,1,5.0,3920,4,2,"Übersetzer, Dolmetscher und andere Linguisten"
+3365,2643,Selbstständige ohne Beschäftigte,0,1,0.0,17750,4,2,"Übersetzer, Dolmetscher und andere Linguisten"
+3370,2651,Selbstständige mit Beschäftigten,0,1,5.0,4680,4,2,Bildende Künstler
+3375,2651,Selbstständige ohne Beschäftigte,0,1,0.0,20130,4,2,Bildende Künstler
+3380,2652,Selbstständige mit Beschäftigten,0,1,5.0,6380,4,2,"Musiker, Sänger und Komponisten"
+3385,2652,Selbstständige ohne Beschäftigte,0,1,0.0,27340,4,2,"Musiker, Sänger und Komponisten"
+3390,2653,Selbstständige mit Beschäftigten,0,1,5.0,300,4,2,Tänzer und Choreografen
+3395,2653,Selbstständige ohne Beschäftigte,0,1,0.0,1500,4,2,Tänzer und Choreografen
+3400,2654,Selbstständige mit Beschäftigten,0,1,5.0,3970,4,2,Regisseure und Produzenten im Film- und Bühnenbereich sowie in verwandten Bereichen
+3405,2654,Selbstständige ohne Beschäftigte,0,1,0.0,10580,4,2,Regisseure und Produzenten im Film- und Bühnenbereich sowie in verwandten Bereichen
+3410,2655,Selbstständige mit Beschäftigten,0,1,5.0,1290,4,2,Schauspieler
+3415,2655,Selbstständige ohne Beschäftigte,0,1,0.0,5420,4,2,Schauspieler
+3420,2656,Selbstständige mit Beschäftigten,0,1,5.0,370,4,2,"Sprecher im Rundfunk, Fernsehen und sonstigen Medien"
+3425,2656,Selbstständige ohne Beschäftigte,0,1,0.0,1670,4,2,"Sprecher im Rundfunk, Fernsehen und sonstigen Medien"
+3430,2659,Selbstständige mit Beschäftigten,0,1,5.0,1190,4,2,"Bildende und darstellende Künstler, anderweitig nicht genannt"
+3435,2659,Selbstständige ohne Beschäftigte,0,1,0.0,4430,4,2,"Bildende und darstellende Künstler, anderweitig nicht genannt"
+3440,3111,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Chemo- und Physikotechniker
+3445,3111,Selbstständige ohne Beschäftigte,0,1,0.0,230,4,2,Chemo- und Physikotechniker
+3450,3112,Selbstständige mit Beschäftigten,0,1,5.0,11390,4,2,Bautechniker
+3455,3112,Selbstständige ohne Beschäftigte,0,1,0.0,8320,4,2,Bautechniker
+3460,3113,Selbstständige mit Beschäftigten,0,1,5.0,2470,4,2,Elektrotechniker
+3465,3113,Selbstständige ohne Beschäftigte,0,1,0.0,2190,4,2,Elektrotechniker
+3470,3114,Selbstständige mit Beschäftigten,0,1,5.0,1800,4,2,Techniker im Bereich Elektronik
+3475,3114,Selbstständige ohne Beschäftigte,0,1,0.0,2250,4,2,Techniker im Bereich Elektronik
+3480,3115,Selbstständige mit Beschäftigten,0,1,5.0,6400,4,2,Maschinenbautechniker
+3485,3115,Selbstständige ohne Beschäftigte,0,1,0.0,5110,4,2,Maschinenbautechniker
+3490,3116,Selbstständige mit Beschäftigten,0,1,5.0,1130,4,2,Chemiebetriebs- und Verfahrenstechniker
+3495,3116,Selbstständige ohne Beschäftigte,0,1,0.0,440,4,2,Chemiebetriebs- und Verfahrenstechniker
+3500,3117,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bergbau- und Hüttentechniker
+3505,3117,Selbstständige ohne Beschäftigte,0,1,0.0,210,4,2,Bergbau- und Hüttentechniker
+3510,3118,Selbstständige mit Beschäftigten,0,1,5.0,1550,4,2,Technische Zeichner
+3515,3118,Selbstständige ohne Beschäftigte,0,1,0.0,2140,4,2,Technische Zeichner
+3520,3119,Selbstständige mit Beschäftigten,0,1,5.0,7030,4,2,"Material- und ingenieurtechnische Fachkräfte, anderweitig nicht genannt"
+3525,3119,Selbstständige ohne Beschäftigte,0,1,0.0,5040,4,2,"Material- und ingenieurtechnische Fachkräfte, anderweitig nicht genannt"
+3530,3121,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Produktionsleiter im Bergbau
+3535,3121,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Produktionsleiter im Bergbau
+3540,3122,Selbstständige mit Beschäftigten,0,1,5.0,57490,4,2,Produktionsleiter bei der Herstellung von Waren
+3545,3122,Selbstständige ohne Beschäftigte,0,1,0.0,19860,4,2,Produktionsleiter bei der Herstellung von Waren
+3550,3123,Selbstständige mit Beschäftigten,0,1,5.0,50960,4,2,Bauleiter
+3555,3123,Selbstständige ohne Beschäftigte,0,1,0.0,17440,4,2,Bauleiter
+3560,3131,Selbstständige mit Beschäftigten,0,1,5.0,4010,4,2,Steuerer von Energieerzeugungsanlagen
+3565,3131,Selbstständige ohne Beschäftigte,0,1,0.0,1410,4,2,Steuerer von Energieerzeugungsanlagen
+3570,3132,Selbstständige mit Beschäftigten,0,1,5.0,430,4,2,Steuerer von Verbrennungs- und Wasserbehandlungsanlagen
+3575,3132,Selbstständige ohne Beschäftigte,0,1,0.0,220,4,2,Steuerer von Verbrennungs- und Wasserbehandlungsanlagen
+3580,3133,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Steuerer von chemischen Verfahrensanlagen
+3585,3133,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Steuerer von chemischen Verfahrensanlagen
+3590,3134,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Steurer von Erdöl- und Erdgasraffinationsanlagen
+3595,3134,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Steurer von Erdöl- und Erdgasraffinationsanlagen
+3600,3135,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Steuerer von Verfahren in der Metallerzeugung
+3605,3135,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Steuerer von Verfahren in der Metallerzeugung
+3610,3139,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Techniker in der Prozesssteuerung, anderweitig nicht genannt"
+3615,3139,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Techniker in der Prozesssteuerung, anderweitig nicht genannt"
+3620,3141,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Biotechniker (ohne medizinische Fachberufe)
+3625,3141,Selbstständige ohne Beschäftigte,0,1,0.0,270,4,2,Biotechniker (ohne medizinische Fachberufe)
+3630,3142,Selbstständige mit Beschäftigten,0,1,5.0,2030,4,2,Agrartechniker
+3635,3142,Selbstständige ohne Beschäftigte,0,1,0.0,1270,4,2,Agrartechniker
+3640,3143,Selbstständige mit Beschäftigten,0,1,5.0,710,4,2,Forsttechniker
+3645,3143,Selbstständige ohne Beschäftigte,0,1,0.0,690,4,2,Forsttechniker
+3650,3151,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Technische Schiffsoffiziere
+3655,3151,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Technische Schiffsoffiziere
+3660,3152,Selbstständige mit Beschäftigten,0,1,5.0,810,4,2,"Schiffsführer, nautische Schiffsoffiziere und Schiffslotsen"
+3665,3152,Selbstständige ohne Beschäftigte,0,1,0.0,890,4,2,"Schiffsführer, nautische Schiffsoffiziere und Schiffslotsen"
+3670,3153,Selbstständige mit Beschäftigten,0,1,5.0,250,4,2,Flugzeugführer und verwandte Berufe
+3675,3153,Selbstständige ohne Beschäftigte,0,1,0.0,670,4,2,Flugzeugführer und verwandte Berufe
+3680,3154,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Flugverkehrslotsen
+3685,3154,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Flugverkehrslotsen
+3690,3155,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Flugsicherungstechniker
+3695,3155,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Flugsicherungstechniker
+3700,3211,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Medizintechniker im Bereich bildgebende Verfahren und Therapiegeräte
+3705,3211,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Medizintechniker im Bereich bildgebende Verfahren und Therapiegeräte
+3710,3212,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Medizintechniker im Bereich Labor und Pathologie
+3715,3212,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Medizintechniker im Bereich Labor und Pathologie
+3720,3213,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Pharmazeutisch-technische Assistenten
+3725,3213,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Pharmazeutisch-technische Assistenten
+3730,3214,Selbstständige mit Beschäftigten,0,1,5.0,3340,4,2,Medizinische und zahnmedizinische Prothetiktechniker
+3735,3214,Selbstständige ohne Beschäftigte,0,1,0.0,1010,4,2,Medizinische und zahnmedizinische Prothetiktechniker
+3740,3221,Selbstständige mit Beschäftigten,0,1,5.0,5370,4,2,Nicht akademische Krankenpflegefachkräfte
+3745,3221,Selbstständige ohne Beschäftigte,0,1,0.0,4130,4,2,Nicht akademische Krankenpflegefachkräfte
+3750,3222,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Nicht akademische Geburtshilfefachkräfte
+3755,3222,Selbstständige ohne Beschäftigte,0,1,0.0,310,4,2,Nicht akademische Geburtshilfefachkräfte
+3760,3230,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin
+3765,3230,Selbstständige ohne Beschäftigte,0,1,0.0,650,4,2,Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin
+3770,3240,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Veterinärmedizinische Fachkräfte und Assistenten
+3775,3240,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Veterinärmedizinische Fachkräfte und Assistenten
+3780,3251,Selbstständige mit Beschäftigten,0,1,5.0,460,4,2,Zahnmedizinische Assistenten und Dentalhygieniker
+3785,3251,Selbstständige ohne Beschäftigte,0,1,0.0,300,4,2,Zahnmedizinische Assistenten und Dentalhygieniker
+3790,3252,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Fachkräfte im Bereich medizinische Dokumentation und Information
+3795,3252,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Fachkräfte im Bereich medizinische Dokumentation und Information
+3800,3253,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Fachkräfte in der öffentlichen Gesundheitsfürsorge
+3805,3253,Selbstständige ohne Beschäftigte,0,1,0.0,380,4,2,Fachkräfte in der öffentlichen Gesundheitsfürsorge
+3810,3254,Selbstständige mit Beschäftigten,0,1,5.0,4880,4,2,Augenoptiker
+3815,3254,Selbstständige ohne Beschäftigte,0,1,0.0,1120,4,2,Augenoptiker
+3820,3255,Selbstständige mit Beschäftigten,0,1,5.0,7550,4,2,Physiotherapeutische Techniker und Assistenten
+3825,3255,Selbstständige ohne Beschäftigte,0,1,0.0,13240,4,2,Physiotherapeutische Techniker und Assistenten
+3830,3256,Selbstständige mit Beschäftigten,0,1,5.0,1000,4,2,Medizinische Assistenten
+3835,3256,Selbstständige ohne Beschäftigte,0,1,0.0,1110,4,2,Medizinische Assistenten
+3840,3257,Selbstständige mit Beschäftigten,0,1,5.0,1560,4,2,Nicht akademische Kontrolleure und Beauftragte in den Bereichen Umwelt- und Arbeitsmedizin sowie verwandte Berufe
+3845,3257,Selbstständige ohne Beschäftigte,0,1,0.0,2110,4,2,Nicht akademische Kontrolleure und Beauftragte in den Bereichen Umwelt- und Arbeitsmedizin sowie verwandte Berufe
+3850,3258,Selbstständige mit Beschäftigten,0,1,5.0,240,4,2,Rettungsdienstpersonal
+3855,3258,Selbstständige ohne Beschäftigte,0,1,0.0,430,4,2,Rettungsdienstpersonal
+3860,3259,Selbstständige mit Beschäftigten,0,1,5.0,3330,4,2,"Assistenzberufe im Gesundheitswesen, anderweitig nicht genannt"
+3865,3259,Selbstständige ohne Beschäftigte,0,1,0.0,3830,4,2,"Assistenzberufe im Gesundheitswesen, anderweitig nicht genannt"
+3870,3311,Selbstständige mit Beschäftigten,0,1,5.0,5030,4,2,"Wertpapierhändler, -makler und Finanzmakler"
+3875,3311,Selbstständige ohne Beschäftigte,0,1,0.0,5130,4,2,"Wertpapierhändler, -makler und Finanzmakler"
+3880,3312,Selbstständige mit Beschäftigten,0,1,5.0,1770,4,2,Kreditsachbearbeiter
+3885,3312,Selbstständige ohne Beschäftigte,0,1,0.0,2430,4,2,Kreditsachbearbeiter
+3890,3313,Selbstständige mit Beschäftigten,0,1,5.0,8030,4,2,Nicht akademische Fachkräfte im Rechnungswesen
+3895,3313,Selbstständige ohne Beschäftigte,0,1,0.0,7220,4,2,Nicht akademische Fachkräfte im Rechnungswesen
+3900,3314,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Nicht akademische statistische, mathematische und verwandte Fachkräfte"
+3905,3314,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Nicht akademische statistische, mathematische und verwandte Fachkräfte"
+3910,3315,Selbstständige mit Beschäftigten,0,1,5.0,1240,4,2,Schätzer und Schadensgutachter
+3915,3315,Selbstständige ohne Beschäftigte,0,1,0.0,1880,4,2,Schätzer und Schadensgutachter
+3920,3321,Selbstständige mit Beschäftigten,0,1,5.0,29430,4,2,Versicherungsvertreter
+3925,3321,Selbstständige ohne Beschäftigte,0,1,0.0,21450,4,2,Versicherungsvertreter
+3930,3322,Selbstständige mit Beschäftigten,0,1,5.0,26320,4,2,Vertriebsagenten
+3935,3322,Selbstständige ohne Beschäftigte,0,1,0.0,27950,4,2,Vertriebsagenten
+3940,3323,Selbstständige mit Beschäftigten,0,1,5.0,650,4,2,Einkäufer
+3945,3323,Selbstständige ohne Beschäftigte,0,1,0.0,570,4,2,Einkäufer
+3950,3324,Selbstständige mit Beschäftigten,0,1,5.0,660,4,2,Handelsmakler
+3955,3324,Selbstständige ohne Beschäftigte,0,1,0.0,770,4,2,Handelsmakler
+3960,3331,Selbstständige mit Beschäftigten,0,1,5.0,3980,4,2,Fachkräfte für Abrechnungs- und Speditionsdienstleistungen
+3965,3331,Selbstständige ohne Beschäftigte,0,1,0.0,990,4,2,Fachkräfte für Abrechnungs- und Speditionsdienstleistungen
+3970,3332,Selbstständige mit Beschäftigten,0,1,5.0,6010,4,2,Konferenz- und Veranstaltungsplaner
+3975,3332,Selbstständige ohne Beschäftigte,0,1,0.0,4800,4,2,Konferenz- und Veranstaltungsplaner
+3980,3333,Selbstständige mit Beschäftigten,0,1,5.0,2740,4,2,Arbeits- und Personalvermittler
+3985,3333,Selbstständige ohne Beschäftigte,0,1,0.0,4660,4,2,Arbeits- und Personalvermittler
+3990,3334,Selbstständige mit Beschäftigten,0,1,5.0,30050,4,2,Immobilienmakler und -verwalter
+3995,3334,Selbstständige ohne Beschäftigte,0,1,0.0,31040,4,2,Immobilienmakler und -verwalter
+4000,3339,Selbstständige mit Beschäftigten,0,1,5.0,1700,4,2,"Fachkräfte für unternehmensbezogene Dienstleistungen, anderweitig nicht genannt"
+4005,3339,Selbstständige ohne Beschäftigte,0,1,0.0,2370,4,2,"Fachkräfte für unternehmensbezogene Dienstleistungen, anderweitig nicht genannt"
+4010,3341,Selbstständige mit Beschäftigten,0,1,5.0,8380,4,2,Sekretariatsleiter
+4015,3341,Selbstständige ohne Beschäftigte,0,1,0.0,8530,4,2,Sekretariatsleiter
+4020,3342,Selbstständige mit Beschäftigten,0,1,5.0,480,4,2,Sekretariatsfachkräfte im juristischen Bereich
+4025,3342,Selbstständige ohne Beschäftigte,0,1,0.0,620,4,2,Sekretariatsfachkräfte im juristischen Bereich
+4030,3343,Selbstständige mit Beschäftigten,0,1,5.0,2950,4,2,Sekretariatsfachkräfte in Verwaltung und Geschäftsleitung
+4035,3343,Selbstständige ohne Beschäftigte,0,1,0.0,2060,4,2,Sekretariatsfachkräfte in Verwaltung und Geschäftsleitung
+4040,3344,Selbstständige mit Beschäftigten,0,1,5.0,750,4,2,Sekretariatsfachkräfte im Gesundheitswesen
+4045,3344,Selbstständige ohne Beschäftigte,0,1,0.0,660,4,2,Sekretariatsfachkräfte im Gesundheitswesen
+4050,3351,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Fachkräfte im Zolldienst und Grenzschutz
+4055,3351,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Fachkräfte im Zolldienst und Grenzschutz
+4060,3352,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Fachkräfte in der Steuerverwaltung
+4065,3352,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Fachkräfte in der Steuerverwaltung
+4070,3353,Selbstständige mit Beschäftigten,0,1,5.0,230,4,2,Fachkräfte in Sozialverwaltung und -versicherung
+4075,3353,Selbstständige ohne Beschäftigte,0,1,0.0,350,4,2,Fachkräfte in Sozialverwaltung und -versicherung
+4080,3354,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Fachkräfte bei staatlichen Pass-, Lizenz- und Genehmigungsstellen"
+4085,3354,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Fachkräfte bei staatlichen Pass-, Lizenz- und Genehmigungsstellen"
+4090,3355,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Polizeikommissare und Kriminalbeamte
+4095,3355,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Polizeikommissare und Kriminalbeamte
+4100,3359,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Fachkräfte in der öffentlichen Verwaltung, anderweitig nicht genannt"
+4105,3359,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Fachkräfte in der öffentlichen Verwaltung, anderweitig nicht genannt"
+4110,3411,Selbstständige mit Beschäftigten,0,1,5.0,320,4,2,Nicht akademische Fachkräfte für Rechts- und verwandte Angelegenheiten
+4115,3411,Selbstständige ohne Beschäftigte,0,1,0.0,250,4,2,Nicht akademische Fachkräfte für Rechts- und verwandte Angelegenheiten
+4120,3412,Selbstständige mit Beschäftigten,0,1,5.0,880,4,2,Nicht akademische sozialpflegerische Fachkräfte
+4125,3412,Selbstständige ohne Beschäftigte,0,1,0.0,2900,4,2,Nicht akademische sozialpflegerische Fachkräfte
+4130,3413,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Ordensbrüder/-schwestern und Seelsorgehelfer
+4135,3413,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Ordensbrüder/-schwestern und Seelsorgehelfer
+4140,3421,Selbstständige mit Beschäftigten,0,1,5.0,330,4,2,Athleten und Berufssportler
+4145,3421,Selbstständige ohne Beschäftigte,0,1,0.0,500,4,2,Athleten und Berufssportler
+4150,3422,Selbstständige mit Beschäftigten,0,1,5.0,3340,4,2,"Sportlehrer, Sporttrainer und Sportfunktionäre"
+4155,3422,Selbstständige ohne Beschäftigte,0,1,0.0,8770,4,2,"Sportlehrer, Sporttrainer und Sportfunktionäre"
+4160,3423,Selbstständige mit Beschäftigten,0,1,5.0,9400,4,2,Trainer und Betreuer im Bereich Fitness und Erholung
+4165,3423,Selbstständige ohne Beschäftigte,0,1,0.0,23200,4,2,Trainer und Betreuer im Bereich Fitness und Erholung
+4170,3431,Selbstständige mit Beschäftigten,0,1,5.0,6540,4,2,Fotografen
+4175,3431,Selbstständige ohne Beschäftigte,0,1,0.0,17980,4,2,Fotografen
+4180,3432,Selbstständige mit Beschäftigten,0,1,5.0,5920,4,2,Raumgestalter und Dekorateure
+4185,3432,Selbstständige ohne Beschäftigte,0,1,0.0,6430,4,2,Raumgestalter und Dekorateure
+4190,3433,Selbstständige mit Beschäftigten,0,1,5.0,280,4,2,"Fachkräfte in Kunstgalerien, Museen und Bibliotheken"
+4195,3433,Selbstständige ohne Beschäftigte,0,1,0.0,880,4,2,"Fachkräfte in Kunstgalerien, Museen und Bibliotheken"
+4200,3434,Selbstständige mit Beschäftigten,0,1,5.0,2890,4,2,Küchenchefs
+4205,3434,Selbstständige ohne Beschäftigte,0,1,0.0,470,4,2,Küchenchefs
+4210,3435,Selbstständige mit Beschäftigten,0,1,5.0,5160,4,2,Sonstige Fachkräfte in Gestaltung und Kultur
+4215,3435,Selbstständige ohne Beschäftigte,0,1,0.0,11820,4,2,Sonstige Fachkräfte in Gestaltung und Kultur
+4220,3511,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Techniker für den Betrieb von Informations- und Kommunikationstechnologie
+4225,3511,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Techniker für den Betrieb von Informations- und Kommunikationstechnologie
+4230,3512,Selbstständige mit Beschäftigten,0,1,5.0,2430,4,2,Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie
+4235,3512,Selbstständige ohne Beschäftigte,0,1,0.0,3700,4,2,Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie
+4240,3513,Selbstständige mit Beschäftigten,0,1,5.0,1280,4,2,Techniker für Computernetzwerke und -systeme
+4245,3513,Selbstständige ohne Beschäftigte,0,1,0.0,1840,4,2,Techniker für Computernetzwerke und -systeme
+4250,3514,Selbstständige mit Beschäftigten,0,1,5.0,220,4,2,Webmaster
+4255,3514,Selbstständige ohne Beschäftigte,0,1,0.0,440,4,2,Webmaster
+4260,3521,Selbstständige mit Beschäftigten,0,1,5.0,2960,4,2,Techniker für Rundfunk und audiovisuelle Medien
+4265,3521,Selbstständige ohne Beschäftigte,0,1,0.0,8730,4,2,Techniker für Rundfunk und audiovisuelle Medien
+4270,3522,Selbstständige mit Beschäftigten,0,1,5.0,350,4,2,Telekommunikationstechniker
+4275,3522,Selbstständige ohne Beschäftigte,0,1,0.0,440,4,2,Telekommunikationstechniker
+4280,4110,Selbstständige mit Beschäftigten,0,1,5.0,270,4,2,Allgemeine Bürokräfte
+4285,4110,Selbstständige ohne Beschäftigte,0,1,0.0,450,4,2,Allgemeine Bürokräfte
+4290,4120,Selbstständige mit Beschäftigten,0,1,5.0,13150,4,2,Sekretariatskräfte (allgemein)
+4295,4120,Selbstständige ohne Beschäftigte,0,1,0.0,10230,4,2,Sekretariatskräfte (allgemein)
+4300,4131,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Schreibkräfte und Bediener von Textverarbeitungsanlagen
+4305,4131,Selbstständige ohne Beschäftigte,0,1,0.0,540,4,2,Schreibkräfte und Bediener von Textverarbeitungsanlagen
+4310,4132,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Datenerfasser
+4315,4132,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Datenerfasser
+4320,4211,Selbstständige mit Beschäftigten,0,1,5.0,2200,4,2,Bank- und andere Schalterbedienstete
+4325,4211,Selbstständige ohne Beschäftigte,0,1,0.0,1680,4,2,Bank- und andere Schalterbedienstete
+4330,4212,Selbstständige mit Beschäftigten,0,1,5.0,2730,4,2,"Buchmacher, Croupiers und verwandte Berufe im Bereich Glücks- und Wettspiele"
+4335,4212,Selbstständige ohne Beschäftigte,0,1,0.0,1680,4,2,"Buchmacher, Croupiers und verwandte Berufe im Bereich Glücks- und Wettspiele"
+4340,4213,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Pfandleiher und Geldverleiher
+4345,4213,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Pfandleiher und Geldverleiher
+4350,4214,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Inkassobeauftragte und verwandte Berufe
+4355,4214,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Inkassobeauftragte und verwandte Berufe
+4360,4221,Selbstständige mit Beschäftigten,0,1,5.0,5190,4,2,Reiseverkehrsfachkräfte
+4365,4221,Selbstständige ohne Beschäftigte,0,1,0.0,2880,4,2,Reiseverkehrsfachkräfte
+4370,4222,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Kundeninformationsfachkräfte in Call Centers
+4375,4222,Selbstständige ohne Beschäftigte,0,1,0.0,300,4,2,Kundeninformationsfachkräfte in Call Centers
+4380,4223,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Telefonisten
+4385,4223,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Telefonisten
+4390,4224,Selbstständige mit Beschäftigten,0,1,5.0,250,4,2,Hotelrezeptionisten
+4395,4224,Selbstständige ohne Beschäftigte,0,1,0.0,250,4,2,Hotelrezeptionisten
+4400,4225,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Auskunftspersonal
+4405,4225,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Auskunftspersonal
+4410,4226,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Empfangskräfte (allgemein)
+4415,4226,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Empfangskräfte (allgemein)
+4420,4227,Selbstständige mit Beschäftigten,0,1,5.0,280,4,2,Interviewer im Bereich Umfragen und Marktforschung
+4425,4227,Selbstständige ohne Beschäftigte,0,1,0.0,1030,4,2,Interviewer im Bereich Umfragen und Marktforschung
+4430,4229,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Berufe im Bereich Kundeninformation, anderweitig nicht genannt"
+4435,4229,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Berufe im Bereich Kundeninformation, anderweitig nicht genannt"
+4440,4311,Selbstständige mit Beschäftigten,0,1,5.0,4120,4,2,Bürokräfte im Rechnungswesen und in der Buchhaltung
+4445,4311,Selbstständige ohne Beschäftigte,0,1,0.0,3440,4,2,Bürokräfte im Rechnungswesen und in der Buchhaltung
+4450,4312,Selbstständige mit Beschäftigten,0,1,5.0,1040,4,2,"Bürokräfte in der Statistik, im Finanz- und Versicherungswesen"
+4455,4312,Selbstständige ohne Beschäftigte,0,1,0.0,880,4,2,"Bürokräfte in der Statistik, im Finanz- und Versicherungswesen"
+4460,4313,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bürokräfte in der Lohnbuchhaltung
+4465,4313,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bürokräfte in der Lohnbuchhaltung
+4470,4321,Selbstständige mit Beschäftigten,0,1,5.0,1700,4,2,Fachkräfte in der Lagerwirtschaft
+4475,4321,Selbstständige ohne Beschäftigte,0,1,0.0,1150,4,2,Fachkräfte in der Lagerwirtschaft
+4480,4322,Selbstständige mit Beschäftigten,0,1,5.0,2470,4,2,Bürokräfte in der Material- und Fertigungsplanung und verwandte Berufe
+4485,4322,Selbstständige ohne Beschäftigte,0,1,0.0,1090,4,2,Bürokräfte in der Material- und Fertigungsplanung und verwandte Berufe
+4490,4323,Selbstständige mit Beschäftigten,0,1,5.0,6020,4,2,Bürokräfte in der Transportwirtschaft und verwandte Berufe
+4495,4323,Selbstständige ohne Beschäftigte,0,1,0.0,1670,4,2,Bürokräfte in der Transportwirtschaft und verwandte Berufe
+4500,4411,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bibliotheksassistenten
+4505,4411,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bibliotheksassistenten
+4510,4412,Selbstständige mit Beschäftigten,0,1,5.0,1540,4,2,Postverteiler und -sortierer
+4515,4412,Selbstständige ohne Beschäftigte,0,1,0.0,970,4,2,Postverteiler und -sortierer
+4520,4413,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Kodierer, Korrekturleser und verwandte Bürokräfte"
+4525,4413,Selbstständige ohne Beschäftigte,0,1,0.0,590,4,2,"Kodierer, Korrekturleser und verwandte Bürokräfte"
+4530,4414,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Schreiber und verwandte Arbeitskräfte
+4535,4414,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Schreiber und verwandte Arbeitskräfte
+4540,4415,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bürokräfte für Registratur und Dokumentation
+4545,4415,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bürokräfte für Registratur und Dokumentation
+4550,4416,Selbstständige mit Beschäftigten,0,1,5.0,780,4,2,Bürokräfte im Personalwesen
+4555,4416,Selbstständige ohne Beschäftigte,0,1,0.0,600,4,2,Bürokräfte im Personalwesen
+4560,4419,Selbstständige mit Beschäftigten,0,1,5.0,2260,4,2,"Bürokräfte und verwandte Berufe, anderweitig nicht genannt"
+4565,4419,Selbstständige ohne Beschäftigte,0,1,0.0,3930,4,2,"Bürokräfte und verwandte Berufe, anderweitig nicht genannt"
+4570,5111,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Reisebegleiter und Stewards
+4575,5111,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Reisebegleiter und Stewards
+4580,5112,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Schaffner
+4585,5112,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Schaffner
+4590,5113,Selbstständige mit Beschäftigten,0,1,5.0,670,4,2,Reiseleiter/Fremdenführer
+4595,5113,Selbstständige ohne Beschäftigte,0,1,0.0,3380,4,2,Reiseleiter/Fremdenführer
+4600,5120,Selbstständige mit Beschäftigten,0,1,5.0,16530,4,2,Köche
+4605,5120,Selbstständige ohne Beschäftigte,0,1,0.0,3840,4,2,Köche
+4610,5131,Selbstständige mit Beschäftigten,0,1,5.0,10110,4,2,Kellner
+4615,5131,Selbstständige ohne Beschäftigte,0,1,0.0,2940,4,2,Kellner
+4620,5132,Selbstständige mit Beschäftigten,0,1,5.0,1270,4,2,Barkeeper
+4625,5132,Selbstständige ohne Beschäftigte,0,1,0.0,600,4,2,Barkeeper
+4630,5141,Selbstständige mit Beschäftigten,0,1,5.0,40530,4,2,Friseure
+4635,5141,Selbstständige ohne Beschäftigte,0,1,0.0,23830,4,2,Friseure
+4640,5142,Selbstständige mit Beschäftigten,0,1,5.0,21060,4,2,Kosmetiker und verwandte Berufe
+4645,5142,Selbstständige ohne Beschäftigte,0,1,0.0,35430,4,2,Kosmetiker und verwandte Berufe
+4650,5151,Selbstständige mit Beschäftigten,0,1,5.0,2970,4,2,"Reinigungs- und Hauswirtschaftsleiter in Büros, Hotels und anderen Einrichtungen"
+4655,5151,Selbstständige ohne Beschäftigte,0,1,0.0,750,4,2,"Reinigungs- und Hauswirtschaftsleiter in Büros, Hotels und anderen Einrichtungen"
+4660,5152,Selbstständige mit Beschäftigten,0,1,5.0,2490,4,2,Hauswirtschafter in Privathaushalten
+4665,5152,Selbstständige ohne Beschäftigte,0,1,0.0,2730,4,2,Hauswirtschafter in Privathaushalten
+4670,5153,Selbstständige mit Beschäftigten,0,1,5.0,13550,4,2,Hauswarte
+4675,5153,Selbstständige ohne Beschäftigte,0,1,0.0,14210,4,2,Hauswarte
+4680,5161,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Astrologen, Wahrsager und verwandte Berufe"
+4685,5161,Selbstständige ohne Beschäftigte,0,1,0.0,470,4,2,"Astrologen, Wahrsager und verwandte Berufe"
+4690,5162,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Gesellschafter und Zofen/Kammerdiener
+4695,5162,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Gesellschafter und Zofen/Kammerdiener
+4700,5163,Selbstständige mit Beschäftigten,0,1,5.0,2630,4,2,Bestatter und Einbalsamierer
+4705,5163,Selbstständige ohne Beschäftigte,0,1,0.0,740,4,2,Bestatter und Einbalsamierer
+4710,5164,Selbstständige mit Beschäftigten,0,1,5.0,4250,4,2,Tierpfleger und -betreuer
+4715,5164,Selbstständige ohne Beschäftigte,0,1,0.0,8440,4,2,Tierpfleger und -betreuer
+4720,5165,Selbstständige mit Beschäftigten,0,1,5.0,7260,4,2,Fahrschullehrer
+4725,5165,Selbstständige ohne Beschäftigte,0,1,0.0,1960,4,2,Fahrschullehrer
+4730,5169,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Berufe im Bereich personenbezogener Dienstleistungen, anderweitig nicht genannt"
+4735,5169,Selbstständige ohne Beschäftigte,0,1,0.0,480,4,2,"Berufe im Bereich personenbezogener Dienstleistungen, anderweitig nicht genannt"
+4740,5211,Selbstständige mit Beschäftigten,0,1,5.0,660,4,2,Verkaufsstand- und Marktverkäufer
+4745,5211,Selbstständige ohne Beschäftigte,0,1,0.0,830,4,2,Verkaufsstand- und Marktverkäufer
+4750,5212,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Straßenverkäufer von Lebensmitteln
+4755,5212,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Straßenverkäufer von Lebensmitteln
+4760,5221,Selbstständige mit Beschäftigten,0,1,5.0,20220,4,2,Leiter eines Einzelhandelsgeschäftes
+4765,5221,Selbstständige ohne Beschäftigte,0,1,0.0,13120,4,2,Leiter eines Einzelhandelsgeschäftes
+4770,5222,Selbstständige mit Beschäftigten,0,1,5.0,2040,4,2,Verkaufsaufsichtskräfte in Handelsgeschäften
+4775,5222,Selbstständige ohne Beschäftigte,0,1,0.0,750,4,2,Verkaufsaufsichtskräfte in Handelsgeschäften
+4780,5223,Selbstständige mit Beschäftigten,0,1,5.0,89850,4,2,Verkäufer und Verkaufshilfskräfte in Handelsgeschäften
+4785,5223,Selbstständige ohne Beschäftigte,0,1,0.0,49690,4,2,Verkäufer und Verkaufshilfskräfte in Handelsgeschäften
+4790,5230,Selbstständige mit Beschäftigten,0,1,5.0,740,4,2,Kassierer und Kartenverkäufer
+4795,5230,Selbstständige ohne Beschäftigte,0,1,0.0,400,4,2,Kassierer und Kartenverkäufer
+4800,5241,Selbstständige mit Beschäftigten,0,1,5.0,420,4,2,Mannequins/Dressmen und sonstige Modelle
+4805,5241,Selbstständige ohne Beschäftigte,0,1,0.0,640,4,2,Mannequins/Dressmen und sonstige Modelle
+4810,5242,Selbstständige mit Beschäftigten,0,1,5.0,360,4,2,Produktvorführer
+4815,5242,Selbstständige ohne Beschäftigte,0,1,0.0,1050,4,2,Produktvorführer
+4820,5243,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Haustürverkäufer
+4825,5243,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Haustürverkäufer
+4830,5244,Selbstständige mit Beschäftigten,0,1,5.0,2480,4,2,Telefonverkäufer
+4835,5244,Selbstständige ohne Beschäftigte,0,1,0.0,3940,4,2,Telefonverkäufer
+4840,5245,Selbstständige mit Beschäftigten,0,1,5.0,780,4,2,Tankwarte
+4845,5245,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Tankwarte
+4850,5246,Selbstständige mit Beschäftigten,0,1,5.0,8990,4,2,Imbissverkäufer
+4855,5246,Selbstständige ohne Beschäftigte,0,1,0.0,4200,4,2,Imbissverkäufer
+4860,5249,Selbstständige mit Beschäftigten,0,1,5.0,1210,4,2,"Verkaufskräfte, anderweitig nicht genannt"
+4865,5249,Selbstständige ohne Beschäftigte,0,1,0.0,900,4,2,"Verkaufskräfte, anderweitig nicht genannt"
+4870,5311,Selbstständige mit Beschäftigten,0,1,5.0,7910,4,2,Kinderbetreuer
+4875,5311,Selbstständige ohne Beschäftigte,0,1,0.0,22660,4,2,Kinderbetreuer
+4880,5312,Selbstständige mit Beschäftigten,0,1,5.0,270,4,2,Lernbetreuer
+4885,5312,Selbstständige ohne Beschäftigte,0,1,0.0,1610,4,2,Lernbetreuer
+4890,5321,Selbstständige mit Beschäftigten,0,1,5.0,1340,4,2,Pflegehelfer
+4895,5321,Selbstständige ohne Beschäftigte,0,1,0.0,2240,4,2,Pflegehelfer
+4900,5322,Selbstständige mit Beschäftigten,0,1,5.0,1170,4,2,Haus- und Familienpfleger
+4905,5322,Selbstständige ohne Beschäftigte,0,1,0.0,3490,4,2,Haus- und Familienpfleger
+4910,5329,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Betreuungsberufe im Gesundheitswesen, anderweitig nicht genannt"
+4915,5329,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Betreuungsberufe im Gesundheitswesen, anderweitig nicht genannt"
+4920,5411,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Feuerwehrleute
+4925,5411,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Feuerwehrleute
+4930,5412,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Polizisten (ohne Polizeikommissare)
+4935,5412,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Polizisten (ohne Polizeikommissare)
+4940,5413,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Gefängnisaufseher
+4945,5413,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Gefängnisaufseher
+4950,5414,Selbstständige mit Beschäftigten,0,1,5.0,1580,4,2,Sicherheitswachpersonal
+4955,5414,Selbstständige ohne Beschäftigte,0,1,0.0,1230,4,2,Sicherheitswachpersonal
+4960,5419,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Schutzkräfte und Sicherheitsbedienstete, anderweitig nicht genannt"
+4965,5419,Selbstständige ohne Beschäftigte,0,1,0.0,320,4,2,"Schutzkräfte und Sicherheitsbedienstete, anderweitig nicht genannt"
+4970,6111,Selbstständige mit Beschäftigten,0,1,5.0,970,4,2,Ackerbauern und Gemüseanbauer
+4975,6111,Selbstständige ohne Beschäftigte,0,1,0.0,650,4,2,Ackerbauern und Gemüseanbauer
+4980,6112,Selbstständige mit Beschäftigten,0,1,5.0,5040,4,2,Baum- und Strauchfrüchteanbauer
+4985,6112,Selbstständige ohne Beschäftigte,0,1,0.0,2550,4,2,Baum- und Strauchfrüchteanbauer
+4990,6113,Selbstständige mit Beschäftigten,0,1,5.0,29050,4,2,"Gärtner, Saat- und Pflanzenzüchter"
+4995,6113,Selbstständige ohne Beschäftigte,0,1,0.0,15030,4,2,"Gärtner, Saat- und Pflanzenzüchter"
+5000,6114,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Fachkräfte in der Mischkulturlandwirtschaft
+5005,6114,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Fachkräfte in der Mischkulturlandwirtschaft
+5010,6121,Selbstständige mit Beschäftigten,0,1,5.0,3500,4,2,Nutztierhalter (ohne Geflügel) und Milchproduzenten
+5015,6121,Selbstständige ohne Beschäftigte,0,1,0.0,2570,4,2,Nutztierhalter (ohne Geflügel) und Milchproduzenten
+5020,6122,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Geflügelhalter
+5025,6122,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Geflügelhalter
+5030,6123,Selbstständige mit Beschäftigten,0,1,5.0,400,4,2,Imker und Seidenraupenzüchter
+5035,6123,Selbstständige ohne Beschäftigte,0,1,0.0,570,4,2,Imker und Seidenraupenzüchter
+5040,6129,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Tierhalter, anderweitig nicht genannt"
+5045,6129,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Tierhalter, anderweitig nicht genannt"
+5050,6130,Selbstständige mit Beschäftigten,0,1,5.0,58570,4,2,Landwirte mit Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+5055,6130,Selbstständige ohne Beschäftigte,0,1,0.0,42880,4,2,Landwirte mit Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+5060,6210,Selbstständige mit Beschäftigten,0,1,5.0,1550,4,2,Forstarbeitskräfte und verwandte Berufe
+5065,6210,Selbstständige ohne Beschäftigte,0,1,0.0,1690,4,2,Forstarbeitskräfte und verwandte Berufe
+5070,6221,Selbstständige mit Beschäftigten,0,1,5.0,250,4,2,Fachkräfte im Bereich Aquakultur
+5075,6221,Selbstständige ohne Beschäftigte,0,1,0.0,230,4,2,Fachkräfte im Bereich Aquakultur
+5080,6222,Selbstständige mit Beschäftigten,0,1,5.0,460,4,2,Binnen- und Küstenfischer
+5085,6222,Selbstständige ohne Beschäftigte,0,1,0.0,260,4,2,Binnen- und Küstenfischer
+5090,6223,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Hochseefischer
+5095,6223,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Hochseefischer
+5100,6224,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Jäger und Fallensteller
+5105,6224,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Jäger und Fallensteller
+5110,6310,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Ackerbauern für den Eigenbedarf
+5115,6310,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Ackerbauern für den Eigenbedarf
+5120,6320,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Nutztierhalter für den Eigenbedarf
+5125,6320,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Nutztierhalter für den Eigenbedarf
+5130,6330,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Ackerbauern und Nutztierhalter (ohne ausgeprägten Schwerpunkt) für den Eigenbedarf
+5135,6330,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Ackerbauern und Nutztierhalter (ohne ausgeprägten Schwerpunkt) für den Eigenbedarf
+5140,6340,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Fischer, Jäger, Fallensteller und Sammler für den Eigenbedarf"
+5145,6340,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Fischer, Jäger, Fallensteller und Sammler für den Eigenbedarf"
+5150,7111,Selbstständige mit Beschäftigten,0,1,5.0,1930,4,2,Rohbaufacharbeiter im Hochbau
+5155,7111,Selbstständige ohne Beschäftigte,0,1,0.0,1890,4,2,Rohbaufacharbeiter im Hochbau
+5160,7112,Selbstständige mit Beschäftigten,0,1,5.0,8740,4,2,Maurer und verwandte Berufe
+5165,7112,Selbstständige ohne Beschäftigte,0,1,0.0,6750,4,2,Maurer und verwandte Berufe
+5170,7113,Selbstständige mit Beschäftigten,0,1,5.0,2150,4,2,"Steinmetze, Steinspalter, -bearbeiter und Steinbildhauer"
+5175,7113,Selbstständige ohne Beschäftigte,0,1,0.0,1250,4,2,"Steinmetze, Steinspalter, -bearbeiter und Steinbildhauer"
+5180,7114,Selbstständige mit Beschäftigten,0,1,5.0,5090,4,2,"Betonierer, Betonoberflächenfertiger und verwandte Berufe"
+5185,7114,Selbstständige ohne Beschäftigte,0,1,0.0,2430,4,2,"Betonierer, Betonoberflächenfertiger und verwandte Berufe"
+5190,7115,Selbstständige mit Beschäftigten,0,1,5.0,10180,4,2,Zimmerleute und Bautischler
+5195,7115,Selbstständige ohne Beschäftigte,0,1,0.0,9240,4,2,Zimmerleute und Bautischler
+5200,7119,Selbstständige mit Beschäftigten,0,1,5.0,2570,4,2,"Baukonstruktions- und verwandte Berufe, anderweitig nicht genannt"
+5205,7119,Selbstständige ohne Beschäftigte,0,1,0.0,1530,4,2,"Baukonstruktions- und verwandte Berufe, anderweitig nicht genannt"
+5210,7121,Selbstständige mit Beschäftigten,0,1,5.0,6370,4,2,Dachdecker
+5215,7121,Selbstständige ohne Beschäftigte,0,1,0.0,2900,4,2,Dachdecker
+5220,7122,Selbstständige mit Beschäftigten,0,1,5.0,15450,4,2,Boden- und Fliesenleger
+5225,7122,Selbstständige ohne Beschäftigte,0,1,0.0,15080,4,2,Boden- und Fliesenleger
+5230,7123,Selbstständige mit Beschäftigten,0,1,5.0,16190,4,2,Stuckateure
+5235,7123,Selbstständige ohne Beschäftigte,0,1,0.0,17800,4,2,Stuckateure
+5240,7124,Selbstständige mit Beschäftigten,0,1,5.0,420,4,2,Isolierer
+5245,7124,Selbstständige ohne Beschäftigte,0,1,0.0,300,4,2,Isolierer
+5250,7125,Selbstständige mit Beschäftigten,0,1,5.0,1370,4,2,Glaser
+5255,7125,Selbstständige ohne Beschäftigte,0,1,0.0,490,4,2,Glaser
+5260,7126,Selbstständige mit Beschäftigten,0,1,5.0,14790,4,2,Bauspengler und Sanitär- und Heizungsinstallateure
+5265,7126,Selbstständige ohne Beschäftigte,0,1,0.0,5730,4,2,Bauspengler und Sanitär- und Heizungsinstallateure
+5270,7127,Selbstständige mit Beschäftigten,0,1,5.0,890,4,2,Klima- und Kälteanlagenbauer
+5275,7127,Selbstständige ohne Beschäftigte,0,1,0.0,310,4,2,Klima- und Kälteanlagenbauer
+5280,7131,Selbstständige mit Beschäftigten,0,1,5.0,11300,4,2,Maler und verwandte Berufe
+5285,7131,Selbstständige ohne Beschäftigte,0,1,0.0,8340,4,2,Maler und verwandte Berufe
+5290,7132,Selbstständige mit Beschäftigten,0,1,5.0,4580,4,2,Lackierer und verwandte Berufe
+5295,7132,Selbstständige ohne Beschäftigte,0,1,0.0,2420,4,2,Lackierer und verwandte Berufe
+5300,7133,Selbstständige mit Beschäftigten,0,1,5.0,4340,4,2,Fassadenreiniger und Schornsteinfeger/Rauchfangkehrer
+5305,7133,Selbstständige ohne Beschäftigte,0,1,0.0,860,4,2,Fassadenreiniger und Schornsteinfeger/Rauchfangkehrer
+5310,7211,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Former und Kernmacher (für Metallguss)
+5315,7211,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Former und Kernmacher (für Metallguss)
+5320,7212,Selbstständige mit Beschäftigten,0,1,5.0,1280,4,2,Schweißer und Brennschneider
+5325,7212,Selbstständige ohne Beschäftigte,0,1,0.0,1090,4,2,Schweißer und Brennschneider
+5330,7213,Selbstständige mit Beschäftigten,0,1,5.0,2200,4,2,Blechkaltverformer
+5335,7213,Selbstständige ohne Beschäftigte,0,1,0.0,1380,4,2,Blechkaltverformer
+5340,7214,Selbstständige mit Beschäftigten,0,1,5.0,4640,4,2,Baumetallverformer und Metallbauer
+5345,7214,Selbstständige ohne Beschäftigte,0,1,0.0,2350,4,2,Baumetallverformer und Metallbauer
+5350,7215,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Verspannungsmonteure und Seilspleißer
+5355,7215,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Verspannungsmonteure und Seilspleißer
+5360,7221,Selbstständige mit Beschäftigten,0,1,5.0,1630,4,2,"Grobschmiede, Hammerschmiede und Schmiedepresser"
+5365,7221,Selbstständige ohne Beschäftigte,0,1,0.0,1650,4,2,"Grobschmiede, Hammerschmiede und Schmiedepresser"
+5370,7222,Selbstständige mit Beschäftigten,0,1,5.0,3010,4,2,Werkzeugmechaniker und verwandte Berufe
+5375,7222,Selbstständige ohne Beschäftigte,0,1,0.0,2020,4,2,Werkzeugmechaniker und verwandte Berufe
+5380,7223,Selbstständige mit Beschäftigten,0,1,5.0,2430,4,2,Werkzeugmaschineneinrichter und -bediener
+5385,7223,Selbstständige ohne Beschäftigte,0,1,0.0,1120,4,2,Werkzeugmaschineneinrichter und -bediener
+5390,7224,Selbstständige mit Beschäftigten,0,1,5.0,480,4,2,"Metallpolierer, Rundschleifer und Werkzeugschärfer"
+5395,7224,Selbstständige ohne Beschäftigte,0,1,0.0,560,4,2,"Metallpolierer, Rundschleifer und Werkzeugschärfer"
+5400,7231,Selbstständige mit Beschäftigten,0,1,5.0,12630,4,2,Kraftfahrzeugmechaniker und -schlosser
+5405,7231,Selbstständige ohne Beschäftigte,0,1,0.0,7290,4,2,Kraftfahrzeugmechaniker und -schlosser
+5410,7232,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Flugmotorenmechaniker und -schlosser
+5415,7232,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Flugmotorenmechaniker und -schlosser
+5420,7233,Selbstständige mit Beschäftigten,0,1,5.0,10160,4,2,Landmaschinen- und Industriemaschinenmechaniker und -schlosser
+5425,7233,Selbstständige ohne Beschäftigte,0,1,0.0,5780,4,2,Landmaschinen- und Industriemaschinenmechaniker und -schlosser
+5430,7234,Selbstständige mit Beschäftigten,0,1,5.0,1180,4,2,Fahrradmechaniker und verwandte Berufe
+5435,7234,Selbstständige ohne Beschäftigte,0,1,0.0,870,4,2,Fahrradmechaniker und verwandte Berufe
+5440,7311,Selbstständige mit Beschäftigten,0,1,5.0,1520,4,2,Präzisionsinstrumentenmacher und -instandsetzer
+5445,7311,Selbstständige ohne Beschäftigte,0,1,0.0,1030,4,2,Präzisionsinstrumentenmacher und -instandsetzer
+5450,7312,Selbstständige mit Beschäftigten,0,1,5.0,790,4,2,Musikinstrumentenbauer und -stimmer
+5455,7312,Selbstständige ohne Beschäftigte,0,1,0.0,1020,4,2,Musikinstrumentenbauer und -stimmer
+5460,7313,Selbstständige mit Beschäftigten,0,1,5.0,1850,4,2,Schmuckwarenhersteller und Edelmetallbearbeiter
+5465,7313,Selbstständige ohne Beschäftigte,0,1,0.0,2580,4,2,Schmuckwarenhersteller und Edelmetallbearbeiter
+5470,7314,Selbstständige mit Beschäftigten,0,1,5.0,410,4,2,Keramiker und verwandte Berufe
+5475,7314,Selbstständige ohne Beschäftigte,0,1,0.0,1050,4,2,Keramiker und verwandte Berufe
+5480,7315,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Glasmacher, -schneider, -schleifer und -veredler"
+5485,7315,Selbstständige ohne Beschäftigte,0,1,0.0,220,4,2,"Glasmacher, -schneider, -schleifer und -veredler"
+5490,7316,Selbstständige mit Beschäftigten,0,1,5.0,2300,4,2,"Schildermaler, Dekormaler, Graveure und Ätzer"
+5495,7316,Selbstständige ohne Beschäftigte,0,1,0.0,2210,4,2,"Schildermaler, Dekormaler, Graveure und Ätzer"
+5500,7317,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Kunsthandwerkliche Berufe für Holz, Korbwaren und verwandte Materialien"
+5505,7317,Selbstständige ohne Beschäftigte,0,1,0.0,430,4,2,"Kunsthandwerkliche Berufe für Holz, Korbwaren und verwandte Materialien"
+5510,7318,Selbstständige mit Beschäftigten,0,1,5.0,240,4,2,"Kunsthandwerkliche Berufe für Textilien, Leder und verwandte Materialien"
+5515,7318,Selbstständige ohne Beschäftigte,0,1,0.0,570,4,2,"Kunsthandwerkliche Berufe für Textilien, Leder und verwandte Materialien"
+5520,7319,Selbstständige mit Beschäftigten,0,1,5.0,470,4,2,"Kunsthandwerkliche Berufe, anderweitig nicht genannt"
+5525,7319,Selbstständige ohne Beschäftigte,0,1,0.0,1600,4,2,"Kunsthandwerkliche Berufe, anderweitig nicht genannt"
+5530,7321,Selbstständige mit Beschäftigten,0,1,5.0,3200,4,2,Techniker in der Druckvorstufe
+5535,7321,Selbstständige ohne Beschäftigte,0,1,0.0,7000,4,2,Techniker in der Druckvorstufe
+5540,7322,Selbstständige mit Beschäftigten,0,1,5.0,1540,4,2,Drucker
+5545,7322,Selbstständige ohne Beschäftigte,0,1,0.0,830,4,2,Drucker
+5550,7323,Selbstständige mit Beschäftigten,0,1,5.0,310,4,2,Berufe in der Druckweiterverarbeitung und Buchbinder
+5555,7323,Selbstständige ohne Beschäftigte,0,1,0.0,320,4,2,Berufe in der Druckweiterverarbeitung und Buchbinder
+5560,7411,Selbstständige mit Beschäftigten,0,1,5.0,7410,4,2,Bauelektriker und verwandte Berufe
+5565,7411,Selbstständige ohne Beschäftigte,0,1,0.0,5040,4,2,Bauelektriker und verwandte Berufe
+5570,7412,Selbstständige mit Beschäftigten,0,1,5.0,3250,4,2,Elektromechaniker und verwandte Berufe
+5575,7412,Selbstständige ohne Beschäftigte,0,1,0.0,2250,4,2,Elektromechaniker und verwandte Berufe
+5580,7413,Selbstständige mit Beschäftigten,0,1,5.0,250,4,2,Elektroleitungsinstallateure und Wartungspersonal
+5585,7413,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Elektroleitungsinstallateure und Wartungspersonal
+5590,7421,Selbstständige mit Beschäftigten,0,1,5.0,1290,4,2,Elektroniker und Elektronik-Servicetechniker
+5595,7421,Selbstständige ohne Beschäftigte,0,1,0.0,1180,4,2,Elektroniker und Elektronik-Servicetechniker
+5600,7422,Selbstständige mit Beschäftigten,0,1,5.0,5620,4,2,Installateure und Servicetechniker im Bereich Informations- und Kommunikationstechnik
+5605,7422,Selbstständige ohne Beschäftigte,0,1,0.0,5860,4,2,Installateure und Servicetechniker im Bereich Informations- und Kommunikationstechnik
+5610,7511,Selbstständige mit Beschäftigten,0,1,5.0,2610,4,2,"Fleischer, Fischhändler und -verarbeiter und verwandte Berufe"
+5615,7511,Selbstständige ohne Beschäftigte,0,1,0.0,440,4,2,"Fleischer, Fischhändler und -verarbeiter und verwandte Berufe"
+5620,7512,Selbstständige mit Beschäftigten,0,1,5.0,4270,4,2,"Bäcker, Konditoren und Konfektmacher"
+5625,7512,Selbstständige ohne Beschäftigte,0,1,0.0,1090,4,2,"Bäcker, Konditoren und Konfektmacher"
+5630,7513,Selbstständige mit Beschäftigten,0,1,5.0,400,4,2,Molkerei- und Käsereifachkräfte
+5635,7513,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Molkerei- und Käsereifachkräfte
+5640,7514,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Obst- und Gemüsekonservierer und verwandte Berufe
+5645,7514,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Obst- und Gemüsekonservierer und verwandte Berufe
+5650,7515,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Nahrungsmittel- und Getränkekoster und -klassierer
+5655,7515,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Nahrungsmittel- und Getränkekoster und -klassierer
+5660,7516,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Tabakaufbereiter und Tabakwarenmacher
+5665,7516,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Tabakaufbereiter und Tabakwarenmacher
+5670,7521,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Holztrockner und -konservierer
+5675,7521,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Holztrockner und -konservierer
+5680,7522,Selbstständige mit Beschäftigten,0,1,5.0,14750,4,2,Möbeltischler und verwandte Berufe
+5685,7522,Selbstständige ohne Beschäftigte,0,1,0.0,12020,4,2,Möbeltischler und verwandte Berufe
+5690,7523,Selbstständige mit Beschäftigten,0,1,5.0,1870,4,2,Einrichter und Bediener von Holzbearbeitungsmaschinen
+5695,7523,Selbstständige ohne Beschäftigte,0,1,0.0,1310,4,2,Einrichter und Bediener von Holzbearbeitungsmaschinen
+5700,7531,Selbstständige mit Beschäftigten,0,1,5.0,3290,4,2,"Herren- und Damenschneider, Kürschner und Hutmacher"
+5705,7531,Selbstständige ohne Beschäftigte,0,1,0.0,5180,4,2,"Herren- und Damenschneider, Kürschner und Hutmacher"
+5710,7532,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Schnittmustermacher und Zuschneider
+5715,7532,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Schnittmustermacher und Zuschneider
+5720,7533,Selbstständige mit Beschäftigten,0,1,5.0,870,4,2,"Näher, Sticker und verwandte Berufe"
+5725,7533,Selbstständige ohne Beschäftigte,0,1,0.0,1250,4,2,"Näher, Sticker und verwandte Berufe"
+5730,7534,Selbstständige mit Beschäftigten,0,1,5.0,900,4,2,Polsterer und verwandte Berufe
+5735,7534,Selbstständige ohne Beschäftigte,0,1,0.0,970,4,2,Polsterer und verwandte Berufe
+5740,7535,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Pelzveredler, Gerber und Fellzurichter"
+5745,7535,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Pelzveredler, Gerber und Fellzurichter"
+5750,7536,Selbstständige mit Beschäftigten,0,1,5.0,1520,4,2,Schuhmacher und verwandte Berufe
+5755,7536,Selbstständige ohne Beschäftigte,0,1,0.0,1300,4,2,Schuhmacher und verwandte Berufe
+5760,7541,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Taucher
+5765,7541,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Taucher
+5770,7542,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Sprengmeister und Sprengbeauftragte
+5775,7542,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Sprengmeister und Sprengbeauftragte
+5780,7543,Selbstständige mit Beschäftigten,0,1,5.0,700,4,2,Produkttester und -klassierer (ohne Nahrungsmittel und Getränke)
+5785,7543,Selbstständige ohne Beschäftigte,0,1,0.0,980,4,2,Produkttester und -klassierer (ohne Nahrungsmittel und Getränke)
+5790,7544,Selbstständige mit Beschäftigten,0,1,5.0,480,4,2,Kammerjäger und andere Schädlingsbekämpfungsberufe
+5795,7544,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Kammerjäger und andere Schädlingsbekämpfungsberufe
+5800,7549,Selbstständige mit Beschäftigten,0,1,5.0,7440,4,2,"Handwerks- und verwandte Berufe, anderweitig nicht genannt"
+5805,7549,Selbstständige ohne Beschäftigte,0,1,0.0,3370,4,2,"Handwerks- und verwandte Berufe, anderweitig nicht genannt"
+5810,8111,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bergleute und Grubenarbeiter
+5815,8111,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bergleute und Grubenarbeiter
+5820,8112,Selbstständige mit Beschäftigten,0,1,5.0,1450,4,2,Bediener von Mineral- und Gesteinsaufbereitungsanlagen
+5825,8112,Selbstständige ohne Beschäftigte,0,1,0.0,1060,4,2,Bediener von Mineral- und Gesteinsaufbereitungsanlagen
+5830,8113,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Tiefbohrer und verwandte Berufe
+5835,8113,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Tiefbohrer und verwandte Berufe
+5840,8114,Selbstständige mit Beschäftigten,0,1,5.0,290,4,2,"Bediener von Maschinen zur Herstellung und Verarbeitung von Zement, Steinen und sonstigen Mineralien"
+5845,8114,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Bediener von Maschinen zur Herstellung und Verarbeitung von Zement, Steinen und sonstigen Mineralien"
+5850,8121,Selbstständige mit Beschäftigten,0,1,5.0,250,4,2,Bediener von Anlagen in der Metallerzeugung und -umformung
+5855,8121,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Anlagen in der Metallerzeugung und -umformung
+5860,8122,Selbstständige mit Beschäftigten,0,1,5.0,390,4,2,"Bediener von Anlagen zur Metallveredlung, Plattierung und Beschichtung von Metallen"
+5865,8122,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Bediener von Anlagen zur Metallveredlung, Plattierung und Beschichtung von Metallen"
+5870,8131,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Anlagen und Maschinen für chemische Erzeugnisse
+5875,8131,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Anlagen und Maschinen für chemische Erzeugnisse
+5880,8132,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Anlagen für fotografische Erzeugnisse
+5885,8132,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Anlagen für fotografische Erzeugnisse
+5890,8141,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Maschinen zur Herstellung von Gummiwaren
+5895,8141,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Maschinen zur Herstellung von Gummiwaren
+5900,8142,Selbstständige mit Beschäftigten,0,1,5.0,360,4,2,Bediener von Maschinen zur Herstellung von Kunststoffwaren
+5905,8142,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Maschinen zur Herstellung von Kunststoffwaren
+5910,8143,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Maschinen zur Herstellung von Papierwaren
+5915,8143,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Maschinen zur Herstellung von Papierwaren
+5920,8151,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Bediener von Spinnstoffaufbereitungs-, Spinn- und Spulmaschinen"
+5925,8151,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Bediener von Spinnstoffaufbereitungs-, Spinn- und Spulmaschinen"
+5930,8152,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Bediener von Web-, Strick- und Wirkmaschinen"
+5935,8152,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Bediener von Web-, Strick- und Wirkmaschinen"
+5940,8153,Selbstständige mit Beschäftigten,0,1,5.0,290,4,2,Bediener von Nähmaschinen
+5945,8153,Selbstständige ohne Beschäftigte,0,1,0.0,820,4,2,Bediener von Nähmaschinen
+5950,8154,Selbstständige mit Beschäftigten,0,1,5.0,270,4,2,Bediener von Bleich- und Färbemaschinen
+5955,8154,Selbstständige ohne Beschäftigte,0,1,0.0,250,4,2,Bediener von Bleich- und Färbemaschinen
+5960,8155,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Pelz- und Lederzurichtungs- und -vorbereitungsmaschinen
+5965,8155,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Pelz- und Lederzurichtungs- und -vorbereitungsmaschinen
+5970,8156,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Maschinen zur Schuhherstellung und verwandte Berufe
+5975,8156,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Maschinen zur Schuhherstellung und verwandte Berufe
+5980,8157,Selbstständige mit Beschäftigten,0,1,5.0,1280,4,2,Bediener von Wäschereimaschinen
+5985,8157,Selbstständige ohne Beschäftigte,0,1,0.0,920,4,2,Bediener von Wäschereimaschinen
+5990,8159,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Bediener von Maschinen zur Herstellung von Textil-, Pelz- und Lederwaren, anderweitig nicht genannt"
+5995,8159,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Bediener von Maschinen zur Herstellung von Textil-, Pelz- und Lederwaren, anderweitig nicht genannt"
+6000,8160,Selbstständige mit Beschäftigten,0,1,5.0,2490,4,2,Bediener von Maschinen zur Herstellung von Nahrungs- und Genussmitteln
+6005,8160,Selbstständige ohne Beschäftigte,0,1,0.0,1410,4,2,Bediener von Maschinen zur Herstellung von Nahrungs- und Genussmitteln
+6010,8171,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Anlagen zur Zellstoff- und Papierherstellung
+6015,8171,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Anlagen zur Zellstoff- und Papierherstellung
+6020,8172,Selbstständige mit Beschäftigten,0,1,5.0,380,4,2,Bediener von Anlagen zur Holzaufbereitung
+6025,8172,Selbstständige ohne Beschäftigte,0,1,0.0,370,4,2,Bediener von Anlagen zur Holzaufbereitung
+6030,8181,Selbstständige mit Beschäftigten,0,1,5.0,330,4,2,Bediener von Anlagen zur Glas- und Keramikherstellung
+6035,8181,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Anlagen zur Glas- und Keramikherstellung
+6040,8182,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Bediener von Dampfmaschinen und -kesseln
+6045,8182,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Bediener von Dampfmaschinen und -kesseln
+6050,8183,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Bediener von Verpackungs-, Abfüll- und Etikettiermaschinen"
+6055,8183,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Bediener von Verpackungs-, Abfüll- und Etikettiermaschinen"
+6060,8189,Selbstständige mit Beschäftigten,0,1,5.0,410,4,2,"Bediener stationärer Anlagen und Maschinen, anderweitig nicht genannt"
+6065,8189,Selbstständige ohne Beschäftigte,0,1,0.0,430,4,2,"Bediener stationärer Anlagen und Maschinen, anderweitig nicht genannt"
+6070,8211,Selbstständige mit Beschäftigten,0,1,5.0,650,4,2,Berufe der Montage von mechanischen Bauteilen
+6075,8211,Selbstständige ohne Beschäftigte,0,1,0.0,940,4,2,Berufe der Montage von mechanischen Bauteilen
+6080,8212,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Berufe der Montage von elektrischen und elektronischen Geräten
+6085,8212,Selbstständige ohne Beschäftigte,0,1,0.0,250,4,2,Berufe der Montage von elektrischen und elektronischen Geräten
+6090,8219,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Montageberufe, anderweitig nicht genannt"
+6095,8219,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Montageberufe, anderweitig nicht genannt"
+6100,8311,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Lokomotivführer
+6105,8311,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Lokomotivführer
+6110,8312,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,"Bediener von Sicherungs-, Signal- und Leittechnik im Schienennetzbetrieb"
+6115,8312,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,"Bediener von Sicherungs-, Signal- und Leittechnik im Schienennetzbetrieb"
+6120,8321,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Kraftradfahrer
+6125,8321,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Kraftradfahrer
+6130,8322,Selbstständige mit Beschäftigten,0,1,5.0,10270,4,2,"Personenkraftwagen-, Taxi-, Kleintransporter- und Kleinbusfahrer"
+6135,8322,Selbstständige ohne Beschäftigte,0,1,0.0,8580,4,2,"Personenkraftwagen-, Taxi-, Kleintransporter- und Kleinbusfahrer"
+6140,8331,Selbstständige mit Beschäftigten,0,1,5.0,1280,4,2,Busfahrer und Straßenbahnführer
+6145,8331,Selbstständige ohne Beschäftigte,0,1,0.0,790,4,2,Busfahrer und Straßenbahnführer
+6150,8332,Selbstständige mit Beschäftigten,0,1,5.0,7350,4,2,Fahrer schwerer Lastkraftwagen
+6155,8332,Selbstständige ohne Beschäftigte,0,1,0.0,4350,4,2,Fahrer schwerer Lastkraftwagen
+6160,8341,Selbstständige mit Beschäftigten,0,1,5.0,400,4,2,Führer von mobilen land- und forstwirtschaftlichen Maschinen
+6165,8341,Selbstständige ohne Beschäftigte,0,1,0.0,350,4,2,Führer von mobilen land- und forstwirtschaftlichen Maschinen
+6170,8342,Selbstständige mit Beschäftigten,0,1,5.0,2380,4,2,Führer von Erdbewegungs- und verwandten Maschinen
+6175,8342,Selbstständige ohne Beschäftigte,0,1,0.0,1720,4,2,Führer von Erdbewegungs- und verwandten Maschinen
+6180,8343,Selbstständige mit Beschäftigten,0,1,5.0,280,4,2,"Kranführer, Aufzugmaschinisten und Bediener verwandter Hebeeinrichtungen"
+6185,8343,Selbstständige ohne Beschäftigte,0,1,0.0,420,4,2,"Kranführer, Aufzugmaschinisten und Bediener verwandter Hebeeinrichtungen"
+6190,8344,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Gabelstaplerfahrer und verwandte Berufe
+6195,8344,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Gabelstaplerfahrer und verwandte Berufe
+6200,8350,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Deckspersonal auf Schiffen und verwandte Berufe
+6205,8350,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Deckspersonal auf Schiffen und verwandte Berufe
+6210,9111,Selbstständige mit Beschäftigten,0,1,5.0,1980,4,2,Reinigungspersonal und Hilfskräfte in Privathaushalten
+6215,9111,Selbstständige ohne Beschäftigte,0,1,0.0,3420,4,2,Reinigungspersonal und Hilfskräfte in Privathaushalten
+6220,9112,Selbstständige mit Beschäftigten,0,1,5.0,11250,4,2,"Reinigungspersonal und Hilfskräfte in Büros, Hotels und anderen Einrichtungen"
+6225,9112,Selbstständige ohne Beschäftigte,0,1,0.0,9470,4,2,"Reinigungspersonal und Hilfskräfte in Büros, Hotels und anderen Einrichtungen"
+6230,9121,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Handwäscher und Handbügler
+6235,9121,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Handwäscher und Handbügler
+6240,9122,Selbstständige mit Beschäftigten,0,1,5.0,920,4,2,Fahrzeugreiniger
+6245,9122,Selbstständige ohne Beschäftigte,0,1,0.0,740,4,2,Fahrzeugreiniger
+6250,9123,Selbstständige mit Beschäftigten,0,1,5.0,640,4,2,Fensterputzer
+6255,9123,Selbstständige ohne Beschäftigte,0,1,0.0,590,4,2,Fensterputzer
+6260,9129,Selbstständige mit Beschäftigten,0,1,5.0,2500,4,2,Sonstiges Reinigungspersonal
+6265,9129,Selbstständige ohne Beschäftigte,0,1,0.0,1220,4,2,Sonstiges Reinigungspersonal
+6270,9211,Selbstständige mit Beschäftigten,0,1,5.0,340,4,2,Hilfsarbeiter im Ackerbau
+6275,9211,Selbstständige ohne Beschäftigte,0,1,0.0,420,4,2,Hilfsarbeiter im Ackerbau
+6280,9212,Selbstständige mit Beschäftigten,0,1,5.0,220,4,2,Hilfsarbeiter in der Tierhaltung
+6285,9212,Selbstständige ohne Beschäftigte,0,1,0.0,290,4,2,Hilfsarbeiter in der Tierhaltung
+6290,9213,Selbstständige mit Beschäftigten,0,1,5.0,1520,4,2,Hilfsarbeiter in Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+6295,9213,Selbstständige ohne Beschäftigte,0,1,0.0,1540,4,2,Hilfsarbeiter in Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)
+6300,9214,Selbstständige mit Beschäftigten,0,1,5.0,1300,4,2,Hilfsarbeiter im Gartenbau
+6305,9214,Selbstständige ohne Beschäftigte,0,1,0.0,1590,4,2,Hilfsarbeiter im Gartenbau
+6310,9215,Selbstständige mit Beschäftigten,0,1,5.0,820,4,2,Hilfsarbeiter in der Forstwirtschaft
+6315,9215,Selbstständige ohne Beschäftigte,0,1,0.0,870,4,2,Hilfsarbeiter in der Forstwirtschaft
+6320,9216,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Hilfsarbeiter in der Fischerei und Aquakultur
+6325,9216,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Hilfsarbeiter in der Fischerei und Aquakultur
+6330,9311,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Hilfsarbeiter im Bergbau und in der Gewinnung von Steinen und Erden
+6335,9311,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Hilfsarbeiter im Bergbau und in der Gewinnung von Steinen und Erden
+6340,9312,Selbstständige mit Beschäftigten,0,1,5.0,820,4,2,Hilfsarbeiter im Tiefbau
+6345,9312,Selbstständige ohne Beschäftigte,0,1,0.0,580,4,2,Hilfsarbeiter im Tiefbau
+6350,9313,Selbstständige mit Beschäftigten,0,1,5.0,3940,4,2,Hilfsarbeiter im Hochbau
+6355,9313,Selbstständige ohne Beschäftigte,0,1,0.0,4090,4,2,Hilfsarbeiter im Hochbau
+6360,9321,Selbstständige mit Beschäftigten,0,1,5.0,420,4,2,Verpacker
+6365,9321,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Verpacker
+6370,9329,Selbstständige mit Beschäftigten,0,1,5.0,1990,4,2,"Hilfsarbeiter bei der Herstellung von Waren, anderweitig nicht genannt"
+6375,9329,Selbstständige ohne Beschäftigte,0,1,0.0,2260,4,2,"Hilfsarbeiter bei der Herstellung von Waren, anderweitig nicht genannt"
+6380,9331,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Führer von Handwagen und pedalbetriebenen Fahrzeugen
+6385,9331,Selbstständige ohne Beschäftigte,0,1,0.0,260,4,2,Führer von Handwagen und pedalbetriebenen Fahrzeugen
+6390,9332,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Führer von Fahrzeugen und Maschinen mit Zugtierantrieb
+6395,9332,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Führer von Fahrzeugen und Maschinen mit Zugtierantrieb
+6400,9333,Selbstständige mit Beschäftigten,0,1,5.0,2650,4,2,Frachtarbeiter und verwandte Berufe
+6405,9333,Selbstständige ohne Beschäftigte,0,1,0.0,2110,4,2,Frachtarbeiter und verwandte Berufe
+6410,9334,Selbstständige mit Beschäftigten,0,1,5.0,520,4,2,Regalbetreuer und -auffüller
+6415,9334,Selbstständige ohne Beschäftigte,0,1,0.0,600,4,2,Regalbetreuer und -auffüller
+6420,9411,Selbstständige mit Beschäftigten,0,1,5.0,2660,4,2,Zubereiter von Fast Food und anderen Imbissen
+6425,9411,Selbstständige ohne Beschäftigte,0,1,0.0,680,4,2,Zubereiter von Fast Food und anderen Imbissen
+6430,9412,Selbstständige mit Beschäftigten,0,1,5.0,780,4,2,Küchenhilfen
+6435,9412,Selbstständige ohne Beschäftigte,0,1,0.0,550,4,2,Küchenhilfen
+6440,9510,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe
+6445,9510,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe
+6450,9520,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Straßenverkäufer (ohne Lebensmittel)
+6455,9520,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Straßenverkäufer (ohne Lebensmittel)
+6460,9611,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Arbeiter in der Abfall- und Wertstoffsammlung
+6465,9611,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Arbeiter in der Abfall- und Wertstoffsammlung
+6470,9612,Selbstständige mit Beschäftigten,0,1,5.0,1030,4,2,Arbeiter in der Abfallsortierung
+6475,9612,Selbstständige ohne Beschäftigte,0,1,0.0,720,4,2,Arbeiter in der Abfallsortierung
+6480,9613,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Straßenkehrer und verwandte Berufe
+6485,9613,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Straßenkehrer und verwandte Berufe
+6490,9621,Selbstständige mit Beschäftigten,0,1,5.0,680,4,2,"Boten, Paketauslieferer und Gepäckträger"
+6495,9621,Selbstständige ohne Beschäftigte,0,1,0.0,860,4,2,"Boten, Paketauslieferer und Gepäckträger"
+6500,9622,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Gelegenheitsarbeiter
+6505,9622,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Gelegenheitsarbeiter
+6510,9623,Selbstständige mit Beschäftigten,0,1,5.0,1240,4,2,"Zählerableser, Automatenbefüller und -kassierer"
+6515,9623,Selbstständige ohne Beschäftigte,0,1,0.0,760,4,2,"Zählerableser, Automatenbefüller und -kassierer"
+6520,9624,Selbstständige mit Beschäftigten,0,1,5.0,0,4,2,Wasserträger und Brennholzsammler
+6525,9624,Selbstständige ohne Beschäftigte,0,1,0.0,0,4,2,Wasserträger und Brennholzsammler
+6530,9629,Selbstständige mit Beschäftigten,0,1,5.0,710,4,2,"Hilfsarbeitskräfte, anderweitig nicht genannt"
+6535,9629,Selbstständige ohne Beschäftigte,0,1,0.0,610,4,2,"Hilfsarbeitskräfte, anderweitig nicht genannt"

@@ -32,6 +32,7 @@ def set_up_data():
 
 livingstone_data = set_up_data()
 
+#TODO this needs to move to set up data
 # Only update the rows where Stellung.im.Beruf has specific values
 # Change 'Selbstständige ohne Beschäftigte' to 'Selbstständige'
 livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige ohne Beschäftigte', 'modifiziert_livingstone'] = 'Selbstständige'
@@ -256,106 +257,35 @@ with st.expander("Mehr über das Klassenmodel nach D.W Livingstone"):
 #st.plotly_chart(fig,use_container_width=True)
 
 
-def create_sankey_diagram(df, source_col, target_col, value_col=None, title="Sankey Diagram"):
-    """
-    Create a Sankey diagram from a dataframe with source and target columns.
-    The number of categories is determined dynamically from the data.
-    
-    Parameters:
-    -----------
-    df : pandas.DataFrame
-        The input dataframe containing source and target data
-    source_col : str
-        The name of the source column
-    target_col : str
-        The name of the target column
-    value_col : str, optional
-        The name of the value column. If None, all flows will have equal value of 1
-    title : str, optional
-        The title for the Sankey diagram
-        
-    Returns:
-    --------
-    plotly.graph_objects.Figure
-        The Sankey diagram figure that can be displayed with fig.show()
-    """
-    color_high_contrast= ['#004488FF', '#DDAA33FF', '#BB5566FF']
 
-    # Ensure the columns exist in the dataframe
-    if source_col not in df.columns:
-        raise ValueError(f"Source column '{source_col}' not found in dataframe")
-    if target_col not in df.columns:
-        raise ValueError(f"Target column '{target_col}' not found in dataframe")
-    if value_col and value_col not in df.columns:
-        raise ValueError(f"Value column '{value_col}' not found in dataframe")
-    
-    # Extract unique node labels from both source and target columns
-    all_nodes = pd.unique(df[[source_col, target_col]].values.ravel('K'))
-    all_nodes = [node for node in all_nodes if node is not None and not pd.isna(node)]
-    
-    # Create a mapping from node names to indices
-    node_indices = {node: i for i, node in enumerate(all_nodes)}
-    
-    # Convert source and target names to their respective indices
-    sources = [node_indices[node] for node in df[source_col]]
-    targets = [node_indices[node] for node in df[target_col]]
-    
-    # Get values for the links
-    if value_col:
-        values = df[value_col].tolist()
-    else:
-        values = [1] * len(sources)  # Default to 1 if no value column provided
-    
-    # Calculate appropriate height based on number of nodes
-    # More nodes need more vertical space
-    base_height = 600
-    height_per_node = 20
-    num_nodes = len(all_nodes)
-    height = max(base_height, min(3000, base_height + (num_nodes * height_per_node)))
-    
-    # Create the Sankey diagram
-    fig = go.Figure(data=[go.Sankey(
-        node=dict(
-            pad=20,
-            thickness=20,
-            line=dict(color="black", width=0.5),
-            label=all_nodes,
-            color='blue'
-        ),
-        link=dict(
-            source=sources,
-            target=targets,
-            value=values,
-            color="rgba(100, 100, 200, 0.2)"
-        ),
-        arrangement="snap"  # This helps with layout
-    )])
-    
-    # Update layout - dynamically adjust size based on node count
-    fig.update_layout(
-        title_text=title,
-        font_size=14,  # Smaller font size
-        width=600,
-        height=height,  # Dynamic height based on node count
-        margin=dict(l=25, r=25, t=50, b=25)
+def create_treemap(df, source_col, target_col, value_col=None, title="Treemap Diagram"):
+    """
+    Create a treemap where sources are nested under their respective targets, sized by flow.
+    """
+
+    fig = px.treemap(
+        df,
+        path=[target_col, source_col],
+        #values='__value__',
+        values=value_col,
+        color=target_col,
+        title=title
     )
-    
-    # Add custom hover text
     fig.update_traces(
-        hoverlabel=dict(
-            bgcolor="black",
-            font_size=12,
-            font_family="Arial"
-        ),
-        node=dict(
-            hovertemplate='%{label}<extra></extra>'
-        ),
-        link=dict(
-            hovertemplate='%{source.label} → %{target.label}<br>Value: %{value}<extra></extra>'
-        )
+        textinfo="label+value",  # Show both label and value
+        textfont=dict(size=12),  # Slightly bigger text
+
+        textposition='middle center',
     )
-    
+
+
+    fig.update_layout(
+        height=800,
+        margin=dict(t=50, l=25, r=25, b=25)
+    )
+
     return fig
+
 
 
 st.markdown(
@@ -363,12 +293,19 @@ st.markdown(
     ## Betrachte die einzelnen Fraktionen genauer:
     """
 )
-selected_class_fraction = st.selectbox("Wähle ein Klassen-Fraktion aus", fraktion_order,index=7)
-
-class_data = livingstone_data.query(f'modifiziert_livingstone == "{selected_class_fraction}"')
-class_data['meta_category']= selected_class_fraction
 
 
-sankey_fig =create_sankey_diagram(class_data,'Bezeichnung','meta_category','Anzahl',selected_class_fraction)
 
-st.plotly_chart(sankey_fig,use_container_width=True)
+selected_class_fraction_treemap = st.selectbox(
+    "Wähle ein Klassen-Fraktion aus",
+      fraktion_order,index=7,
+      key="treemap_selector"
+)
+
+class_fraction_data = livingstone_data.query(f'modifiziert_livingstone == "{selected_class_fraction_treemap}"')
+class_fraction_data.loc[:,'meta_category']= selected_class_fraction_treemap
+
+
+treemap_fig =create_treemap(class_fraction_data,'Bezeichnung','meta_category','Anzahl',selected_class_fraction_treemap)
+
+st.plotly_chart(treemap_fig,use_container_width=True)

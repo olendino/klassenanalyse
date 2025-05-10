@@ -24,7 +24,11 @@ def clean_col_insgesamt_to_anzahl(df):
 def build_additional_columns(df):
     #build is_supervisor column:
     df = df.assign(is_supervisor=0)
+    
+    # All ISCO Führungskräfte get an 1 in is supervisior
     df['is_supervisor'] = df['ISCO-Code'].apply(lambda x: 1 if str(x).startswith('1') else 0)
+    #is_supervisor gets a 1  for "Selbstständige mit Beschäftigten"
+    df.loc[df['Stellung im Beruf'] == "Selbstständige mit Beschäftigten", 'is_supervisor'] = 1
 
     #NUMBER OF EMPLOYEES
     df = df.assign(n_employees=0)
@@ -165,9 +169,15 @@ def main():
 
     #this should come last
     df = build_additional_columns(df)
+
+    # First merge the columns
+    df['mod_stellung_im_beruf'] = df['category'].fillna(df['Stellung im Beruf'])
+
+    # Then drop the original columns
+    df = df.drop(columns=['category', 'Stellung im Beruf'])
     
     # Save the cleaned data
-    df.to_csv('/Users/leonardhaas/code/streamlit/data/processed_data/test_digiclass04.csv', index=False)
+    df.to_csv('/Users/leonardhaas/code/streamlit/data/processed_data/test_digiclass05.csv', index=False)
  
     #print(df.dtypes)
 
