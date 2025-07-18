@@ -217,8 +217,7 @@ st.markdown(
     """
     Die folgende Datenanalyse ist im wesentlichen der Versuch diese für Deutschland anzupassen und emprisch aufzubereiten.
     Die Daten für die Operationalisierung stammen aus dem [**Zensus 2022**](https://ergebnisse.zensus2022.de/datenbank/online/) des Statistischen Bundesamtes.  
-    Dabei nutze ich die Variablen **"[Stellung im Beruf](https://ergebnisse.zensus2022.de/datenbank/online/variable/ERWBV1/details/tables)"** und  
-    **"[ISCO-08 Codes Level 4](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/#elementor-toc__heading-anchor-4)"**.  
+    Dabei nutze ich die Variablen **"[Stellung im Beruf](https://ergebnisse.zensus2022.de/datenbank/online/variable/ERWBV1/details/tables)"** und  **"[ISCO-08 Codes Level 4](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/#elementor-toc__heading-anchor-4)"**.  
 
     Diese Grundlage erlaubt zwar keine direkten Aussagen über Klassenbewusstsein, bietet aber die Möglichkeit,  
     eine aktuelle Skizze der deutschen Klassengesellschaft zu entwerfen.
