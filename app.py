@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.graph_objs as go
 import plotly.io as pio
 from pathlib import Path
+from plotly.subplots import make_subplots
 
 #how the side appears in the browser
 
@@ -26,58 +27,27 @@ def set_up_data():
     # Merge the datasets
     merged_data = pd.merge(digiclass_data, livingstone_data, left_on='ISCO.Code', right_on='ISCO-Code')
     merged_data.drop(columns=['ISCO.Code'], inplace=True)
+
+    merged_data.loc[merged_data['Stellung.im.Beruf'] == 'Selbstständige ohne Beschäftigte', 'modifiziert_livingstone'] = 'Selbstständige'
+
+    # Keep 'Selbstständige mit Beschäftigten' as is 
+    # (this line isn't necessary if you don't need to change it, but included for clarity)
+    merged_data.loc[merged_data['Stellung.im.Beruf'] == 'Selbstständige mit Beschäftigten', 'modifiziert_livingstone'] = 'Selbstständige mit Beschäftigten'
     
     return merged_data
 
 
 livingstone_data = set_up_data()
 
-#TODO this needs to move to set up data
-# Only update the rows where Stellung.im.Beruf has specific values
-# Change 'Selbstständige ohne Beschäftigte' to 'Selbstständige'
-livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige ohne Beschäftigte', 'modifiziert_livingstone'] = 'Selbstständige'
 
-# Keep 'Selbstständige mit Beschäftigten' as is 
-# (this line isn't necessary if you don't need to change it, but included for clarity)
-livingstone_data.loc[livingstone_data['Stellung.im.Beruf'] == 'Selbstständige mit Beschäftigten', 'modifiziert_livingstone'] = 'Selbstständige mit Beschäftigten'
+
 
 # TODO fix nans (Offiziere)
-livingstone_data_clean = livingstone_data.dropna(subset=["modifiziert_livingstone"]) # -> ???
 
-#TODO include meta categories
-meta_categories = ["Besitzer", "Management", "Angestellte/Arbeiter*innen"]
-subcategories = {
-    "Besitzer": ["Selbstständige", "Selbststänige mit Beschäftigten"],
-    "Management": ["Anleitende Beschäftigte", "Mittleres Management", "Top Management"],
-    "Angestellte/Arbeiter*innen": ["Dienstleistungsarbeiter*innen", "Industriearbeiter*innen","Hochqualifizierte Beschäftigte"]
-}
+#TODO
+#livingstone_data_clean = livingstone_data.dropna(subset=["modifiziert_livingstone"]) # -> ???
 
-
-# Calculate percentages for each class (aggregating by modifiziert_livingstone)
-class_totals = livingstone_data.groupby('modifiziert_livingstone')['Anzahl'].sum().reset_index()
-total_sum = class_totals['Anzahl'].sum()
-class_totals['Percent'] = (class_totals['Anzahl'] / total_sum * 100).round(1)
-
-# Merge the percentages back to the main dataframe
-livingstone_data = pd.merge(
-    livingstone_data, 
-    class_totals[['modifiziert_livingstone', 'Percent']], 
-    on='modifiziert_livingstone', 
-    how='left'
-)
-
-# Define the specific order you want
-fraktion_order = [
-    "Selbstständige mit Beschäftigten",  # Besitzer
-    "Selbstständige", 
-    "Top Management", 
-    "Mittleres Management", 
-    "Anleitende Beschäftigte",  # Manager
-    "Hochspezialisierte Beschäftigte", 
-    "Industriearbeiter*innen", 
-    "Dienstleistungsarbeiter*innen"  # Arbeiter*innenklasse
-]
-
+# Custom colors for different categories
 colors = [
     '#1D4E1F',  # Dark green - Military (distinct from the others)
     '#0A1F44',  # Dark navy blue - Managers (more distinct from the others)
@@ -91,100 +61,121 @@ colors = [
     '#F2C9B3'   # Soft peach - Elementary (lighter for distinction)
 ]
 
+meta_categories = ["Eigentümer", "Management", "Arbeitende"]
+subcategories = {
+    "Eigentümer": ["Selbstständige", "Selbstständige mit Beschäftigten"],
+    "Management": ["Anleitende Beschäftigte", "Mittleres Management", "Top Management"],
+    "Arbeitende": ["Dienstleistungsarbeiter*innen", "Industriearbeiter*innen","Hochspezialisierte Beschäftigte"]
+}
 
+# Create two-level y-axis structure from DataFrame
+unique_categories = []
+y_level1 = []
+y_level2 = []
+# Maintain order from original structure
+# just a transformation of the meta_categories and subcategories into a matrix (two-lists) format
+for meta_cat in meta_categories:
+    for sub_cat in subcategories[meta_cat]:
+        if sub_cat not in unique_categories:
+            unique_categories.append(sub_cat)
+            y_level1.append(meta_cat)
+            y_level2.append(sub_cat)
 
-# Create the bar chart with the custom order
-fig = px.bar(
-    livingstone_data,
-    x="Anzahl",
-    y="modifiziert_livingstone",
-    color='major_group',
-    orientation='h',
-    hover_data={
-        'Berufsgattung(ISCO-Stufe 4)': True,
-        'Anzahl': True,
-        'modifiziert_livingstone': False,
-        'major_group': False
-    },
+y_labels = [y_level1, y_level2]
+
+# Calculate total for percentage calculation
+total_anzahl = livingstone_data['Anzahl'].sum()
+
+fig = go.Figure()
+
+# Store cumulative values for percentage positioning
+cumulative_values = [0] * len(unique_categories)
+
+# Add trace for each group
+for group in livingstone_data['major_group'].unique():
+    group_data = livingstone_data[livingstone_data['major_group'] == group]
     
-    title='Klassenanalyse in Anlehnung and Livingstone für Deutschland',
-    color_discrete_sequence=colors,
-    category_orders={"modifiziert_livingstone": fraktion_order}
-)
-# Style the silces of the bars with black borders and slight transparency
-fig.update_traces(
-    marker=dict(line=dict(width=0.5, color='black')),
-    opacity=0.8
-)
+    # Ensure data is in the same order as y_labels
+    ordered_counts = []
+    for i, category in enumerate(unique_categories):
+        # MINIMAL FIX: Handle missing data gracefully
+        matching_rows = group_data[group_data['modifiziert_livingstone'] == category]
+        if len(matching_rows) > 0:
+            count = matching_rows['Anzahl'].sum()
+        else:
+            count = 0  # Default to 0 if category not found
+        ordered_counts.append(count)
+        cumulative_values[i] += count
+    
+    fig.add_trace(go.Bar(
+        y=y_labels,
+        x=ordered_counts,
+        name=group,
+        orientation='h',
+    ))
 
-# Add percentage annotations for each class
-for i, klasse in enumerate(fraktion_order):
-    if klasse in class_totals['modifiziert_livingstone'].values:
-        percent_value = class_totals.loc[class_totals['modifiziert_livingstone'] == klasse, 'Percent'].values[0]
-        count_value = class_totals.loc[class_totals['modifiziert_livingstone'] == klasse, 'Anzahl'].values[0]
-        
-        # Add annotation for the percentage, positioned far to the right
+# Add percentage annotations at the end of each bar
+for i, (category, total_value) in enumerate(zip(unique_categories, cumulative_values)):
+    if total_value > 0:  # Only add annotation if there's a value
+        percentage = (total_value / total_anzahl) * 100
         fig.add_annotation(
-            x=count_value * 1.005,  # Multiply by a factor to move further right
-            y=klasse,
-            text=f"{percent_value}%",
+            x=total_value + (max(cumulative_values) * 0.01),  # Slight offset from the end of bar
+            y=i,
+            text=f"{percentage:.1f}%",
             showarrow=False,
-            font=dict(size=12, color="white"),
-            align="left"
+            xanchor="left",
+            yanchor="middle",
+            font=dict(size=11, color="white")
         )
 
-
-
-# Update layout
 fig.update_layout(
-    autosize=True,
-    height=750,
-    #width=1400,
-    legend=dict(
-        title="Hauptgruppen ISCO-Stufe 1",
-        font=dict(size=12),
-        orientation="v",  # vertical orientation
-        yanchor="top",    # anchor point at the top of the legend
-        y=0.5,              # position at the top of the chart (y=0.5)
-        xanchor="right",  # anchor point at the right of the legend
-        x=1,              # position at the right of the chart (x=1)
-        
-    ),
+    barmode='stack',
+    width=1050,  # Reduce width
+    height=625,
     yaxis={
-            'categoryorder': 'array',
-            'categoryarray': fraktion_order[::],
-            'title': 'Klassenfraktionen',  # Add a title for the y-axis
-            'title_standoff': 25,  # Distance between the axis and its title
-            'tickfont': {'size': 14,'weight':'bold'},  # Font size for the tick labels
-            'titlefont': {'size': 14, 'color': 'white'}  # Font for the axis title
+        'title': 'Klassen',  # Add a title for the y-axis
+        'title_standoff': 25,  # Distance between the axis and its title
+        'tickfont': {'size': 12},  # Font size for the tick labels
+        'titlefont': {'size': 14, 'color': 'black'}  # Font for the axis title
     },
     xaxis={
-        'title': 'Anzahl der Erwerbtstätigen in Milionen',
-        'title_standoff': 10,  # Distance between the axis and its title
-        'titlefont': {'size': 14, 'color': 'white'}  # Font for the axis title
+        'title':'Anzahl in Millionen'
     },
-    margin=dict(l=200, r=50),  # Increased right margin for meta-category labels
-    
-    
+    margin=dict(l=150, r=100),  # Increased right margin for percentage labels
+    legend=dict(
+        yanchor="bottom",
+        y=0.2,
+        xanchor="right",
+        x=1.30,
+        bgcolor="black",
+        bordercolor="rgba(0,0,0,0.2)",
+        borderwidth=1,
+        title_text='ISCO-08 Hauptgruppen',
+        orientation="h",
+        font=dict(size=10),  # Reduce legend text size (default is ~12)
+        title_font=dict(size=12)
+    ),
+    plot_bgcolor='black',  # White background
+    legend_title_text='ISCO-08 Hauptgruppen',
+    showlegend=True  # <-- Switch off legend
 )
+
 # Add source information at the bottom
 fig.add_annotation(
     text="Quelle: Zensus 2022 | Statistisches Bundesamt",
     showarrow=False,
     xref="paper", yref="paper",
-    x=-0.001, y=-0.075,
+    x=-0.2, y=-0.055,
     xanchor="center", yanchor="top",
     font=dict(size=12, color="gray")
 )
 
 # Add reading explanation box
 fig.add_annotation(
-    text="Der Graph zeigt die Anzahl der verschieden Klassenfraktionen auf Basis der Zensus Variablen: Stellung im Beruf und ISCO-08.<br>" +
-         "Die Schartierungen des Balken geben die Bestandteile der Fraktionen in Berufsgattungen(ISCO Stufe 4) wieder.<br>" +
-         "Die Farben geben die Hauptgruppen (ISCO Stufe 1) wieder",
+    text="Der Graph zeigt die Anzahl der verschieden Klassenfraktionen auf Basis der Variablen: \"Stellung im Beruf\" und \"ISCO-08\" der Zensus 2022.",
     showarrow=False,
     xref="paper", yref="paper",
-    x=0.4, y=-0.112,
+    x=0.4, y=-0.118,
     xanchor="center", yanchor="top",
     bordercolor="lightgrey",
     borderwidth=1,
@@ -194,8 +185,11 @@ fig.add_annotation(
     font=dict(size=12)
 )
 
-# Add more margin space for the explainer text
-fig.update_layout(margin=dict(l=50, r=50, t=100, b=120))
+
+
+
+
+
 
 st.write("# Klassen in Deutschland - Eine Datenanalyse")
 
@@ -266,31 +260,33 @@ def create_treemap(df, source_col, target_col, value_col=None, title="Treemap Di
     fig = px.treemap(
         df,
         path=[target_col, source_col],
-        #values='__value__',
         values=value_col,
         color=target_col,
         title=title
     )
     fig.update_traces(
         textinfo="label+value",  # Show both label and value
-        textfont=dict(size=12),  # Slightly bigger text
-
+        textfont=dict(size=16),  # Slightly bigger text
         textposition='middle center',
+        hovertemplate='<b>%{label}</b><br>Abs. Anzahl: %{value:..0f}<extra></extra>'  # Customized hover text
     )
-
 
     fig.update_layout(
         height=800,
-        margin=dict(t=50, l=25, r=25, b=25)
+        margin=dict(t=50, l=25, r=25, b=25),
+        hoverlabel=dict(
+            bgcolor="black",
+            font_size=20
+        )
     )
 
     return fig
 
-
-
 st.markdown(
     """
     ## Betrachte die einzelnen Fraktionen genauer:
+    Hier kannst du eine der oberen Fraktionen (zweite Ebene der Y-Achse) auswählen, um die jeweilige Klassenfraktion auf ihrer untersten Ebene der Berufsgruppe (ISCO-08 Level 4) dargestellt zu bekommen.
+    Das ermöglicht besser zu verstehn woraus die Klassenfraktionen gebildet sind und welche Beruf(sgruppen) zu ihnen zählen.
     """
 )
 
@@ -298,7 +294,7 @@ st.markdown(
 
 selected_class_fraction_treemap = st.selectbox(
     "Wähle ein Klassen-Fraktion aus",
-      fraktion_order,index=7,
+      livingstone_data['modifiziert_livingstone'].unique(),index=7,
       key="treemap_selector"
 )
 
