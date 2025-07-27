@@ -112,6 +112,7 @@ for group in livingstone_data['major_group'].unique():
         x=ordered_counts,
         name=group,
         orientation='h',
+        marker_color=colors[list(livingstone_data['major_group'].unique()).index(group)]  # Add colors from the colors list
     ))
 
 # Add percentage annotations at the end of each bar
@@ -132,6 +133,7 @@ fig.update_layout(
     barmode='stack',
     width=1050,  # Reduce width
     height=625,
+    title="Klassen und Klassenfraktionen",
     yaxis={
         'title': 'Klassen',  # Add a title for the y-axis
         'title_standoff': 25,  # Distance between the axis and its title
@@ -202,27 +204,65 @@ st.write("*Kein support für Mobil Ansicht -> Nutz einen Laptop/Desktop*")
 
 st.markdown(
     """
-    Seit Jahren beschäftigt mich die Frage: **Wer gehört heutzutage zur Arbeiter*innenklasse in Deutschland?**   
+    Seit Jahren beschäftigt mich die Frage: **Wer gehört heutzutage zur Arbeiter*innenklasse in Deutschland?** Kaum eine linke Kraft will sie nicht organisieren. Regalreihe an Regalreihe 
+    wurde über das revolutionäre Subjekt theoretisiert, geforscht aber – vor allem – wurde die Arbeiter\*innenklasse für tot erklärt. In der BRD haben Soziolog*innen soziale Klassen ganze fünfmal für
+    abgeschafft erklärt: von Schelsky, Dahrendorf über Beck und Bell bis hin zu den heutigen Milieu-Modellen.
 
-    Das ist mein bescheidener Versuch, das Rätselraten etwas zu reduzieren und der politischen Linken eine grobe Karte an die Hand zu geben.  
-    Ein Großteil der Kategorien und Überlegungen basiert auf den Arbeiten von [D.W Livingstone](https://discover.research.utoronto.ca/27054-dw-livingstone). 
-    Sein Klassenmodell basiert auf einem klassisch marxistischen Ansatz und empirischen Daten, die er im Rahmen seiner Bildungsforschung erhoben hat. 
+    Das ist mein bescheidener Versuch, der politischen Linken eine grobe Karte an die Hand zu geben – mit der besten Datengrundlage, die mir bekannt ist, und mit der Bereitschaft, etwas Unvollständiges zu veröffentlichen,
+    das für den Moment „good enough“ ist.
+    
+    ## D.W. Livingstone: Klassenmodell
+    Ein Großteil der Kategorien und Überlegungen basiert auf den Arbeiten von [D.W. Livingstone](https://discover.research.utoronto.ca/27054-dw-livingstone). 
+    Sein Klassenmodell basiert auf einem klassisch-marxistischen Ansatz und auf empirischen Daten, die er im Rahmen seiner Bildungsforschung erhoben hat. 
+
+    Livingstones Klassenmodell zeichnet sich dadurch aus, dass es neben der klassischen Unterscheidung zwischen Besitzenden und Nicht-Besitzenden eine dritte Gruppe positioniert: die Manager. 
+    Er unterscheidet jedoch scharf zwischen dem spezialisierten Wissen, das man für einen Beruf benötigt, und der tatsächlichen Entscheidungsmacht über andere Kolleginnen und Prozesse der Arbeit.
+    Auf dieser Grundlage definiert er einen weiten Klassenbegriff, der hochqualifizierte Beschäftigte in die arbeitende Klasse einschließt, während er Führungskräfte ausschließt.
+    Er stützt diesen weiten Arbeiterklassenbegriff auf quantitativen Beobachtung dass gerade hochspezialisierte Beschäftigte 
+    in den letzten Jahrzehnten eine Abnahme ihrer Arbeitsautonomie sowie eine Verschlechterung ihrer Arbeitsbedingungen erleben([Livingstone, D.W., Adams, T. L., & Sawchuk, P. 2021](https://brill.com/display/title/60173)).
+
     Die folgende Grafik gibt einen Überblick über die drei Klassen und zehn Klassenfraktionen.
-    """)
+    """
+)
 base_path = Path(__file__).parent
 image_path = base_path / "assets/images/class_canada_2016.png"
-st.image(str(image_path), caption="Zahlen für Kanada - Screen shoot einer Folie von Livingstone")
+st.image(str(image_path), caption="Zahlen für Kanada – Screenshot einer Folie von Livingstone")
 
 st.markdown(
     """
-    Die folgende Datenanalyse ist im wesentlichen der Versuch diese für Deutschland anzupassen und emprisch aufzubereiten.
+    #### Owners
+    > "Among owners, corporate capitalists oversee investment in companies and corporations with multimillion-dollar assets and many em-ployees; 
+    large employers include substantial owners of capital with more than ten employees; small employers, typically in family firms or partnerships, 
+    tend to have exclusive ownership, smaller numbers of employees and continue to play active co-ordinating roles in the labour process of their firms. 
+    The self-employed remain in formal control of their small commodity enterprises but are reliant on their own labour." (Livingstone 2023 S. 106f.)
+    
+    #### Non-Managerial Workers
+    > "On the other side of the capital-labour divide are those employees without substantial ownership claims and not delegated any official managerial authority. 
+    This includes industrial workers, who produce material goods in extractive, manufacturing and construction sectors; and service workers, 
+    who create or deliver wide array of sales, business, social and other services. 
+    Third, there are professional employees, who require specialized post-secondary education credentials for job entry; 
+    they are expected to design production processes for themselves and others and execute their own work with a relatively high level of au-tonomy, but they remain subordinated to employer and managerial pre-rogatives." (Livingstone 2023 S. 106f.)
+    
+    #### Managers
+    > "Between owners and those who are clearly subordinated hired labour are other employees who tend to have mixed functions. 
+    Upper managers are delegated by owners to control the overall labour process at the point of production to ensure profitability but also contribute their la-bour to coordinate this process. Under the authority of upper managers, middle managers perform administrative and accounting staff services.
+    Supervisors control adherence to production standards by non-managerial workers but may also collaborate directly with them in aspects of their work." (Livingstone 2023 S. 106f.)
+    """
+)
+
+st.markdown(
+    """
+    Die folgende Datenanalyse ist im Wesentlichen der Versuch, dieses Modell für Deutschland anzupassen und empirisch aufzubereiten.
     Die Daten für die Operationalisierung stammen aus dem [**Zensus 2022**](https://ergebnisse.zensus2022.de/datenbank/online/) des Statistischen Bundesamtes.  
-    Dabei nutze ich die Variablen **"[Stellung im Beruf](https://ergebnisse.zensus2022.de/datenbank/online/variable/ERWBV1/details/tables)"** und  **"[ISCO-08 Codes Level 4](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/#elementor-toc__heading-anchor-4)"**.  
+    Dabei nutze ich die Variablen **"[Stellung im Beruf](https://ergebnisse.zensus2022.de/datenbank/online/variable/ERWBV1/details/tables)"** und **"[ISCO-08 Codes Level 4](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/#elementor-toc__heading-anchor-4)"**.  
 
     Diese Grundlage erlaubt zwar keine direkten Aussagen über Klassenbewusstsein, bietet aber die Möglichkeit,  
     eine aktuelle Skizze der deutschen Klassengesellschaft zu entwerfen.
     """
 )
+
+st.markdown("## Modifizierte Klassenmodell von Livingstone für Deutschland")
+
 
 #GRAPH:
 st.plotly_chart(fig,use_container_width=True)
@@ -232,18 +272,32 @@ st.plotly_chart(fig,use_container_width=True)
 
 
 
-def create_treemap(df, source_col, target_col, value_col=None, title="Treemap Diagram"):
+def create_treemap(df, source_col, target_col, value_col, group_col, title="Treemap Diagram"):
     """
     Create a treemap where sources are nested under their respective targets, sized by flow.
     """
+    colors_dict = {
+        'Streitkräfte': '#F2C9B3',
+        'Führungskräfte': '#1D4E1F',
+        'Akademische Berufe': '#0A1F44',
+        'Techniker und gleichrangige nichttechnische Berufe': '#F5B461',
+        'Bürokräfte und verwandte Berufe': '#00CED1',
+        'Dienstleistungsberufe und Verkäufer': '#9B59B6',
+        'Landwirtschaftliche Berufe': '#FF6B6B',
+        'Handwerks- und verwandte Berufe': '#4A90E2', 
+        'Bediener von Anlagen und Maschinen und Montageberufe': '#af005f',
+        'Hilfsarbeitskräfte': '#4B2F2F'
+    }
 
     fig = px.treemap(
         df,
         path=[target_col, source_col],
         values=value_col,
-        color=target_col,
+        color=group_col,
+        color_discrete_map=colors_dict,
         title=title
     )
+
     fig.update_traces(
         textinfo="label+value",  # Show both label and value
         textfont=dict(size=16),  # Slightly bigger text
@@ -258,6 +312,19 @@ def create_treemap(df, source_col, target_col, value_col=None, title="Treemap Di
             bgcolor="black",
             font_size=20
         )
+    )
+    fig.add_annotation(
+    text="Die Farben korrespondieren mit der Legende von dem oberen Graphen",
+    showarrow=False,
+    xref="paper", yref="paper",
+    x=0.4, y=-0.118,
+    xanchor="center", yanchor="top",
+    bordercolor="lightgrey",
+    borderwidth=1,
+    borderpad=4,
+    bgcolor="black",
+    opacity=0.8,
+    font=dict(size=12)
     )
 
     return fig
@@ -274,7 +341,7 @@ st.markdown(
 
 selected_class_fraction_treemap = st.selectbox(
     "Wähle ein Klassen-Fraktion aus",
-      livingstone_data['modifiziert_livingstone'].unique(),index=7,
+      pd.Series(livingstone_data['modifiziert_livingstone'].unique()).dropna(),index=0,
       key="treemap_selector"
 )
 
@@ -282,6 +349,57 @@ class_fraction_data = livingstone_data.query(f'modifiziert_livingstone == "{sele
 class_fraction_data.loc[:,'meta_category']= selected_class_fraction_treemap
 
 
-treemap_fig =create_treemap(class_fraction_data,'Bezeichnung','meta_category','Anzahl',selected_class_fraction_treemap)
+treemap_fig =create_treemap(class_fraction_data,'Bezeichnung','meta_category','Anzahl','major_group',selected_class_fraction_treemap)
 
 st.plotly_chart(treemap_fig,use_container_width=True)
+
+
+def set_up_data_for_verdienst_prestige_plot(livingstone_data):
+    
+    base_path = Path(__file__).parent
+    path_verdienst = base_path / "data/processed_data/isco_verdienst.csv"
+
+    verdienst = pd.read_csv(path_verdienst)
+
+    livingstone_verdienst_data=verdienst.merge(livingstone_data,left_on='isco_08_key',right_on='ISCO-Code')
+
+    working_class_only =livingstone_verdienst_data.loc[(livingstone_verdienst_data['Stellung.im.Beruf']=='Arbeiter*innen & Angestellte')&(livingstone_verdienst_data['is_supervisor']==0)&(livingstone_verdienst_data['modifiziert_livingstone']!='Anleitende Beschäftigte')]
+
+    return working_class_only
+
+def create_scatter_verdienst_prestige_plot(working_class_only):
+    # Define color mapping for the three categories
+    color_map = {
+        'Dienstleistungsarbeiter*innen': '#00CED1',  
+        'Industriearbeiter*innen': '#af005f',        
+        'Hochspezialisierte Beschäftigte': '#F5B461' 
+    }
+
+    fig = px.scatter(
+        working_class_only,
+        x='siops',
+        y='median_brutto_group_mean',
+        size='Anzahl_x',
+        color='modifiziert_livingstone',
+        color_discrete_map=color_map,
+        hover_data=['Berufsgattung(ISCO-Stufe 4)_x', 'Anzahl_x'],
+        title='Berufsgattungen nach Prestige und Verdienst',
+        labels={'siops': 'Standard International Occupational Prestige-Scale(SIOPS)', 
+                'median_brutto_group_mean': 'Monatlicher Brutto Verdienst'}
+    )
+
+    fig.add_hline(y=4346, line_color="white", annotation_text="Median", annotation_position="top left")
+    fig.add_hline(y=5186, line_color="white", annotation_text="Arithmetischen Mittel", annotation_position="top left")
+
+
+    fig.update_layout(
+        width=550,
+        height=900
+    )
+    return fig
+
+livingstone_verdienst_data = set_up_data_for_verdienst_prestige_plot(livingstone_data)
+
+fig_livingstone_verdienst = create_scatter_verdienst_prestige_plot(livingstone_verdienst_data)
+
+st.plotly_chart(fig_livingstone_verdienst,use_container_width=True)
